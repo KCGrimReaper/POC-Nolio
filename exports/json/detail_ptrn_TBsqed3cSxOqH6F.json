@@ -1,0 +1,37 @@
+{
+  "name": "Sortie tranquille",
+  "sport": "spt_kNYHjuEzDJRiYCX",
+  "description": "Sortie trail tranquille envi 3h30. Si possible s'approcher des 1400 de d+",
+  "description_html": null,
+  "duration": {
+    "value": 12600,
+    "unit": "s"
+  },
+  "distance": null,
+  "elevation_gain": null,
+  "elevation_loss": null,
+  "rpe": 3,
+  "show_rpe": true,
+  "coggan_load": 140,
+  "color": null,
+  "tags": [],
+  "workout": null,
+  "has_structured_workout": false,
+  "summary": null,
+  "revision": "rev_e5c83a14d4667c69",
+  "id": "ptrn_TBsqed3cSxOqH6F",
+  "athletes": [
+    "usr_F03NuGBUhCPwm4i"
+  ],
+  "group": null,
+  "date_start": "2026-01-10",
+  "time": null,
+  "moment": null,
+  "recurrence": null,
+  "load": {
+    "coggan": 140,
+    "coggan_source": "manual",
+    "foster": 630
+  },
+  "time_in_zones": {}
+}

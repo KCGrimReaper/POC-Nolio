@@ -1,0 +1,179 @@
+{
+  "name": "En côte : 2*(6*45/45)",
+  "sport": "spt_kNYHjuEzDJRiYCX",
+  "description": "En côte : 20' à 30' échauffement + 2*(6*45/45) + récup.\nLes séries : au sprint ( I5). Séance en bosse, récup descente.\nR : 4' ( entre les 2 blocs)",
+  "description_html": null,
+  "duration": {
+    "value": 3375,
+    "unit": "s"
+  },
+  "distance": {
+    "value": 2.184,
+    "unit": "km"
+  },
+  "elevation_gain": null,
+  "elevation_loss": null,
+  "rpe": 8,
+  "show_rpe": false,
+  "coggan_load": 95,
+  "color": null,
+  "tags": [],
+  "workout": [
+    {
+      "kind": "step",
+      "id": "lc7xfa67h65zjj7zd9e",
+      "duration": {
+        "value": 1200,
+        "unit": "s"
+      },
+      "targets": [
+        {
+          "type": "no_target"
+        }
+      ],
+      "intensity": "warmup",
+      "lap_advance": true
+    },
+    {
+      "kind": "repeat",
+      "id": "HEYG36W0SWATQU5NHWF8",
+      "times": 6,
+      "steps": [
+        {
+          "kind": "step",
+          "id": "lc7xg2mxr5tfi2wj2qe",
+          "duration": {
+            "value": 45,
+            "unit": "s"
+          },
+          "targets": [
+            {
+              "type": "metric",
+              "metric": "VMA",
+              "percent": 95,
+              "percent_max": 100,
+              "resolved": {
+                "low": 14.25,
+                "high": 15,
+                "unit": "km/h"
+              }
+            }
+          ],
+          "intensity": "work"
+        },
+        {
+          "kind": "step",
+          "id": "lc7xg2n4y2zg6f9qubc",
+          "duration": {
+            "value": 45,
+            "unit": "s"
+          },
+          "targets": [
+            {
+              "type": "no_target"
+            }
+          ],
+          "intensity": "cooldown"
+        }
+      ]
+    },
+    {
+      "kind": "step",
+      "id": "lc7xgd4gqq0nnlo34o",
+      "duration": {
+        "value": 195,
+        "unit": "s"
+      },
+      "targets": [
+        {
+          "type": "no_target"
+        }
+      ],
+      "intensity": "cooldown"
+    },
+    {
+      "kind": "repeat",
+      "id": "7S99WJYV9AV6D9QODT81",
+      "times": 6,
+      "steps": [
+        {
+          "kind": "step",
+          "id": "lc7xh7mfdd8rczkabke",
+          "duration": {
+            "value": 45,
+            "unit": "s"
+          },
+          "targets": [
+            {
+              "type": "metric",
+              "metric": "VMA",
+              "percent": 95,
+              "percent_max": 100,
+              "resolved": {
+                "low": 14.25,
+                "high": 15,
+                "unit": "km/h"
+              }
+            }
+          ],
+          "intensity": "work"
+        },
+        {
+          "kind": "step",
+          "id": "lc7xh7mjt0c8cgt7io",
+          "duration": {
+            "value": 45,
+            "unit": "s"
+          },
+          "targets": [
+            {
+              "type": "no_target"
+            }
+          ],
+          "intensity": "cooldown"
+        }
+      ]
+    },
+    {
+      "kind": "step",
+      "id": "lc7xhitoih5f205npl",
+      "duration": {
+        "value": 900,
+        "unit": "s"
+      },
+      "targets": [
+        {
+          "type": "no_target"
+        }
+      ],
+      "intensity": "cooldown"
+    }
+  ],
+  "has_structured_workout": true,
+  "summary": "En côte : 20' à 30' échauffement + **2*(6*45/45)** \\+ récup.\n\nLes séries : au sprint ( I5). Séance en bosse, récup descente.\n\nR : 4' ( entre les 2 blocs)\n\n  \n\n20' Échauffement​  \n\n  \n​  \n\n-- 6x\n\n45'' @95% - 100% VMA (14.25 - 15) km/h - (04:13 - 04:00) min/km - (178.13 - 187.5) m Corps de séance\n\n45'' Récupération\n\n--\n\n3'15 Récupération​\n\n  \n\n​  \n  \n\n-- 6x\n\n45'' @95% - 100% VMA (14.25 - 15) km/h - (04:13 - 04:00) min/km - (178.13 - 187.5) m Corps de séance\n\n45'' Récupération\n\n--\n\n15' Récupération​  \n\n",
+  "revision": "rev_65a74053e973645d",
+  "id": "ptrn_oLR99dTQvkMBeDT",
+  "athletes": [
+    "usr_F03NuGBUhCPwm4i"
+  ],
+  "group": null,
+  "date_start": "2025-12-18",
+  "time": null,
+  "moment": null,
+  "recurrence": null,
+  "load": {
+    "coggan": 95,
+    "coggan_source": "manual",
+    "foster": 450
+  },
+  "time_in_zones": {
+    "pace": [
+      {
+        "name": "Zone 5",
+        "order": 5,
+        "color": "#ff0035",
+        "seconds": 540
+      }
+    ]
+  }
+}

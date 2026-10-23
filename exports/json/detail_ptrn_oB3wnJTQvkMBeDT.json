@@ -1,0 +1,121 @@
+{
+  "name": "3*10' ( bosse + relance à plat)",
+  "sport": "spt_kNYHjuEzDJRiYCX",
+  "description": "20 à 30' échauffement cool + 3*10' seuil + récup\nR : retour au point de départ\nAttention si possible \" environ\" 8' en côte + 2' relance à plat (timing \" approximatif\", l'idée c'est de faire 10' au seuil avec une bosse un peu longue + une relance à plat derrière)",
+  "description_html": null,
+  "duration": {
+    "value": 4980,
+    "unit": "s"
+  },
+  "distance": null,
+  "elevation_gain": null,
+  "elevation_loss": null,
+  "rpe": 9,
+  "show_rpe": false,
+  "coggan_load": null,
+  "color": null,
+  "tags": [],
+  "workout": [
+    {
+      "kind": "step",
+      "id": "l58di9004bta59ho03e",
+      "duration": {
+        "value": 1500,
+        "unit": "s"
+      },
+      "targets": [
+        {
+          "type": "no_target"
+        }
+      ],
+      "intensity": "warmup",
+      "lap_advance": true
+    },
+    {
+      "kind": "repeat",
+      "id": "59WAQP87J1MTYFC3J68R",
+      "times": 3,
+      "steps": [
+        {
+          "kind": "step",
+          "id": "l58dnfys0332oyeyfz6s",
+          "duration": {
+            "value": 600,
+            "unit": "s"
+          },
+          "targets": [
+            {
+              "type": "metric",
+              "metric": "FCMAX",
+              "percent": 90,
+              "percent_max": 95,
+              "resolved": {
+                "low": 171,
+                "high": 181,
+                "unit": "bpm"
+              }
+            }
+          ],
+          "intensity": "work"
+        },
+        {
+          "kind": "step",
+          "id": "l58dnfyymux7bj08jg",
+          "duration": {
+            "value": 360,
+            "unit": "s"
+          },
+          "targets": [
+            {
+              "type": "no_target"
+            }
+          ],
+          "intensity": "cooldown",
+          "lap_advance": true,
+          "comment": "Récup environ 6' ( retour au point de départ)"
+        }
+      ]
+    },
+    {
+      "kind": "step",
+      "id": "l58dois4zw87f1358w7",
+      "duration": {
+        "value": 600,
+        "unit": "s"
+      },
+      "targets": [
+        {
+          "type": "no_target"
+        }
+      ],
+      "intensity": "cooldown"
+    }
+  ],
+  "has_structured_workout": true,
+  "summary": "20 à 30' échauffement cool + **3*10'** seuil + récup\n\nR : retour au point de départ\n\n**Attention si possible \" environ\" 8' en côte + 2' relance à plat (timing \" approximatif\", l'idée c'est de faire 10' au seuil avec une bosse un peu\nlongue + une relance à plat derrière)**\n\n25' Échauffement ​\n\n​\n\n-- 3x\n\n10' @90% - 95% FC Max (171 - 181) bpm Corps de séance\n\n6' Récupération Récup environ 6' ( retour au point de départ)\n\n--\n\n10' Récupération​  \n  \n  \n\n​\n\n",
+  "revision": "rev_d1f1382e17d3c919",
+  "id": "ptrn_oB3wnJTQvkMBeDT",
+  "athletes": [
+    "usr_F03NuGBUhCPwm4i"
+  ],
+  "group": null,
+  "date_start": "2026-01-23",
+  "time": null,
+  "moment": null,
+  "recurrence": null,
+  "load": {
+    "coggan": 40,
+    "coggan_source": "workout",
+    "foster": 747
+  },
+  "time_in_zones": {
+    "heartrate": [
+      {
+        "name": "Zone 4",
+        "order": 4,
+        "color": "#ff9e0d",
+        "seconds": 1800
+      }
+    ]
+  }
+}

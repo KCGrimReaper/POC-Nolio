@@ -1,0 +1,119 @@
+{
+  "name": "1' montée / 30\" descente / 30\" montée",
+  "sport": "spt_kNYHjuEzDJRiYCX",
+  "description": "20 à 30' échauffement cool + en côte : 10 * (1' en montée + 30\" en descente + 30\" en montée) + 10' récup\n2' d'effort continu. Les séries proche I5 ( à fond)\nR : 1' en descente",
+  "description_html": null,
+  "duration": {
+    "value": 3600,
+    "unit": "s"
+  },
+  "distance": null,
+  "elevation_gain": null,
+  "elevation_loss": null,
+  "rpe": 8,
+  "show_rpe": true,
+  "coggan_load": 100,
+  "color": null,
+  "tags": [],
+  "workout": [
+    {
+      "kind": "step",
+      "id": "lpin1b1urns0v7sbt7",
+      "duration": {
+        "value": 1200,
+        "unit": "s"
+      },
+      "targets": [
+        {
+          "type": "no_target"
+        }
+      ],
+      "intensity": "warmup",
+      "lap_advance": true
+    },
+    {
+      "kind": "repeat",
+      "id": "8P1Y8JYCL9G87D9ISOMX",
+      "times": 10,
+      "steps": [
+        {
+          "kind": "step",
+          "id": "lpin1yr43tmeu0k37bx",
+          "duration": {
+            "value": 120,
+            "unit": "s"
+          },
+          "targets": [
+            {
+              "type": "metric",
+              "metric": "FCMAX",
+              "percent": 90,
+              "percent_max": 95,
+              "resolved": {
+                "low": 171,
+                "high": 181,
+                "unit": "bpm"
+              }
+            }
+          ],
+          "intensity": "work"
+        },
+        {
+          "kind": "step",
+          "id": "lpin1yrcmpfyp5usek",
+          "duration": {
+            "value": 60,
+            "unit": "s"
+          },
+          "targets": [
+            {
+              "type": "no_target"
+            }
+          ],
+          "intensity": "cooldown"
+        }
+      ]
+    },
+    {
+      "kind": "step",
+      "id": "lpin25u9p34ysvljq1f",
+      "duration": {
+        "value": 600,
+        "unit": "s"
+      },
+      "targets": [
+        {
+          "type": "no_target"
+        }
+      ],
+      "intensity": "cooldown"
+    }
+  ],
+  "has_structured_workout": true,
+  "summary": "20 à 30' échauffement cool +**en côte : 10 * (1' en montée + 30\" en descente + 30\" en montée)** \\+ 10' récup\n\n2' d'effort continu. Les séries proche I5 ( à fond)\n\nR : 1' en descente\n\n20' Échauffement ​\n\n​  \n  \n\n-- 10x\n\n2' @90% - 95% FC Max (171 - 181) bpm Corps de séance\n\n1' Récupération\n\n--\n\n10' Récupération​  \n\n  \n\n  \n\n",
+  "revision": "rev_71eeb9db0ff8b20a",
+  "id": "ptrn_Zzy56NlPO9B6dgs",
+  "athletes": [
+    "usr_F03NuGBUhCPwm4i"
+  ],
+  "group": null,
+  "date_start": "2025-12-30",
+  "time": null,
+  "moment": null,
+  "recurrence": null,
+  "load": {
+    "coggan": 100,
+    "coggan_source": "manual",
+    "foster": 480
+  },
+  "time_in_zones": {
+    "heartrate": [
+      {
+        "name": "Zone 4",
+        "order": 4,
+        "color": "#ff9e0d",
+        "seconds": 1200
+      }
+    ]
+  }
+}

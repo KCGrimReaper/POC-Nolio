@@ -1,0 +1,37 @@
+{
+  "name": "Renfo",
+  "sport": "spt_l5JdauYgoPxMr3b",
+  "description": "Exemple renfo (tu peux moduler )\n\n(40\" exercice/ 20\" récup).\n3 à 5 séries. R : 50\"\n\n1- Mountains climbers\n\n2- Gainage dorsal/ fessiers : sur le dos, jambes pliées, on soulève le bassin, les fesses hautes, un genou plié et de l'autre côté jambe tendue en l'air, on maintien la position (jambe gauche)\n\n3- Idem jambe droite\n\n4- Chaise\n\n5- Squats ( possibilité ajout de poids)\n\n6 - Corde à sauter (ou petits sauts dynamiques sur place, pointe de pied)\n\n7- Serviette au sol, la crocheter avec les orteils en la ramenant vers soi pied droit\n\n8- Idem pied gauche",
+  "description_html": null,
+  "duration": {
+    "value": 1800,
+    "unit": "s"
+  },
+  "distance": null,
+  "elevation_gain": null,
+  "elevation_loss": null,
+  "rpe": 5,
+  "show_rpe": true,
+  "coggan_load": 30,
+  "color": null,
+  "tags": [],
+  "workout": null,
+  "has_structured_workout": false,
+  "summary": null,
+  "revision": "rev_3ff324f950219911",
+  "id": "ptrn_T1qZKs3cSxOqH6F",
+  "athletes": [
+    "usr_F03NuGBUhCPwm4i"
+  ],
+  "group": null,
+  "date_start": "2026-04-20",
+  "time": null,
+  "moment": null,
+  "recurrence": null,
+  "load": {
+    "coggan": 30,
+    "coggan_source": "manual",
+    "foster": 150
+  },
+  "time_in_zones": {}
+}

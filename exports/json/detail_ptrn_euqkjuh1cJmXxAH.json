@@ -1,0 +1,37 @@
+{
+  "name": "Optionnel : vélo souple",
+  "sport": "spt_B41yRYTUXKNmWr8",
+  "description": "Vélo souple 20' à 1h moulinette",
+  "description_html": null,
+  "duration": {
+    "value": 1800,
+    "unit": "s"
+  },
+  "distance": null,
+  "elevation_gain": null,
+  "elevation_loss": null,
+  "rpe": 2,
+  "show_rpe": true,
+  "coggan_load": 15,
+  "color": null,
+  "tags": [],
+  "workout": null,
+  "has_structured_workout": false,
+  "summary": null,
+  "revision": "rev_a8ec2d5241f8b30f",
+  "id": "ptrn_euqkjuh1cJmXxAH",
+  "athletes": [
+    "usr_F03NuGBUhCPwm4i"
+  ],
+  "group": null,
+  "date_start": "2026-06-14",
+  "time": null,
+  "moment": null,
+  "recurrence": null,
+  "load": {
+    "coggan": 15,
+    "coggan_source": "manual",
+    "foster": 60
+  },
+  "time_in_zones": {}
+}

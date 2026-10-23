@@ -1,0 +1,37 @@
+{
+  "name": "Optionnel : footing cool/ ou vélo souple",
+  "sport": "spt_kNYHjuEzDJRiYCX",
+  "description": "Optionnel : échauffement avant renfo\nFooting cool envi 40'  ( ou vélo souple) + renfo",
+  "description_html": null,
+  "duration": {
+    "value": 2400,
+    "unit": "s"
+  },
+  "distance": null,
+  "elevation_gain": null,
+  "elevation_loss": null,
+  "rpe": 2,
+  "show_rpe": true,
+  "coggan_load": 20,
+  "color": null,
+  "tags": [],
+  "workout": null,
+  "has_structured_workout": false,
+  "summary": null,
+  "revision": "rev_9c2b8c84d804c346",
+  "id": "ptrn_i60gWgc9rdYPMSp",
+  "athletes": [
+    "usr_F03NuGBUhCPwm4i"
+  ],
+  "group": null,
+  "date_start": "2026-03-16",
+  "time": null,
+  "moment": null,
+  "recurrence": null,
+  "load": {
+    "coggan": 20,
+    "coggan_source": "manual",
+    "foster": 80
+  },
+  "time_in_zones": {}
+}

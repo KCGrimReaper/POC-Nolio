@@ -1,0 +1,37 @@
+{
+  "name": "Sortie longue avec descentes appuyées",
+  "sport": "spt_kNYHjuEzDJRiYCX",
+  "description": "Sortie rando/trail trail proche 4h avec descentes appuyées\nAu moins 1500 de d+ si possible",
+  "description_html": null,
+  "duration": {
+    "value": 14400,
+    "unit": "s"
+  },
+  "distance": null,
+  "elevation_gain": null,
+  "elevation_loss": null,
+  "rpe": 3,
+  "show_rpe": true,
+  "coggan_load": 160,
+  "color": null,
+  "tags": [],
+  "workout": null,
+  "has_structured_workout": false,
+  "summary": null,
+  "revision": "rev_ebf411e7924481db",
+  "id": "ptrn_3fBtzMLAdN5P0xM",
+  "athletes": [
+    "usr_F03NuGBUhCPwm4i"
+  ],
+  "group": null,
+  "date_start": "2026-01-25",
+  "time": null,
+  "moment": null,
+  "recurrence": null,
+  "load": {
+    "coggan": 160,
+    "coggan_source": "manual",
+    "foster": 720
+  },
+  "time_in_zones": {}
+}

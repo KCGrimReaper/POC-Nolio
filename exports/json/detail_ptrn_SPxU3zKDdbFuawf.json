@@ -1,0 +1,37 @@
+{
+  "name": "Footing cool/ ou vélo souple",
+  "sport": "spt_kNYHjuEzDJRiYCX",
+  "description": "Footing cool ou vélo souple entre 40' et 1h",
+  "description_html": null,
+  "duration": {
+    "value": 3600,
+    "unit": "s"
+  },
+  "distance": null,
+  "elevation_gain": null,
+  "elevation_loss": null,
+  "rpe": 3,
+  "show_rpe": true,
+  "coggan_load": 40,
+  "color": null,
+  "tags": [],
+  "workout": null,
+  "has_structured_workout": false,
+  "summary": null,
+  "revision": "rev_6e524d47bfc0b00c",
+  "id": "ptrn_SPxU3zKDdbFuawf",
+  "athletes": [
+    "usr_F03NuGBUhCPwm4i"
+  ],
+  "group": null,
+  "date_start": "2026-03-18",
+  "time": null,
+  "moment": null,
+  "recurrence": null,
+  "load": {
+    "coggan": 40,
+    "coggan_source": "manual",
+    "foster": 180
+  },
+  "time_in_zones": {}
+}

@@ -1,0 +1,253 @@
+{
+  "name": "1' + 2' + 4' + 2' + 1'",
+  "sport": "spt_kNYHjuEzDJRiYCX",
+  "description": "20 à 30' échauffement cool + 1' + 2' + 4' + 2' + 1' + récup\nA faire en nature, en terrain plutôt plat ou un peu vallonné. A faire \" à la sensation\" ( pas \" à fond\", juste pour allonger la foulée)\nR: 1' + 1' + 2' + 1'",
+  "description_html": null,
+  "duration": {
+    "value": 3000,
+    "unit": "s"
+  },
+  "distance": {
+    "value": 0.48,
+    "unit": "km"
+  },
+  "elevation_gain": null,
+  "elevation_loss": null,
+  "rpe": 7,
+  "show_rpe": true,
+  "coggan_load": 74,
+  "color": null,
+  "tags": [],
+  "workout": [
+    {
+      "kind": "step",
+      "id": "lt2nhypn8a3g5hqvi5s",
+      "duration": {
+        "value": 1500,
+        "unit": "s"
+      },
+      "targets": [
+        {
+          "type": "no_target"
+        }
+      ],
+      "intensity": "warmup",
+      "lap_advance": true
+    },
+    {
+      "kind": "step",
+      "id": "lt2ni9996e98ag5nvs",
+      "duration": {
+        "value": 60,
+        "unit": "s"
+      },
+      "targets": [
+        {
+          "type": "metric",
+          "metric": "VMA",
+          "percent": 90,
+          "percent_max": 100,
+          "resolved": {
+            "low": 13.5,
+            "high": 15,
+            "unit": "km/h"
+          }
+        }
+      ],
+      "intensity": "work"
+    },
+    {
+      "kind": "step",
+      "id": "lt2niq6589x63d696fe",
+      "duration": {
+        "value": 60,
+        "unit": "s"
+      },
+      "targets": [
+        {
+          "type": "no_target"
+        }
+      ],
+      "intensity": "cooldown"
+    },
+    {
+      "kind": "step",
+      "id": "lt2nj2i62ioaxhbm3p7",
+      "duration": {
+        "value": 120,
+        "unit": "s"
+      },
+      "targets": [
+        {
+          "type": "metric",
+          "metric": "FCMAX",
+          "percent": 85,
+          "percent_max": 95,
+          "resolved": {
+            "low": 162,
+            "high": 181,
+            "unit": "bpm"
+          }
+        }
+      ],
+      "intensity": "work"
+    },
+    {
+      "kind": "step",
+      "id": "lt2njd601mf2dd4fa52h",
+      "duration": {
+        "value": 60,
+        "unit": "s"
+      },
+      "targets": [
+        {
+          "type": "no_target"
+        }
+      ],
+      "intensity": "cooldown"
+    },
+    {
+      "kind": "step",
+      "id": "lt2njm7hkoauclhzcmh",
+      "duration": {
+        "value": 240,
+        "unit": "s"
+      },
+      "targets": [
+        {
+          "type": "metric",
+          "metric": "FCMAX",
+          "percent": 85,
+          "percent_max": 95,
+          "resolved": {
+            "low": 162,
+            "high": 181,
+            "unit": "bpm"
+          }
+        }
+      ],
+      "intensity": "work"
+    },
+    {
+      "kind": "step",
+      "id": "lt2njya8wkor762tcr9",
+      "duration": {
+        "value": 120,
+        "unit": "s"
+      },
+      "targets": [
+        {
+          "type": "no_target"
+        }
+      ],
+      "intensity": "cooldown"
+    },
+    {
+      "kind": "step",
+      "id": "lt2nkbur43y9czjraw",
+      "duration": {
+        "value": 120,
+        "unit": "s"
+      },
+      "targets": [
+        {
+          "type": "metric",
+          "metric": "FCMAX",
+          "percent": 85,
+          "percent_max": 95,
+          "resolved": {
+            "low": 162,
+            "high": 181,
+            "unit": "bpm"
+          }
+        }
+      ],
+      "intensity": "work"
+    },
+    {
+      "kind": "step",
+      "id": "lt2nkr3drz6eo2b1r5h",
+      "duration": {
+        "value": 60,
+        "unit": "s"
+      },
+      "targets": [
+        {
+          "type": "no_target"
+        }
+      ],
+      "intensity": "cooldown"
+    },
+    {
+      "kind": "step",
+      "id": "lt2nl0cqn2fwu97hoej",
+      "duration": {
+        "value": 60,
+        "unit": "s"
+      },
+      "targets": [
+        {
+          "type": "metric",
+          "metric": "VMA",
+          "percent": 90,
+          "percent_max": 100,
+          "resolved": {
+            "low": 13.5,
+            "high": 15,
+            "unit": "km/h"
+          }
+        }
+      ],
+      "intensity": "work"
+    },
+    {
+      "kind": "step",
+      "id": "lt2nlghdy4um9t27s5",
+      "duration": {
+        "value": 600,
+        "unit": "s"
+      },
+      "targets": [
+        {
+          "type": "no_target"
+        }
+      ],
+      "intensity": "cooldown"
+    }
+  ],
+  "has_structured_workout": true,
+  "summary": "20 à 30' échauffement cool + **1' + 2' + 4' + 2' + 1'** \\+ récup\n\nA faire en nature, en terrain plutôt plat ou un peu vallonné. A faire \" à la sensation\" ( pas \" à fond\", juste pour allonger la foulée)\n\nR: 1' + 1' + 2' + 1'\n\n25' Échauffement ​\n\n1' @90% - 100% VMA (13.5 - 15) km/h - (04:27 - 04:00) min/km - (225.0 - 250.0) m Corps de séance​\n\n1' Récupération​\n\n2' @85% - 95% FC Max (162 - 181) bpm Corps de séance​\n\n1' Récupération​\n\n4' @85% - 95% FC Max (162 - 181) bpm Corps de séance​\n\n2' Récupération​\n\n2' @85% - 95% FC Max (162 - 181) bpm Corps de séance​\n\n1' Récupération​\n\n1' @90% - 100% VMA (13.5 - 15) km/h - (04:27 - 04:00) min/km - (225.0 - 250.0) m Corps de séance​\n\n10' Récupération​  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n\n",
+  "revision": "rev_5e843edd448ceda0",
+  "id": "ptrn_AkKoF0t0R4USmTd",
+  "athletes": [
+    "usr_F03NuGBUhCPwm4i"
+  ],
+  "group": null,
+  "date_start": "2026-06-08",
+  "time": null,
+  "moment": null,
+  "recurrence": null,
+  "load": {
+    "coggan": 74,
+    "coggan_source": "manual",
+    "foster": 350
+  },
+  "time_in_zones": {
+    "heartrate": [
+      {
+        "name": "Zone 3",
+        "order": 3,
+        "color": "#72ea24",
+        "seconds": 480
+      }
+    ],
+    "pace": [
+      {
+        "name": "Zone 5",
+        "order": 5,
+        "color": "#ff0035",
+        "seconds": 120
+      }
+    ]
+  }
+}

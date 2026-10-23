@@ -1,0 +1,175 @@
+{
+  "name": "5*400 + 5*300",
+  "sport": "spt_kNYHjuEzDJRiYCX",
+  "description": "VMA : 20 à 30' échauffement cool avec 5' gammes + 5*400 + 5*300 + récup\nLes 400 à 95% vma,( I5) r = 1'. Les 300 à 100% vma, ( I5);  R : 3' ( entre les 2 blocs)",
+  "description_html": null,
+  "duration": {
+    "value": 3685,
+    "unit": "s"
+  },
+  "distance": {
+    "value": 3.5,
+    "unit": "km"
+  },
+  "elevation_gain": null,
+  "elevation_loss": null,
+  "rpe": 9,
+  "show_rpe": false,
+  "coggan_load": 146,
+  "color": null,
+  "tags": [],
+  "workout": [
+    {
+      "kind": "step",
+      "id": "lafium17dodhk4nc5w6",
+      "duration": {
+        "value": 1500,
+        "unit": "s"
+      },
+      "targets": [
+        {
+          "type": "no_target"
+        }
+      ],
+      "intensity": "warmup",
+      "lap_advance": true
+    },
+    {
+      "kind": "repeat",
+      "id": "2UVRDE4VOXIQ4UG642BV",
+      "times": 5,
+      "steps": [
+        {
+          "kind": "step",
+          "id": "lafivsaejx650e8y74h",
+          "distance": {
+            "value": 0.4,
+            "unit": "km"
+          },
+          "targets": [
+            {
+              "type": "metric",
+              "metric": "VMA",
+              "percent": 95,
+              "resolved": {
+                "value": 14.25,
+                "unit": "km/h"
+              }
+            }
+          ],
+          "intensity": "work"
+        },
+        {
+          "kind": "step",
+          "id": "lafivsaljzf88fpfe7c",
+          "duration": {
+            "value": 60,
+            "unit": "s"
+          },
+          "targets": [
+            {
+              "type": "no_target"
+            }
+          ],
+          "intensity": "cooldown"
+        }
+      ]
+    },
+    {
+      "kind": "step",
+      "id": "lafiw7jq3oqfeziy4hj",
+      "duration": {
+        "value": 120,
+        "unit": "s"
+      },
+      "targets": [
+        {
+          "type": "no_target"
+        }
+      ],
+      "intensity": "cooldown"
+    },
+    {
+      "kind": "repeat",
+      "id": "GSSR3I8RG3OC96OFVEBA",
+      "times": 5,
+      "steps": [
+        {
+          "kind": "step",
+          "id": "lajbnqc0rlv2djxnnyi",
+          "distance": {
+            "value": 0.3,
+            "unit": "km"
+          },
+          "targets": [
+            {
+              "type": "metric",
+              "metric": "VMA",
+              "percent": 100,
+              "resolved": {
+                "value": 15,
+                "unit": "km/h"
+              }
+            }
+          ],
+          "intensity": "work"
+        },
+        {
+          "kind": "step",
+          "id": "lajbnqc6yqieomeysxo",
+          "duration": {
+            "value": 60,
+            "unit": "s"
+          },
+          "targets": [
+            {
+              "type": "no_target"
+            }
+          ],
+          "intensity": "cooldown"
+        }
+      ]
+    },
+    {
+      "kind": "step",
+      "id": "lajbo6p8qavotq98qwd",
+      "duration": {
+        "value": 600,
+        "unit": "s"
+      },
+      "targets": [
+        {
+          "type": "no_target"
+        }
+      ],
+      "intensity": "cooldown"
+    }
+  ],
+  "has_structured_workout": true,
+  "summary": "VMA : 20 à 30' échauffement cool avec 5' gammes +**5*400 + 5*300** \\+ récup\n\nLes 400 à 95% vma,( I5) r = 1'. Les 300 à 100% vma, ( I5); R : 3' ( entre les 2 blocs)\n\n25' Échauffement ​\n\n​  \n  \n\n-- 5x\n\n400m @95% VMA 14.25 km/h - 04:13 min/km - 01'41 Corps de séance\n\n1' Récupération\n\n--\n\n2' Récupération​\n\n​  \n  \n\n-- 5x\n\n300m @100% VMA 15 km/h - 04:00 min/km - 01'12 Corps de séance\n\n1' Récupération\n\n--\n\n10' Récupération​  \n\n",
+  "revision": "rev_4acba19843ad6415",
+  "id": "ptrn_c67dw39aCjkgrZ9",
+  "athletes": [
+    "usr_F03NuGBUhCPwm4i"
+  ],
+  "group": null,
+  "date_start": "2025-12-16",
+  "time": null,
+  "moment": null,
+  "recurrence": null,
+  "load": {
+    "coggan": 146,
+    "coggan_source": "manual",
+    "foster": 552.8
+  },
+  "time_in_zones": {
+    "pace": [
+      {
+        "name": "Zone 5",
+        "order": 5,
+        "color": "#ff0035",
+        "seconds": 865
+      }
+    ]
+  }
+}

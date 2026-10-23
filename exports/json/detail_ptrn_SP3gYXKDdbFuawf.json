@@ -1,0 +1,37 @@
+{
+  "name": "Footing cool",
+  "sport": "spt_kNYHjuEzDJRiYCX",
+  "description": "Footing cool envi 1h",
+  "description_html": null,
+  "duration": {
+    "value": 3600,
+    "unit": "s"
+  },
+  "distance": null,
+  "elevation_gain": null,
+  "elevation_loss": null,
+  "rpe": 3,
+  "show_rpe": true,
+  "coggan_load": 40,
+  "color": null,
+  "tags": [],
+  "workout": null,
+  "has_structured_workout": false,
+  "summary": null,
+  "revision": "rev_816dd1972c2fdfca",
+  "id": "ptrn_SP3gYXKDdbFuawf",
+  "athletes": [
+    "usr_F03NuGBUhCPwm4i"
+  ],
+  "group": null,
+  "date_start": "2026-06-04",
+  "time": null,
+  "moment": null,
+  "recurrence": null,
+  "load": {
+    "coggan": 40,
+    "coggan_source": "manual",
+    "foster": 180
+  },
+  "time_in_zones": {}
+}

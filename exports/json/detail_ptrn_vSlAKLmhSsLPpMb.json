@@ -1,0 +1,37 @@
+{
+  "name": "Renfo",
+  "sport": "spt_l5JdauYgoPxMr3b",
+  "description": "Exemple renfo\n(40\" exercice/ 20\" récup) . 3 à 5 séries ; R : 50\"\n1-  Planche ventrale statique\n2- Mountain climbers\n3- Planche ventrale en décollant jambe et bras opposés\n4- Idem j'inverse\n5- Pompes\n6- Corde à sauter ( ou petits sauts dynamiques pointe de pied)",
+  "description_html": null,
+  "duration": {
+    "value": 1800,
+    "unit": "s"
+  },
+  "distance": null,
+  "elevation_gain": null,
+  "elevation_loss": null,
+  "rpe": 4,
+  "show_rpe": true,
+  "coggan_load": 25,
+  "color": null,
+  "tags": [],
+  "workout": null,
+  "has_structured_workout": false,
+  "summary": null,
+  "revision": "rev_a322eb83e160213f",
+  "id": "ptrn_vSlAKLmhSsLPpMb",
+  "athletes": [
+    "usr_F03NuGBUhCPwm4i"
+  ],
+  "group": null,
+  "date_start": "2025-12-22",
+  "time": null,
+  "moment": null,
+  "recurrence": null,
+  "load": {
+    "coggan": 25,
+    "coggan_source": "manual",
+    "foster": 120
+  },
+  "time_in_zones": {}
+}

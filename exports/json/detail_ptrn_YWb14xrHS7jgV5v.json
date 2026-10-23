@@ -1,0 +1,40 @@
+{
+  "name": "Déblocage :)",
+  "sport": "spt_kNYHjuEzDJRiYCX",
+  "description": "Déblocage : footing cool envi 30' avec échauffement avec 5' gammes + 4*30\"/30\" progressif + récup",
+  "description_html": null,
+  "duration": {
+    "value": 1800,
+    "unit": "s"
+  },
+  "distance": {
+    "value": 7,
+    "unit": "km"
+  },
+  "elevation_gain": null,
+  "elevation_loss": null,
+  "rpe": 3,
+  "show_rpe": false,
+  "coggan_load": 20,
+  "color": null,
+  "tags": [],
+  "workout": null,
+  "has_structured_workout": false,
+  "summary": null,
+  "revision": "rev_e6429c03606b3ed8",
+  "id": "ptrn_YWb14xrHS7jgV5v",
+  "athletes": [
+    "usr_F03NuGBUhCPwm4i"
+  ],
+  "group": null,
+  "date_start": "2026-06-11",
+  "time": null,
+  "moment": null,
+  "recurrence": null,
+  "load": {
+    "coggan": 20,
+    "coggan_source": "manual",
+    "foster": 90
+  },
+  "time_in_zones": {}
+}

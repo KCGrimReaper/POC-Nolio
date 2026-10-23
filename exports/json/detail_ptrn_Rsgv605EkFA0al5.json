@@ -1,0 +1,40 @@
+{
+  "name": "Navette en côte",
+  "sport": "spt_kNYHjuEzDJRiYCX",
+  "description": "10' échauffement cool + 1h15/1h30 de navettes dans bosse raide. Mini 700m déniv si possible :))\nMontées \" bon rythme\"( proche tempo I3), tu peux alterner marche et course / descentes souple",
+  "description_html": null,
+  "duration": {
+    "value": 5400,
+    "unit": "s"
+  },
+  "distance": {
+    "value": 8,
+    "unit": "km"
+  },
+  "elevation_gain": null,
+  "elevation_loss": null,
+  "rpe": 4,
+  "show_rpe": true,
+  "coggan_load": 75,
+  "color": null,
+  "tags": [],
+  "workout": null,
+  "has_structured_workout": false,
+  "summary": null,
+  "revision": "rev_9a884b12ad439b06",
+  "id": "ptrn_Rsgv605EkFA0al5",
+  "athletes": [
+    "usr_F03NuGBUhCPwm4i"
+  ],
+  "group": null,
+  "date_start": "2026-06-26",
+  "time": null,
+  "moment": null,
+  "recurrence": null,
+  "load": {
+    "coggan": 75,
+    "coggan_source": "manual",
+    "foster": 360
+  },
+  "time_in_zones": {}
+}

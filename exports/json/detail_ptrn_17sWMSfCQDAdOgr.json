@@ -1,0 +1,37 @@
+{
+  "name": "Sortie longue tanquille",
+  "sport": "spt_kNYHjuEzDJRiYCX",
+  "description": "Sortie longue tranquille envi 2h ( I1/I2)",
+  "description_html": null,
+  "duration": {
+    "value": 7200,
+    "unit": "s"
+  },
+  "distance": null,
+  "elevation_gain": null,
+  "elevation_loss": null,
+  "rpe": 3,
+  "show_rpe": true,
+  "coggan_load": 80,
+  "color": null,
+  "tags": [],
+  "workout": null,
+  "has_structured_workout": false,
+  "summary": null,
+  "revision": "rev_2abe887df5358355",
+  "id": "ptrn_17sWMSfCQDAdOgr",
+  "athletes": [
+    "usr_F03NuGBUhCPwm4i"
+  ],
+  "group": null,
+  "date_start": "2025-12-13",
+  "time": null,
+  "moment": null,
+  "recurrence": null,
+  "load": {
+    "coggan": 80,
+    "coggan_source": "manual",
+    "foster": 360
+  },
+  "time_in_zones": {}
+}

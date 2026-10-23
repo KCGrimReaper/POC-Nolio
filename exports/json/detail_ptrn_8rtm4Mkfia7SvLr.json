@@ -1,0 +1,37 @@
+{
+  "name": "Renfo",
+  "sport": "spt_l5JdauYgoPxMr3b",
+  "description": "Exemple ( tu peux moduler)\n\n1- Gainage: 5 * (30\" gainage planche ventrale + 30 \" mountains climbers + 30\" burpees)  ; r : 30\"\n\nGainage dorsal/ fessiers ( sur le dos, on soulève le bassin, les fesses hautes, un genou plié et de l'autre côté jambe tendue en l'air, on maintien la position) : 6* 40\"de chaque côté.\n\n2- Renfo mollets : ( figure 25) \"je monte sur la pointe de pied en 2\" / je redescends lentement  en 3\" : 3* 20 mouvements ; r : 15\"\n\n3- 3* 20 squats lents  + 10 squats sautés ; 15\"\n\n4- Fessiers : un élastique autour des chevilles ( on entoure les deux pieds avec l'élastique , le corps bien droit , les genoux bien dans l'axe , se déplacer sur le côté en gardant l'élastique tendu ( petits pas chassés à gauche, puis à droite). Faire 8 allers/retours. Bien garder la tension dans l'élastique.\n\nSi tu n'as pas d'élastique : (figure19 ). Possibilité de rajouter du poids ( 3*20 mouvements/côté)\n\n5- Proprio : en appui unipodal sur un plan instable, varier les positions du corps. Faire plusieurs séries de 40\" pied gch et pied drt.",
+  "description_html": null,
+  "duration": {
+    "value": 1800,
+    "unit": "s"
+  },
+  "distance": null,
+  "elevation_gain": null,
+  "elevation_loss": null,
+  "rpe": 4,
+  "show_rpe": false,
+  "coggan_load": 25,
+  "color": null,
+  "tags": [],
+  "workout": null,
+  "has_structured_workout": false,
+  "summary": null,
+  "revision": "rev_9c7f12e0dd38f94d",
+  "id": "ptrn_8rtm4Mkfia7SvLr",
+  "athletes": [
+    "usr_F03NuGBUhCPwm4i"
+  ],
+  "group": null,
+  "date_start": "2026-01-05",
+  "time": null,
+  "moment": null,
+  "recurrence": null,
+  "load": {
+    "coggan": 25,
+    "coggan_source": "manual",
+    "foster": 120
+  },
+  "time_in_zones": {}
+}

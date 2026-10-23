@@ -1,0 +1,857 @@
+{
+  "name": "Renforcement musculaire",
+  "sport": "spt_l5JdauYgoPxMr3b",
+  "description": "",
+  "description_html": null,
+  "duration": {
+    "value": 3640,
+    "unit": "s"
+  },
+  "distance": null,
+  "elevation_gain": null,
+  "elevation_loss": null,
+  "rpe": null,
+  "show_rpe": true,
+  "coggan_load": null,
+  "color": null,
+  "tags": [],
+  "workout": [
+    {
+      "kind": "exercise",
+      "id": "mjfxsq3lkxdfm2m4lg",
+      "exercise": "exf_aVq6GXa9wfD758i",
+      "sets": [
+        {
+          "duration": {
+            "value": 120,
+            "unit": "s"
+          },
+          "rest": {
+            "value": 20,
+            "unit": "s"
+          },
+          "targets": [
+            {
+              "type": "raw",
+              "value": 10,
+              "value_max": 15,
+              "unit": "kg"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "exercise",
+      "id": "mjfxth369umrxtgrpa",
+      "exercise": "exf_31NWJLAdN5P0xMm",
+      "sets": [
+        {
+          "duration": {
+            "value": 30,
+            "unit": "s"
+          },
+          "rest": {
+            "value": 10,
+            "unit": "s"
+          },
+          "targets": [
+            {
+              "type": "raw",
+              "value": 10,
+              "value_max": 15,
+              "unit": "kg"
+            }
+          ]
+        },
+        {
+          "duration": {
+            "value": 30,
+            "unit": "s"
+          },
+          "rest": {
+            "value": 10,
+            "unit": "s"
+          },
+          "targets": [
+            {
+              "type": "raw",
+              "value": 10,
+              "value_max": 15,
+              "unit": "kg"
+            }
+          ]
+        },
+        {
+          "duration": {
+            "value": 30,
+            "unit": "s"
+          },
+          "rest": {
+            "value": 10,
+            "unit": "s"
+          },
+          "targets": [
+            {
+              "type": "raw",
+              "value": 10,
+              "value_max": 15,
+              "unit": "kg"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "superset",
+      "id": "mjfxva87frozzq22g5r",
+      "rounds": 4,
+      "exercises": [
+        {
+          "kind": "exercise",
+          "id": "mjfxva8q91egshcb3l",
+          "exercise": "exf_BMZlH1yRYTUXKNm",
+          "sets": [
+            {
+              "reps": 10,
+              "rest": {
+                "value": 5,
+                "unit": "s"
+              },
+              "targets": [
+                {
+                  "type": "raw",
+                  "value": 5,
+                  "unit": "kg"
+                }
+              ]
+            },
+            {
+              "reps": 10,
+              "rest": {
+                "value": 5,
+                "unit": "s"
+              },
+              "targets": [
+                {
+                  "type": "raw",
+                  "value": 5,
+                  "unit": "kg"
+                }
+              ]
+            },
+            {
+              "reps": 10,
+              "rest": {
+                "value": 5,
+                "unit": "s"
+              },
+              "targets": [
+                {
+                  "type": "raw",
+                  "value": 5,
+                  "unit": "kg"
+                }
+              ]
+            },
+            {
+              "reps": 10,
+              "rest": {
+                "value": 5,
+                "unit": "s"
+              },
+              "targets": [
+                {
+                  "type": "raw",
+                  "value": 5,
+                  "unit": "kg"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "exercise",
+          "id": "mjfxvz34m3g0jyd42ug",
+          "exercise": "exf_oLryJTQvkMBeDTC",
+          "sets": [
+            {
+              "reps": 10,
+              "rest": {
+                "value": 5,
+                "unit": "s"
+              },
+              "targets": [
+                {
+                  "type": "raw",
+                  "value": 5,
+                  "unit": "kg"
+                }
+              ]
+            },
+            {
+              "reps": 10,
+              "rest": {
+                "value": 5,
+                "unit": "s"
+              },
+              "targets": [
+                {
+                  "type": "raw",
+                  "value": 5,
+                  "unit": "kg"
+                }
+              ]
+            },
+            {
+              "reps": 10,
+              "rest": {
+                "value": 5,
+                "unit": "s"
+              },
+              "targets": [
+                {
+                  "type": "raw",
+                  "value": 5,
+                  "unit": "kg"
+                }
+              ]
+            },
+            {
+              "reps": 10,
+              "rest": {
+                "value": 5,
+                "unit": "s"
+              },
+              "targets": [
+                {
+                  "type": "raw",
+                  "value": 5,
+                  "unit": "kg"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "exercise",
+          "id": "mjfxy7f4yy1bsuvd3sg",
+          "exercise": "exf_isc9rdYPMSpxwVk",
+          "sets": [
+            {
+              "reps": 10,
+              "rest": {
+                "value": 5,
+                "unit": "s"
+              }
+            },
+            {
+              "reps": 10,
+              "rest": {
+                "value": 5,
+                "unit": "s"
+              }
+            },
+            {
+              "reps": 10,
+              "rest": {
+                "value": 5,
+                "unit": "s"
+              }
+            },
+            {
+              "reps": 10,
+              "rest": {
+                "value": 5,
+                "unit": "s"
+              }
+            }
+          ],
+          "comment": "Avec haltères 1kg"
+        }
+      ]
+    },
+    {
+      "kind": "superset",
+      "id": "mjfy1en0gzlu4143u2i",
+      "rounds": 4,
+      "exercises": [
+        {
+          "kind": "exercise",
+          "id": "mjfy1encq1tkbt1eivo",
+          "exercise": "exf_KdaxzrUEIAyVn3O",
+          "sets": [
+            {
+              "reps": 10,
+              "rest": {
+                "value": 5,
+                "unit": "s"
+              }
+            },
+            {
+              "reps": 10,
+              "rest": {
+                "value": 5,
+                "unit": "s"
+              }
+            },
+            {
+              "reps": 10,
+              "rest": {
+                "value": 5,
+                "unit": "s"
+              }
+            },
+            {
+              "reps": 10,
+              "rest": {
+                "value": 5,
+                "unit": "s"
+              }
+            }
+          ]
+        },
+        {
+          "kind": "exercise",
+          "id": "mjfy2plrkl7pbh7kyln",
+          "exercise": "exf_rmyBEtmSf3yaZ2A",
+          "sets": [
+            {
+              "duration": {
+                "value": 30,
+                "unit": "s"
+              },
+              "rest": {
+                "value": 5,
+                "unit": "s"
+              }
+            },
+            {
+              "duration": {
+                "value": 30,
+                "unit": "s"
+              },
+              "rest": {
+                "value": 5,
+                "unit": "s"
+              }
+            },
+            {
+              "duration": {
+                "value": 30,
+                "unit": "s"
+              },
+              "rest": {
+                "value": 5,
+                "unit": "s"
+              }
+            },
+            {
+              "duration": {
+                "value": 30,
+                "unit": "s"
+              },
+              "rest": {
+                "value": 5,
+                "unit": "s"
+              }
+            }
+          ]
+        },
+        {
+          "kind": "exercise",
+          "id": "mjfy3khpx7z5y5z0uqb",
+          "exercise": "exf_E9mIVihI9Sp6O2f",
+          "sets": [
+            {
+              "reps": 20,
+              "rest": {
+                "value": 5,
+                "unit": "s"
+              },
+              "targets": [
+                {
+                  "type": "raw",
+                  "value": 10,
+                  "value_max": 15,
+                  "unit": "kg"
+                }
+              ]
+            },
+            {
+              "reps": 20,
+              "rest": {
+                "value": 5,
+                "unit": "s"
+              },
+              "targets": [
+                {
+                  "type": "raw",
+                  "value": 10,
+                  "value_max": 15,
+                  "unit": "kg"
+                }
+              ]
+            },
+            {
+              "reps": 20,
+              "rest": {
+                "value": 5,
+                "unit": "s"
+              },
+              "targets": [
+                {
+                  "type": "raw",
+                  "value": 10,
+                  "value_max": 15,
+                  "unit": "kg"
+                }
+              ]
+            },
+            {
+              "reps": 20,
+              "rest": {
+                "value": 5,
+                "unit": "s"
+              },
+              "targets": [
+                {
+                  "type": "raw",
+                  "value": 10,
+                  "value_max": 15,
+                  "unit": "kg"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "exercise",
+          "id": "mjfy4antuaw39fyfnh",
+          "exercise": "exf_qR6yFYteD6xV25o",
+          "sets": [
+            {
+              "reps": 10,
+              "rest": {
+                "value": 5,
+                "unit": "s"
+              },
+              "targets": [
+                {
+                  "type": "raw",
+                  "value": 10,
+                  "unit": "kg"
+                }
+              ]
+            },
+            {
+              "reps": 10,
+              "rest": {
+                "value": 5,
+                "unit": "s"
+              },
+              "targets": [
+                {
+                  "type": "raw",
+                  "value": 10,
+                  "unit": "kg"
+                }
+              ]
+            },
+            {
+              "reps": 10,
+              "rest": {
+                "value": 5,
+                "unit": "s"
+              },
+              "targets": [
+                {
+                  "type": "raw",
+                  "value": 10,
+                  "unit": "kg"
+                }
+              ]
+            },
+            {
+              "reps": 10,
+              "rest": {
+                "value": 5,
+                "unit": "s"
+              },
+              "targets": [
+                {
+                  "type": "raw",
+                  "value": 10,
+                  "unit": "kg"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "superset",
+      "id": "mjfy6hbxb96u3l6kgrm",
+      "rounds": 4,
+      "exercises": [
+        {
+          "kind": "exercise",
+          "id": "mjfy6hccwe3lh9hxup",
+          "exercise": "exf_ZglPO9B6dgsQAtx",
+          "sets": [
+            {
+              "duration": {
+                "value": 30,
+                "unit": "s"
+              },
+              "rest": {
+                "value": 5,
+                "unit": "s"
+              }
+            },
+            {
+              "duration": {
+                "value": 30,
+                "unit": "s"
+              },
+              "rest": {
+                "value": 5,
+                "unit": "s"
+              }
+            },
+            {
+              "duration": {
+                "value": 30,
+                "unit": "s"
+              },
+              "rest": {
+                "value": 5,
+                "unit": "s"
+              }
+            },
+            {
+              "duration": {
+                "value": 30,
+                "unit": "s"
+              },
+              "rest": {
+                "value": 5,
+                "unit": "s"
+              }
+            }
+          ]
+        },
+        {
+          "kind": "exercise",
+          "id": "mjfy7f904wiz3hqz6zy",
+          "exercise": "exf_JDzPvTFg6jsoYt9",
+          "sets": [
+            {
+              "duration": {
+                "value": 30,
+                "unit": "s"
+              },
+              "rest": {
+                "value": 5,
+                "unit": "s"
+              }
+            },
+            {
+              "duration": {
+                "value": 30,
+                "unit": "s"
+              },
+              "rest": {
+                "value": 5,
+                "unit": "s"
+              }
+            },
+            {
+              "duration": {
+                "value": 30,
+                "unit": "s"
+              },
+              "rest": {
+                "value": 5,
+                "unit": "s"
+              }
+            },
+            {
+              "duration": {
+                "value": 30,
+                "unit": "s"
+              },
+              "rest": {
+                "value": 5,
+                "unit": "s"
+              }
+            }
+          ],
+          "comment": "Droit"
+        },
+        {
+          "kind": "exercise",
+          "id": "mjfy8aeri8coyfxld7",
+          "exercise": "exf_JDzPvTFg6jsoYt9",
+          "sets": [
+            {
+              "duration": {
+                "value": 30,
+                "unit": "s"
+              },
+              "rest": {
+                "value": 5,
+                "unit": "s"
+              }
+            },
+            {
+              "duration": {
+                "value": 30,
+                "unit": "s"
+              },
+              "rest": {
+                "value": 5,
+                "unit": "s"
+              }
+            },
+            {
+              "duration": {
+                "value": 30,
+                "unit": "s"
+              },
+              "rest": {
+                "value": 5,
+                "unit": "s"
+              }
+            },
+            {
+              "duration": {
+                "value": 30,
+                "unit": "s"
+              },
+              "rest": {
+                "value": 5,
+                "unit": "s"
+              }
+            }
+          ],
+          "comment": "Gauche"
+        },
+        {
+          "kind": "exercise",
+          "id": "mjfy8kfvpmc48j7dn5",
+          "exercise": "exf_mRIPc2wXnOUS3dk",
+          "sets": [
+            {
+              "reps": 30,
+              "rest": {
+                "value": 5,
+                "unit": "s"
+              }
+            },
+            {
+              "reps": 30,
+              "rest": {
+                "value": 5,
+                "unit": "s"
+              }
+            },
+            {
+              "reps": 30,
+              "rest": {
+                "value": 5,
+                "unit": "s"
+              }
+            },
+            {
+              "reps": 30,
+              "rest": {
+                "value": 5,
+                "unit": "s"
+              }
+            }
+          ]
+        },
+        {
+          "kind": "exercise",
+          "id": "mjgswd1nusut6m6k6hq",
+          "exercise": "exf_2TYzasHnz5Qib6O",
+          "sets": [
+            {
+              "duration": {
+                "value": 30,
+                "unit": "s"
+              },
+              "rest": {
+                "value": 5,
+                "unit": "s"
+              },
+              "targets": [
+                {
+                  "type": "raw",
+                  "value": 10,
+                  "value_max": 15,
+                  "unit": "kg"
+                }
+              ]
+            },
+            {
+              "duration": {
+                "value": 30,
+                "unit": "s"
+              },
+              "rest": {
+                "value": 5,
+                "unit": "s"
+              },
+              "targets": [
+                {
+                  "type": "raw",
+                  "value": 10,
+                  "value_max": 15,
+                  "unit": "kg"
+                }
+              ]
+            },
+            {
+              "duration": {
+                "value": 30,
+                "unit": "s"
+              },
+              "rest": {
+                "value": 5,
+                "unit": "s"
+              },
+              "targets": [
+                {
+                  "type": "raw",
+                  "value": 10,
+                  "value_max": 15,
+                  "unit": "kg"
+                }
+              ]
+            },
+            {
+              "duration": {
+                "value": 30,
+                "unit": "s"
+              },
+              "rest": {
+                "value": 5,
+                "unit": "s"
+              },
+              "targets": [
+                {
+                  "type": "raw",
+                  "value": 10,
+                  "value_max": 15,
+                  "unit": "kg"
+                }
+              ]
+            }
+          ],
+          "comment": "Droit"
+        },
+        {
+          "kind": "exercise",
+          "id": "mjguyiv9u75i1kz5bzi",
+          "exercise": "exf_2TYzasHnz5Qib6O",
+          "sets": [
+            {
+              "duration": {
+                "value": 30,
+                "unit": "s"
+              },
+              "rest": {
+                "value": 5,
+                "unit": "s"
+              },
+              "targets": [
+                {
+                  "type": "raw",
+                  "value": 10,
+                  "value_max": 15,
+                  "unit": "kg"
+                }
+              ]
+            },
+            {
+              "duration": {
+                "value": 30,
+                "unit": "s"
+              },
+              "rest": {
+                "value": 5,
+                "unit": "s"
+              },
+              "targets": [
+                {
+                  "type": "raw",
+                  "value": 10,
+                  "value_max": 15,
+                  "unit": "kg"
+                }
+              ]
+            },
+            {
+              "duration": {
+                "value": 30,
+                "unit": "s"
+              },
+              "rest": {
+                "value": 5,
+                "unit": "s"
+              },
+              "targets": [
+                {
+                  "type": "raw",
+                  "value": 10,
+                  "value_max": 15,
+                  "unit": "kg"
+                }
+              ]
+            },
+            {
+              "duration": {
+                "value": 30,
+                "unit": "s"
+              },
+              "rest": {
+                "value": 5,
+                "unit": "s"
+              },
+              "targets": [
+                {
+                  "type": "raw",
+                  "value": 10,
+                  "value_max": 15,
+                  "unit": "kg"
+                }
+              ]
+            }
+          ],
+          "comment": "Gauche"
+        }
+      ]
+    }
+  ],
+  "has_structured_workout": true,
+  "summary": "Echauffement épaules SwissBall 120s (10.0 - 15.0) kg récup 20sec\n\nEchauffement omoplates 30s (10.0 - 15.0) kg récup 10sec 30s (10.0 - 15.0) kg récup 10sec 30s (10.0 - 15.0) kg récup 10sec\n\nSuperset  \n  Shrugs avec haltères 10 rep 5.0 kg récup 5sec 10 rep 5.0 kg récup 5sec 10 rep 5.0 kg récup 5sec 10 rep 5.0 kg récup 5sec  \n  Biceps curl 10 rep 5.0 kg récup 5sec 10 rep 5.0 kg récup 5sec 10 rep 5.0 kg récup 5sec 10 rep 5.0 kg récup 5sec  \n  Superman 10 rep récup 5sec 10 rep récup 5sec 10 rep récup 5sec 10 rep récup 5sec Avec haltères 1kg\n\nSuperset  \n  Squat sauté 10 rep récup 5sec 10 rep récup 5sec 10 rep récup 5sec 10 rep récup 5sec  \n  Chaise 30s récup 5sec 30s récup 5sec 30s récup 5sec 30s récup 5sec  \n  Extensions mollet unipodal 20 rep (10.0 - 15.0) kg récup 5sec 20 rep (10.0 - 15.0) kg récup 5sec 20 rep (10.0 - 15.0) kg récup 5sec 20 rep (10.0 -\n15.0) kg récup 5sec  \n  Dumbbell Romanian deadlift 10 rep 10.0 kg récup 5sec 10 rep 10.0 kg récup 5sec 10 rep 10.0 kg récup 5sec 10 rep 10.0 kg récup 5sec\n\nSuperset  \n  Gainage 30s récup 5sec 30s récup 5sec 30s récup 5sec 30s récup 5sec  \n  Gainage latéral 30s récup 5sec 30s récup 5sec 30s récup 5sec 30s récup 5sec Droit  \n  Gainage latéral 30s récup 5sec 30s récup 5sec 30s récup 5sec 30s récup 5sec Gauche  \n  Crunch 30 rep récup 5sec 30 rep récup 5sec 30 rep récup 5sec 30 rep récup 5sec  \n  Proprio. unipodale plan insta. 30s (10.0 - 15.0) kg récup 5sec 30s (10.0 - 15.0) kg récup 5sec 30s (10.0 - 15.0) kg récup 5sec 30s (10.0 - 15.0) kg\nrécup 5sec Droit  \n  Proprio. unipodale plan insta. 30s (10.0 - 15.0) kg récup 5sec 30s (10.0 - 15.0) kg récup 5sec 30s (10.0 - 15.0) kg récup 5sec 30s (10.0 - 15.0) kg\nrécup 5sec Gauche\n\n",
+  "revision": "rev_0297b8ebf03954ef",
+  "id": "ptrn_BM38ju1yRYTUXKN",
+  "athletes": [
+    "usr_F03NuGBUhCPwm4i"
+  ],
+  "group": null,
+  "date_start": "2025-12-22",
+  "time": null,
+  "moment": "morning",
+  "recurrence": null,
+  "load": {
+    "coggan": null,
+    "coggan_source": null,
+    "foster": null
+  },
+  "time_in_zones": {}
+}

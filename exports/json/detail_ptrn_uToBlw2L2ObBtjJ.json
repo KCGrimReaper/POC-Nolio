@@ -1,0 +1,119 @@
+{
+  "name": "3 * 20' tempo",
+  "sport": "spt_kNYHjuEzDJRiYCX",
+  "description": "20 à 30' échauffement cool + 3 * 20' + récup\nLes 20' : I3 ( tempo)\nR : 8'\nA faire en terrain varié et vallonné\nBon courage, grosse séance",
+  "description_html": null,
+  "duration": {
+    "value": 7140,
+    "unit": "s"
+  },
+  "distance": null,
+  "elevation_gain": null,
+  "elevation_loss": null,
+  "rpe": 9,
+  "show_rpe": true,
+  "coggan_load": 238,
+  "color": null,
+  "tags": [],
+  "workout": [
+    {
+      "kind": "step",
+      "id": "l59vwhyk3273o9mg4t4",
+      "duration": {
+        "value": 1500,
+        "unit": "s"
+      },
+      "targets": [
+        {
+          "type": "no_target"
+        }
+      ],
+      "intensity": "warmup",
+      "lap_advance": true
+    },
+    {
+      "kind": "repeat",
+      "id": "JFWQ57F12IEZLDIIUYX4",
+      "times": 3,
+      "steps": [
+        {
+          "kind": "step",
+          "id": "l59vxbl6ak180epywn",
+          "duration": {
+            "value": 1200,
+            "unit": "s"
+          },
+          "targets": [
+            {
+              "type": "metric",
+              "metric": "FCMAX",
+              "percent": 80,
+              "percent_max": 95,
+              "resolved": {
+                "low": 152,
+                "high": 181,
+                "unit": "bpm"
+              }
+            }
+          ],
+          "intensity": "work"
+        },
+        {
+          "kind": "step",
+          "id": "l59vxblec5vqizcup4l",
+          "duration": {
+            "value": 480,
+            "unit": "s"
+          },
+          "targets": [
+            {
+              "type": "no_target"
+            }
+          ],
+          "intensity": "cooldown"
+        }
+      ]
+    },
+    {
+      "kind": "step",
+      "id": "l59vy7wdb0h2dan3elt",
+      "duration": {
+        "value": 600,
+        "unit": "s"
+      },
+      "targets": [
+        {
+          "type": "no_target"
+        }
+      ],
+      "intensity": "cooldown"
+    }
+  ],
+  "has_structured_workout": true,
+  "summary": "20 à 30' échauffement cool + **3 * 20'** \\+ récup\n\nLes 20' : I3 ( tempo)\n\nR : 8'\n\nA faire en terrain varié et vallonné\n\nBon courage, grosse séance\n\n25' Échauffement ​\n\n​  \n\n-- 3x\n\n20' @80% - 95% FC Max (152 - 181) bpm Corps de séance\n\n8' Récupération\n\n--\n\n10' Récupération​  \n\n",
+  "revision": "rev_9bad1e47e21a50cd",
+  "id": "ptrn_uToBlw2L2ObBtjJ",
+  "athletes": [
+    "usr_F03NuGBUhCPwm4i"
+  ],
+  "group": null,
+  "date_start": "2026-02-11",
+  "time": null,
+  "moment": "morning",
+  "recurrence": null,
+  "load": {
+    "coggan": 238,
+    "coggan_source": "manual",
+    "foster": 1071
+  },
+  "time_in_zones": {
+    "heartrate": [
+      {
+        "name": "Zone 3",
+        "order": 3,
+        "color": "#72ea24",
+        "seconds": 3600
+      }
+    ]
+  }
+}

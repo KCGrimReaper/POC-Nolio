@@ -1,0 +1,325 @@
+{
+  "name": "Pyramide:(1'+2'+4'+6'+4'+2'+1')",
+  "sport": "spt_kNYHjuEzDJRiYCX",
+  "description": "Fartlek vallonné : 20' à 30' échauffement cool + 1'-2'-4'-6'-4'-2'-1'+ récup. R = moitié de temps de l'it précédent. Les 1' proche 100% vma (I5) et le reste au seuil (I4)\nA faire en terrain varié et vallonné",
+  "description_html": null,
+  "duration": {
+    "value": 3570,
+    "unit": "s"
+  },
+  "distance": {
+    "value": 0.49,
+    "unit": "km"
+  },
+  "elevation_gain": null,
+  "elevation_loss": null,
+  "rpe": 7,
+  "show_rpe": false,
+  "coggan_load": null,
+  "color": null,
+  "tags": [],
+  "workout": [
+    {
+      "kind": "step",
+      "id": "l3vcqiom93ju058kbq",
+      "duration": {
+        "value": 1200,
+        "unit": "s"
+      },
+      "targets": [
+        {
+          "type": "no_target"
+        }
+      ],
+      "intensity": "warmup",
+      "lap_advance": true
+    },
+    {
+      "kind": "step",
+      "id": "l3vcsn9vlee7k6h7o3",
+      "duration": {
+        "value": 60,
+        "unit": "s"
+      },
+      "targets": [
+        {
+          "type": "metric",
+          "metric": "VMA",
+          "percent": 95,
+          "percent_max": 100,
+          "resolved": {
+            "low": 14.25,
+            "high": 15,
+            "unit": "km/h"
+          }
+        }
+      ],
+      "intensity": "work"
+    },
+    {
+      "kind": "step",
+      "id": "l3vct6n5v0o5wyjeknr",
+      "duration": {
+        "value": 30,
+        "unit": "s"
+      },
+      "targets": [
+        {
+          "type": "no_target"
+        }
+      ],
+      "intensity": "cooldown"
+    },
+    {
+      "kind": "step",
+      "id": "l3vctjwefyol3zn77x7",
+      "duration": {
+        "value": 120,
+        "unit": "s"
+      },
+      "targets": [
+        {
+          "type": "metric",
+          "metric": "FCMAX",
+          "percent": 90,
+          "percent_max": 95,
+          "resolved": {
+            "low": 171,
+            "high": 181,
+            "unit": "bpm"
+          }
+        }
+      ],
+      "intensity": "work"
+    },
+    {
+      "kind": "step",
+      "id": "l3vcu4rhmrrphdj3hur",
+      "duration": {
+        "value": 60,
+        "unit": "s"
+      },
+      "targets": [
+        {
+          "type": "no_target"
+        }
+      ],
+      "intensity": "cooldown"
+    },
+    {
+      "kind": "step",
+      "id": "l3vcuhnqvdqyur6cja",
+      "duration": {
+        "value": 240,
+        "unit": "s"
+      },
+      "targets": [
+        {
+          "type": "metric",
+          "metric": "FCMAX",
+          "percent": 90,
+          "percent_max": 95,
+          "resolved": {
+            "low": 171,
+            "high": 181,
+            "unit": "bpm"
+          }
+        }
+      ],
+      "intensity": "work"
+    },
+    {
+      "kind": "step",
+      "id": "l3vcux9pnn9k091906",
+      "duration": {
+        "value": 120,
+        "unit": "s"
+      },
+      "targets": [
+        {
+          "type": "no_target"
+        }
+      ],
+      "intensity": "cooldown"
+    },
+    {
+      "kind": "step",
+      "id": "l3vcvayhs9pxazqni8",
+      "duration": {
+        "value": 360,
+        "unit": "s"
+      },
+      "targets": [
+        {
+          "type": "metric",
+          "metric": "FCMAX",
+          "percent": 90,
+          "percent_max": 95,
+          "resolved": {
+            "low": 171,
+            "high": 181,
+            "unit": "bpm"
+          }
+        }
+      ],
+      "intensity": "work"
+    },
+    {
+      "kind": "step",
+      "id": "l3vcvmyviw1wqcgs8dg",
+      "duration": {
+        "value": 180,
+        "unit": "s"
+      },
+      "targets": [
+        {
+          "type": "no_target"
+        }
+      ],
+      "intensity": "cooldown"
+    },
+    {
+      "kind": "step",
+      "id": "l3vcw3uyaxy2ac06mr",
+      "duration": {
+        "value": 240,
+        "unit": "s"
+      },
+      "targets": [
+        {
+          "type": "metric",
+          "metric": "FCMAX",
+          "percent": 90,
+          "percent_max": 95,
+          "resolved": {
+            "low": 171,
+            "high": 181,
+            "unit": "bpm"
+          }
+        }
+      ],
+      "intensity": "work"
+    },
+    {
+      "kind": "step",
+      "id": "l3vcwhm6lgkruq70w4",
+      "duration": {
+        "value": 120,
+        "unit": "s"
+      },
+      "targets": [
+        {
+          "type": "no_target"
+        }
+      ],
+      "intensity": "cooldown"
+    },
+    {
+      "kind": "step",
+      "id": "l3vcwt0aohfl7ufov5p",
+      "duration": {
+        "value": 120,
+        "unit": "s"
+      },
+      "targets": [
+        {
+          "type": "metric",
+          "metric": "FCMAX",
+          "percent": 90,
+          "percent_max": 95,
+          "resolved": {
+            "low": 171,
+            "high": 181,
+            "unit": "bpm"
+          }
+        }
+      ],
+      "intensity": "work"
+    },
+    {
+      "kind": "step",
+      "id": "l3vcxaib4th516wttnc",
+      "duration": {
+        "value": 60,
+        "unit": "s"
+      },
+      "targets": [
+        {
+          "type": "no_target"
+        }
+      ],
+      "intensity": "cooldown"
+    },
+    {
+      "kind": "step",
+      "id": "l3vcxl7kq45h10wja8o",
+      "duration": {
+        "value": 60,
+        "unit": "s"
+      },
+      "targets": [
+        {
+          "type": "metric",
+          "metric": "VMA",
+          "percent": 95,
+          "percent_max": 100,
+          "resolved": {
+            "low": 14.25,
+            "high": 15,
+            "unit": "km/h"
+          }
+        }
+      ],
+      "intensity": "work"
+    },
+    {
+      "kind": "step",
+      "id": "l3vczy41wit90uslonn",
+      "duration": {
+        "value": 600,
+        "unit": "s"
+      },
+      "targets": [
+        {
+          "type": "no_target"
+        }
+      ],
+      "intensity": "cooldown"
+    }
+  ],
+  "has_structured_workout": true,
+  "summary": "Fartlek vallonné : 20' à 30' échauffement cool + **1'-2'-4'-6'-4'-2'-1'** \\+ récup. R = moitié de temps de l'it précédent. Les 1' proche 100% vma (I5)\net le reste au seuil (I4)\n\nA faire en terrain varié et vallonné\n\n  \n\n20' Échauffement ​\n\n​\n\n1' @95% - 100% VMA (14.25 - 15) km/h - (04:13 - 04:00) min/km - (237.5 - 250.0) m Corps de séance​  \n\n30'' Récupération​  \n\n2' @90% - 95% FC Max (171 - 181) bpm Corps de séance​  \n\n1' Récupération​  \n\n4' @90% - 95% FC Max (171 - 181) bpm Corps de séance​  \n\n2' Récupération​  \n\n6' @90% - 95% FC Max (171 - 181) bpm Corps de séance​  \n\n3' Récupération​  \n\n4' @90% - 95% FC Max (171 - 181) bpm Corps de séance​  \n\n2' Récupération​  \n\n2' @90% - 95% FC Max (171 - 181) bpm Corps de séance​  \n\n1' Récupération​  \n\n1' @95% - 100% VMA (14.25 - 15) km/h - (04:13 - 04:00) min/km - (237.5 - 250.0) m Corps de séance​\n\n  \n\n10' Récupération​  \n  \n  \n\n",
+  "revision": "rev_bf4f430a6d788907",
+  "id": "ptrn_MEQ9m27QZspJBLk",
+  "athletes": [
+    "usr_F03NuGBUhCPwm4i"
+  ],
+  "group": null,
+  "date_start": "2026-02-02",
+  "time": null,
+  "moment": null,
+  "recurrence": null,
+  "load": {
+    "coggan": 24,
+    "coggan_source": "workout",
+    "foster": 416.5
+  },
+  "time_in_zones": {
+    "heartrate": [
+      {
+        "name": "Zone 4",
+        "order": 4,
+        "color": "#ff9e0d",
+        "seconds": 1080
+      }
+    ],
+    "pace": [
+      {
+        "name": "Zone 5",
+        "order": 5,
+        "color": "#ff0035",
+        "seconds": 120
+      }
+    ]
+  }
+}

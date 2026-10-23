@@ -1,0 +1,425 @@
+{
+  "name": "Renforcement musculaire",
+  "sport": "spt_l5JdauYgoPxMr3b",
+  "description": "",
+  "description_html": null,
+  "duration": {
+    "value": 3060,
+    "unit": "s"
+  },
+  "distance": null,
+  "elevation_gain": null,
+  "elevation_loss": null,
+  "rpe": null,
+  "show_rpe": true,
+  "coggan_load": null,
+  "color": null,
+  "tags": [],
+  "workout": [
+    {
+      "kind": "exercise",
+      "id": "mjch0lkmj8zd7zxsewj",
+      "exercise": "exf_aVq6GXa9wfD758i",
+      "sets": [
+        {
+          "duration": {
+            "value": 120,
+            "unit": "s"
+          },
+          "targets": [
+            {
+              "type": "raw",
+              "value": 10,
+              "value_max": 15,
+              "unit": "kg"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "exercise",
+      "id": "mjch0w81srwf2b7uj2",
+      "exercise": "exf_31NWJLAdN5P0xMm",
+      "sets": [
+        {
+          "duration": {
+            "value": 60,
+            "unit": "s"
+          },
+          "targets": [
+            {
+              "type": "raw",
+              "value": 10,
+              "value_max": 15,
+              "unit": "kg"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "superset",
+      "id": "mjch5gc3012bscmb2ahek",
+      "rounds": 4,
+      "exercises": [
+        {
+          "kind": "exercise",
+          "id": "mjch5gcavqwr1e3na8",
+          "exercise": "exf_BMZlH1yRYTUXKNm",
+          "sets": [
+            {
+              "reps": 10,
+              "targets": [
+                {
+                  "type": "raw",
+                  "value": 5,
+                  "unit": "kg"
+                }
+              ]
+            },
+            {
+              "reps": 10,
+              "targets": [
+                {
+                  "type": "raw",
+                  "value": 5,
+                  "unit": "kg"
+                }
+              ]
+            },
+            {
+              "reps": 10,
+              "targets": [
+                {
+                  "type": "raw",
+                  "value": 5,
+                  "unit": "kg"
+                }
+              ]
+            },
+            {
+              "reps": 10,
+              "targets": [
+                {
+                  "type": "raw",
+                  "value": 5,
+                  "unit": "kg"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "exercise",
+          "id": "mjch644tcbp0y1h9df8",
+          "exercise": "exf_oLryJTQvkMBeDTC",
+          "sets": [
+            {
+              "reps": 10,
+              "targets": [
+                {
+                  "type": "raw",
+                  "value": 5,
+                  "unit": "kg"
+                }
+              ]
+            },
+            {
+              "reps": 10,
+              "targets": [
+                {
+                  "type": "raw",
+                  "value": 5,
+                  "unit": "kg"
+                }
+              ]
+            },
+            {
+              "reps": 10,
+              "targets": [
+                {
+                  "type": "raw",
+                  "value": 5,
+                  "unit": "kg"
+                }
+              ]
+            },
+            {
+              "reps": 10,
+              "targets": [
+                {
+                  "type": "raw",
+                  "value": 5,
+                  "unit": "kg"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "superset",
+      "id": "mjch7t7nbwhxi7uve9v",
+      "rounds": 4,
+      "exercises": [
+        {
+          "kind": "exercise",
+          "id": "mjch7t7rprr970o8eh",
+          "exercise": "exf_ssE1oK6zMRsi0wF",
+          "sets": [
+            {
+              "reps": 20,
+              "targets": [
+                {
+                  "type": "raw",
+                  "value": 2,
+                  "unit": "kg"
+                }
+              ]
+            },
+            {
+              "reps": 20,
+              "targets": [
+                {
+                  "type": "raw",
+                  "value": 2,
+                  "unit": "kg"
+                }
+              ]
+            },
+            {
+              "reps": 20,
+              "targets": [
+                {
+                  "type": "raw",
+                  "value": 2,
+                  "unit": "kg"
+                }
+              ]
+            },
+            {
+              "reps": 20,
+              "targets": [
+                {
+                  "type": "raw",
+                  "value": 2,
+                  "unit": "kg"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "exercise",
+          "id": "mjch8ngxmz267qzz0b",
+          "exercise": "exf_LLq7BwH2OE1bI5Z",
+          "sets": [
+            {
+              "reps": 20,
+              "targets": [
+                {
+                  "type": "raw",
+                  "value": 10,
+                  "value_max": 15,
+                  "unit": "kg"
+                }
+              ]
+            },
+            {
+              "reps": 20,
+              "targets": [
+                {
+                  "type": "raw",
+                  "value": 10,
+                  "value_max": 15,
+                  "unit": "kg"
+                }
+              ]
+            },
+            {
+              "reps": 20,
+              "targets": [
+                {
+                  "type": "raw",
+                  "value": 10,
+                  "value_max": 15,
+                  "unit": "kg"
+                }
+              ]
+            },
+            {
+              "reps": 20,
+              "targets": [
+                {
+                  "type": "raw",
+                  "value": 10,
+                  "value_max": 15,
+                  "unit": "kg"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "exercise",
+          "id": "mjch9tfu3ho9ermocan",
+          "exercise": "exf_E9mIVihI9Sp6O2f",
+          "sets": [
+            {
+              "reps": 20,
+              "targets": [
+                {
+                  "type": "raw",
+                  "value": 10,
+                  "value_max": 15,
+                  "unit": "kg"
+                }
+              ]
+            },
+            {
+              "reps": 20,
+              "targets": [
+                {
+                  "type": "raw",
+                  "value": 10,
+                  "value_max": 15,
+                  "unit": "kg"
+                }
+              ]
+            },
+            {
+              "reps": 20,
+              "targets": [
+                {
+                  "type": "raw",
+                  "value": 10,
+                  "value_max": 15,
+                  "unit": "kg"
+                }
+              ]
+            },
+            {
+              "reps": 20,
+              "targets": [
+                {
+                  "type": "raw",
+                  "value": 10,
+                  "value_max": 15,
+                  "unit": "kg"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "superset",
+      "id": "mjchcebij1c64lnb7j",
+      "rounds": 4,
+      "exercises": [
+        {
+          "kind": "exercise",
+          "id": "mjchcebmi76x2rbdzk",
+          "exercise": "exf_ZglPO9B6dgsQAtx",
+          "sets": [
+            {
+              "duration": {
+                "value": 30,
+                "unit": "s"
+              }
+            },
+            {
+              "duration": {
+                "value": 30,
+                "unit": "s"
+              }
+            },
+            {
+              "duration": {
+                "value": 30,
+                "unit": "s"
+              }
+            },
+            {
+              "duration": {
+                "value": 30,
+                "unit": "s"
+              }
+            }
+          ]
+        },
+        {
+          "kind": "exercise",
+          "id": "mjchd12zbfsh98l1k8k",
+          "exercise": "exf_LxBwH2OE1bI5ZNk",
+          "sets": [
+            {
+              "duration": {
+                "value": 30,
+                "unit": "s"
+              }
+            },
+            {
+              "duration": {
+                "value": 30,
+                "unit": "s"
+              }
+            },
+            {
+              "duration": {
+                "value": 30,
+                "unit": "s"
+              }
+            },
+            {
+              "duration": {
+                "value": 30,
+                "unit": "s"
+              }
+            }
+          ]
+        },
+        {
+          "kind": "exercise",
+          "id": "mjchdkzmaesqpm4v9un",
+          "exercise": "exf_mRIPc2wXnOUS3dk",
+          "sets": [
+            {
+              "reps": 30
+            },
+            {
+              "reps": 30
+            },
+            {
+              "reps": 30
+            },
+            {
+              "reps": 30
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "has_structured_workout": true,
+  "summary": "Echauffement épaules SwissBall 120s (10.0 - 15.0) kg\n\n  \n\nEchauffement omoplates 60s (10.0 - 15.0) kg\n\nSuperset  \n  Shrugs avec haltères 10 rep 5.0 kg 10 rep 5.0 kg 10 rep 5.0 kg 10 rep 5.0 kg  \n  Biceps curl 10 rep 5.0 kg 10 rep 5.0 kg 10 rep 5.0 kg 10 rep 5.0 kg\n\nSuperset  \n  Single leg deadlift unilatéral 20 rep 2.0 kg 20 rep 2.0 kg 20 rep 2.0 kg 20 rep 2.0 kg  \n  Fentes Bulgares unilatérales 20 rep (10.0 - 15.0) kg 20 rep (10.0 - 15.0) kg 20 rep (10.0 - 15.0) kg 20 rep (10.0 - 15.0) kg  \n  Extensions mollet unipodal 20 rep (10.0 - 15.0) kg 20 rep (10.0 - 15.0) kg 20 rep (10.0 - 15.0) kg 20 rep (10.0 - 15.0) kg\n\nSuperset  \n  Gainage 30s 30s 30s 30s  \n  Gainage dos sur swissball 30s 30s 30s 30s  \n  Crunch 30 rep 30 rep 30 rep 30 rep\n\n",
+  "revision": "rev_24acc0b2de356618",
+  "id": "ptrn_JHZmUdzPvTFg6js",
+  "athletes": [
+    "usr_F03NuGBUhCPwm4i"
+  ],
+  "group": null,
+  "date_start": "2025-12-19",
+  "time": null,
+  "moment": null,
+  "recurrence": null,
+  "load": {
+    "coggan": null,
+    "coggan_source": null,
+    "foster": null
+  },
+  "time_in_zones": {}
+}

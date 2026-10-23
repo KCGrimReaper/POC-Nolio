@@ -1,0 +1,227 @@
+{
+  "name": "En côte: 4*45\"/45\"+ 2*5' à plat+ 4*45\"/45\"",
+  "sport": "spt_kNYHjuEzDJRiYCX",
+  "description": "20 à 30' échauffement cool avec 5' gammes + en côte : 4*45\"/45\" + 2 * 5' seuil à plat + en côte : 4*45\"/45\"+ 10' récup\nLes 45\"  en côte à fond (I5) et les 5' au seuil ( I4) à plat ( ou un peu vallonné)\nR: 2' ( entre les blocs)",
+  "description_html": null,
+  "duration": {
+    "value": 3765,
+    "unit": "s"
+  },
+  "distance": null,
+  "elevation_gain": null,
+  "elevation_loss": null,
+  "rpe": 8,
+  "show_rpe": true,
+  "coggan_load": 103,
+  "color": null,
+  "tags": [],
+  "workout": [
+    {
+      "kind": "step",
+      "id": "m0952ijmhymq883tcrl",
+      "duration": {
+        "value": 1500,
+        "unit": "s"
+      },
+      "targets": [
+        {
+          "type": "no_target"
+        }
+      ],
+      "intensity": "warmup",
+      "lap_advance": true
+    },
+    {
+      "kind": "repeat",
+      "id": "H4EU54E04NNNGL13JW7A",
+      "times": 4,
+      "steps": [
+        {
+          "kind": "step",
+          "id": "m095485729f5zkof0yk",
+          "duration": {
+            "value": 45,
+            "unit": "s"
+          },
+          "targets": [
+            {
+              "type": "metric",
+              "metric": "PMA",
+              "percent": 95,
+              "percent_max": 100,
+              "resolved": {
+                "low": 238,
+                "high": 250,
+                "unit": "W"
+              }
+            }
+          ],
+          "intensity": "work"
+        },
+        {
+          "kind": "step",
+          "id": "m095485ctxtd2c9pa6",
+          "duration": {
+            "value": 45,
+            "unit": "s"
+          },
+          "targets": [
+            {
+              "type": "no_target"
+            }
+          ],
+          "intensity": "cooldown"
+        }
+      ]
+    },
+    {
+      "kind": "step",
+      "id": "m0954d1vlw8kuzejcvg",
+      "duration": {
+        "value": 105,
+        "unit": "s"
+      },
+      "targets": [
+        {
+          "type": "no_target"
+        }
+      ],
+      "intensity": "cooldown"
+    },
+    {
+      "kind": "repeat",
+      "id": "P7697O57IOI3KV3Y6PFW",
+      "times": 2,
+      "steps": [
+        {
+          "kind": "step",
+          "id": "m09559abvhtjjqkdwl",
+          "duration": {
+            "value": 300,
+            "unit": "s"
+          },
+          "targets": [
+            {
+              "type": "metric",
+              "metric": "FCMAX",
+              "percent": 90,
+              "percent_max": 95,
+              "resolved": {
+                "low": 171,
+                "high": 181,
+                "unit": "bpm"
+              }
+            }
+          ],
+          "intensity": "work"
+        },
+        {
+          "kind": "step",
+          "id": "m09559aho2huc5p0e6",
+          "duration": {
+            "value": 120,
+            "unit": "s"
+          },
+          "targets": [
+            {
+              "type": "no_target"
+            }
+          ],
+          "intensity": "cooldown"
+        }
+      ]
+    },
+    {
+      "kind": "repeat",
+      "id": "H0RSPN9OHWGHM1YFYMJF",
+      "times": 4,
+      "steps": [
+        {
+          "kind": "step",
+          "id": "m09562cani0akumagz7",
+          "duration": {
+            "value": 45,
+            "unit": "s"
+          },
+          "targets": [
+            {
+              "type": "metric",
+              "metric": "PMA",
+              "percent": 95,
+              "percent_max": 100,
+              "resolved": {
+                "low": 238,
+                "high": 250,
+                "unit": "W"
+              }
+            }
+          ],
+          "intensity": "work"
+        },
+        {
+          "kind": "step",
+          "id": "m09562cfrkwijdlvdjh",
+          "duration": {
+            "value": 45,
+            "unit": "s"
+          },
+          "targets": [
+            {
+              "type": "no_target"
+            }
+          ],
+          "intensity": "cooldown"
+        }
+      ]
+    },
+    {
+      "kind": "step",
+      "id": "m09566ukjr1l4u3ew9",
+      "duration": {
+        "value": 600,
+        "unit": "s"
+      },
+      "targets": [
+        {
+          "type": "no_target"
+        }
+      ],
+      "intensity": "cooldown"
+    }
+  ],
+  "has_structured_workout": true,
+  "summary": "20 à 30' échauffement cool avec 5' gammes + **en côte : 4*45\"/45\" + 2 * 5' seuil à plat + en côte : 4*45\"/45\"** \\+ 10' récup\n\nLes 45\" en côte à fond (I5) et les 5' au seuil ( I4) à plat ( ou un peu vallonné)\n\nR: 2' ( entre les blocs)\n\n25' Échauffement ​\n\n​  \n\n-- 4x\n\n45\" @95% - 100% PMA (238 - 250) W Corps de séance\n\n45\" Récupération\n\n--\n\n1'45\" Récupération ​  \n\n​  \n\n-- 2x\n\n5' @90% - 95% FC Max (171 - 181) bpm Corps de séance\n\n2' Récupération\n\n--\n\n​  \n\n-- 4x\n\n45\" @95% - 100% PMA (238 - 250) W Corps de séance\n\n45\" Récupération\n\n--\n\n10' Récupération ​  \n\n  \n\n  \n\n",
+  "revision": "rev_beafc3b9204a55d7",
+  "id": "ptrn_fQ6qEdMoXD8BbEW",
+  "athletes": [
+    "usr_F03NuGBUhCPwm4i"
+  ],
+  "group": null,
+  "date_start": "2026-03-24",
+  "time": null,
+  "moment": null,
+  "recurrence": null,
+  "load": {
+    "coggan": 103,
+    "coggan_source": "manual",
+    "foster": 502
+  },
+  "time_in_zones": {
+    "watts": [
+      {
+        "name": "Zone 4",
+        "order": 4,
+        "color": "#ff9e0d",
+        "seconds": 360
+      }
+    ],
+    "heartrate": [
+      {
+        "name": "Zone 4",
+        "order": 4,
+        "color": "#ff9e0d",
+        "seconds": 600
+      }
+    ]
+  }
+}

@@ -1,0 +1,178 @@
+{
+  "name": "Fartlek : 2*(10*40''/20'')",
+  "sport": "spt_kNYHjuEzDJRiYCX",
+  "description": "20' à 30' échauffement cool avec 5' gammes + 2*(10*40''/20'') + récup\n\nLes 40'' au seuil haut (I4), 20'' récup petit trot. R = 3'\nSur terrain vallonné.",
+  "description_html": null,
+  "duration": {
+    "value": 3480,
+    "unit": "s"
+  },
+  "distance": {
+    "value": 10,
+    "unit": "km"
+  },
+  "elevation_gain": null,
+  "elevation_loss": null,
+  "rpe": 7,
+  "show_rpe": true,
+  "coggan_load": 72,
+  "color": null,
+  "tags": [],
+  "workout": [
+    {
+      "kind": "step",
+      "id": "m2sv2ukkkndod1wyzdg",
+      "duration": {
+        "value": 1200,
+        "unit": "s"
+      },
+      "targets": [
+        {
+          "type": "no_target"
+        }
+      ],
+      "intensity": "warmup"
+    },
+    {
+      "kind": "repeat",
+      "id": "F2NTXA8596V9XX4J520T",
+      "times": 10,
+      "steps": [
+        {
+          "kind": "step",
+          "id": "m2sv3qo204j7eptwjdw9",
+          "duration": {
+            "value": 40,
+            "unit": "s"
+          },
+          "targets": [
+            {
+              "type": "metric",
+              "metric": "FCMAX",
+              "percent": 92,
+              "percent_max": 95,
+              "resolved": {
+                "low": 175,
+                "high": 181,
+                "unit": "bpm"
+              }
+            }
+          ],
+          "intensity": "work"
+        },
+        {
+          "kind": "step",
+          "id": "m2sv3qoaqbnze8g28tb",
+          "duration": {
+            "value": 20,
+            "unit": "s"
+          },
+          "targets": [
+            {
+              "type": "no_target"
+            }
+          ],
+          "intensity": "cooldown"
+        }
+      ]
+    },
+    {
+      "kind": "step",
+      "id": "m2sv4ayzm7f54hh0uc",
+      "duration": {
+        "value": 180,
+        "unit": "s"
+      },
+      "targets": [
+        {
+          "type": "no_target"
+        }
+      ],
+      "intensity": "cooldown"
+    },
+    {
+      "kind": "repeat",
+      "id": "VPGM2GZOJLD42DOBIBBF",
+      "times": 10,
+      "steps": [
+        {
+          "kind": "step",
+          "id": "m2sv5ox3dsj6tmyoa7k",
+          "duration": {
+            "value": 40,
+            "unit": "s"
+          },
+          "targets": [
+            {
+              "type": "metric",
+              "metric": "FCMAX",
+              "percent": 92,
+              "percent_max": 95,
+              "resolved": {
+                "low": 175,
+                "high": 181,
+                "unit": "bpm"
+              }
+            }
+          ],
+          "intensity": "work"
+        },
+        {
+          "kind": "step",
+          "id": "m2sv5ox97t3ep5s5u0s",
+          "duration": {
+            "value": 20,
+            "unit": "s"
+          },
+          "targets": [
+            {
+              "type": "no_target"
+            }
+          ],
+          "intensity": "cooldown"
+        }
+      ]
+    },
+    {
+      "kind": "step",
+      "id": "m2sv63r1s9k98gf5nm",
+      "duration": {
+        "value": 900,
+        "unit": "s"
+      },
+      "targets": [
+        {
+          "type": "no_target"
+        }
+      ],
+      "intensity": "cooldown"
+    }
+  ],
+  "has_structured_workout": true,
+  "summary": "20' à 30' échauffement cool avec 5' gammes + **2*(10*40''/20'')** \\+ récup  \n\nLes 40'' au seuil haut (I4), 20'' récup petit trot. R = 3'\n\nSur terrain vallonné.\n\n20' Échauffement ​\n\n  \n​  \n\n-- 10x\n\n40'' @92% - 95% FC Max (175 - 181) bpm Corps de séance\n\n20'' Récupération\n\n--\n\n3' Récupération ​\n\n​  \n\n-- 10x\n\n40'' @92% - 95% FC Max (175 - 181) bpm Corps de séance\n\n20'' Récupération\n\n--\n\n  \n\n15' Récupération​  \n  \n\n",
+  "revision": "rev_8c0df9360cb31f0b",
+  "id": "ptrn_XUVAGvPYVkG7sSZ",
+  "athletes": [
+    "usr_F03NuGBUhCPwm4i"
+  ],
+  "group": null,
+  "date_start": "2026-01-28",
+  "time": null,
+  "moment": null,
+  "recurrence": null,
+  "load": {
+    "coggan": 72,
+    "coggan_source": "manual",
+    "foster": 406
+  },
+  "time_in_zones": {
+    "heartrate": [
+      {
+        "name": "Zone 4",
+        "order": 4,
+        "color": "#ff9e0d",
+        "seconds": 800
+      }
+    ]
+  }
+}

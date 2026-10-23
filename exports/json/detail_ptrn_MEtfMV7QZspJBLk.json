@@ -1,0 +1,170 @@
+{
+  "name": "10' + 8' + 6' à plat",
+  "sport": "spt_kNYHjuEzDJRiYCX",
+  "description": "20 à 30' échauffement cool + 10'/8'/6' + récup. R = 4'/3'\nLe seuil à env 90-95% FC max ( I4). A faire en terrain plutôt plat ou un peu vallonné",
+  "description_html": null,
+  "duration": {
+    "value": 4560,
+    "unit": "s"
+  },
+  "distance": null,
+  "elevation_gain": null,
+  "elevation_loss": null,
+  "rpe": 8,
+  "show_rpe": false,
+  "coggan_load": 126,
+  "color": null,
+  "tags": [],
+  "workout": [
+    {
+      "kind": "step",
+      "id": "l665fr22tw07byqme6",
+      "duration": {
+        "value": 1800,
+        "unit": "s"
+      },
+      "targets": [
+        {
+          "type": "no_target"
+        }
+      ],
+      "intensity": "warmup",
+      "lap_advance": true
+    },
+    {
+      "kind": "step",
+      "id": "l665gandfrmo5tu8kun",
+      "duration": {
+        "value": 600,
+        "unit": "s"
+      },
+      "targets": [
+        {
+          "type": "metric",
+          "metric": "FCMAX",
+          "percent": 90,
+          "percent_max": 95,
+          "resolved": {
+            "low": 171,
+            "high": 181,
+            "unit": "bpm"
+          }
+        }
+      ],
+      "intensity": "work"
+    },
+    {
+      "kind": "step",
+      "id": "l665hb462hd30usax9l",
+      "duration": {
+        "value": 240,
+        "unit": "s"
+      },
+      "targets": [
+        {
+          "type": "no_target"
+        }
+      ],
+      "intensity": "cooldown"
+    },
+    {
+      "kind": "step",
+      "id": "l665hnfn87lmp0wl8g",
+      "duration": {
+        "value": 480,
+        "unit": "s"
+      },
+      "targets": [
+        {
+          "type": "metric",
+          "metric": "FCMAX",
+          "percent": 90,
+          "percent_max": 95,
+          "resolved": {
+            "low": 171,
+            "high": 181,
+            "unit": "bpm"
+          }
+        }
+      ],
+      "intensity": "work"
+    },
+    {
+      "kind": "step",
+      "id": "l665i61mmuy3zch1l4",
+      "duration": {
+        "value": 180,
+        "unit": "s"
+      },
+      "targets": [
+        {
+          "type": "no_target"
+        }
+      ],
+      "intensity": "cooldown"
+    },
+    {
+      "kind": "step",
+      "id": "l665ih882zo54t7xdbq",
+      "duration": {
+        "value": 360,
+        "unit": "s"
+      },
+      "targets": [
+        {
+          "type": "metric",
+          "metric": "FCMAX",
+          "percent": 90,
+          "percent_max": 95,
+          "resolved": {
+            "low": 171,
+            "high": 181,
+            "unit": "bpm"
+          }
+        }
+      ],
+      "intensity": "work"
+    },
+    {
+      "kind": "step",
+      "id": "l665iv71m9pnw4jkvyn",
+      "duration": {
+        "value": 900,
+        "unit": "s"
+      },
+      "targets": [
+        {
+          "type": "no_target"
+        }
+      ],
+      "intensity": "cooldown"
+    }
+  ],
+  "has_structured_workout": true,
+  "summary": "20 à 30' échauffement cool + **10'/8'/6'** \\+ récup. R = 4'/3'\n\nLe seuil à env 90-95% FC max ( I4). A faire en terrain plutôt plat ou un peu vallonné\n\n  \n\n30' Échauffement ​\n\n10' @90% - 95% FC Max (171 - 181) bpm Corps de séance​\n\n4' Récupération ​\n\n  \n\n8' @90% - 95% FC Max (171 - 181) bpm Corps de séance​  \n\n3' Récupération​  \n\n6' @90% - 95% FC Max (171 - 181) bpm Corps de séance​  \n\n15' Récupération​  \n  \n\n",
+  "revision": "rev_50e3fdbd92f4177a",
+  "id": "ptrn_MEtfMV7QZspJBLk",
+  "athletes": [
+    "usr_F03NuGBUhCPwm4i"
+  ],
+  "group": null,
+  "date_start": "2026-05-26",
+  "time": null,
+  "moment": null,
+  "recurrence": null,
+  "load": {
+    "coggan": 126,
+    "coggan_source": "manual",
+    "foster": 608
+  },
+  "time_in_zones": {
+    "heartrate": [
+      {
+        "name": "Zone 4",
+        "order": 4,
+        "color": "#ff9e0d",
+        "seconds": 1440
+      }
+    ]
+  }
+}

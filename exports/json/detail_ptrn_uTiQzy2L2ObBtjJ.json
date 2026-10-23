@@ -1,0 +1,216 @@
+{
+  "name": "4* (3'/1') + 4* (2'/1') + 4* (1'/1')",
+  "sport": "spt_kNYHjuEzDJRiYCX",
+  "description": "20 à 30' échauffement cool avec 5' gammes + 4* (3'/1') + 4* (2'/1') + 4* (1'/1') + 10' récup\nLes 3' et 2' au seuil (I4) et les 1' proche 100%vma ( I5)\nA faire en terrain plutôt plat (ou légèrement vallonné).\nEnchaînement des blocs",
+  "description_html": null,
+  "duration": {
+    "value": 4260,
+    "unit": "s"
+  },
+  "distance": {
+    "value": 0.98,
+    "unit": "km"
+  },
+  "elevation_gain": null,
+  "elevation_loss": null,
+  "rpe": 8,
+  "show_rpe": true,
+  "coggan_load": 118,
+  "color": null,
+  "tags": [],
+  "workout": [
+    {
+      "kind": "step",
+      "id": "m1kbduhhcoc2h4sy9g9",
+      "duration": {
+        "value": 1500,
+        "unit": "s"
+      },
+      "targets": [
+        {
+          "type": "no_target"
+        }
+      ],
+      "intensity": "warmup",
+      "lap_advance": true
+    },
+    {
+      "kind": "repeat",
+      "id": "NEV3X74FE92M5XKYZUMV",
+      "times": 4,
+      "steps": [
+        {
+          "kind": "step",
+          "id": "m1kbedm05s16u19j6g5",
+          "duration": {
+            "value": 180,
+            "unit": "s"
+          },
+          "targets": [
+            {
+              "type": "metric",
+              "metric": "FCMAX",
+              "percent": 90,
+              "percent_max": 95,
+              "resolved": {
+                "low": 171,
+                "high": 181,
+                "unit": "bpm"
+              }
+            }
+          ],
+          "intensity": "work"
+        },
+        {
+          "kind": "step",
+          "id": "m1kbedm78t5k6xr2tai",
+          "duration": {
+            "value": 60,
+            "unit": "s"
+          },
+          "targets": [
+            {
+              "type": "no_target"
+            }
+          ],
+          "intensity": "cooldown"
+        }
+      ]
+    },
+    {
+      "kind": "repeat",
+      "id": "IWD8KYWFVBMXU4OPI0NZ",
+      "times": 4,
+      "steps": [
+        {
+          "kind": "step",
+          "id": "m1kbf1davvsxu6l5ua",
+          "duration": {
+            "value": 120,
+            "unit": "s"
+          },
+          "targets": [
+            {
+              "type": "metric",
+              "metric": "FCMAX",
+              "percent": 90,
+              "percent_max": 95,
+              "resolved": {
+                "low": 171,
+                "high": 181,
+                "unit": "bpm"
+              }
+            }
+          ],
+          "intensity": "work"
+        },
+        {
+          "kind": "step",
+          "id": "m1kbf1dh62am93ic5t7",
+          "duration": {
+            "value": 60,
+            "unit": "s"
+          },
+          "targets": [
+            {
+              "type": "no_target"
+            }
+          ],
+          "intensity": "cooldown"
+        }
+      ]
+    },
+    {
+      "kind": "repeat",
+      "id": "UB8879O6VC896RYSD3D0",
+      "times": 4,
+      "steps": [
+        {
+          "kind": "step",
+          "id": "m1kbfqtm33q9hj4c4no",
+          "duration": {
+            "value": 60,
+            "unit": "s"
+          },
+          "targets": [
+            {
+              "type": "metric",
+              "metric": "VMA",
+              "percent": 95,
+              "percent_max": 100,
+              "resolved": {
+                "low": 14.25,
+                "high": 15,
+                "unit": "km/h"
+              }
+            }
+          ],
+          "intensity": "work"
+        },
+        {
+          "kind": "step",
+          "id": "m1kbfqtszcs17rwihx",
+          "duration": {
+            "value": 60,
+            "unit": "s"
+          },
+          "targets": [
+            {
+              "type": "no_target"
+            }
+          ],
+          "intensity": "cooldown"
+        }
+      ]
+    },
+    {
+      "kind": "step",
+      "id": "m1kbfx04wdom15nt5p8",
+      "duration": {
+        "value": 600,
+        "unit": "s"
+      },
+      "targets": [
+        {
+          "type": "no_target"
+        }
+      ],
+      "intensity": "cooldown"
+    }
+  ],
+  "has_structured_workout": true,
+  "summary": "20 à 30' échauffement cool avec 5' gammes +​ **4* (3'/1') + 4* (2'/1') + 4* (1'/1')****​** \\+ 10' récup\n\nLes 3' et 2' au seuil (I4) et les 1' proche 100%vma ( I5)\n\nA faire en terrain plutôt plat (ou légèrement vallonné).\n\nEnchaînement des blocs\n\n25' Échauffement ​\n\n​  \n\n-- 4x\n\n3' @90% - 95% FC Max (171 - 181) bpm Corps de séance\n\n1' Récupération\n\n--\n\n​  \n\n-- 4x\n\n2' @90% - 95% FC Max (171 - 181) bpm Corps de séance\n\n1' Récupération\n\n--\n\n​  \n\n-- 4x\n\n1' @95% - 100% VMA (14.25 - 15) km/h - (04:13 - 04:00) min/km - (237.5 - 250.0) m Corps de séance\n\n1' Récupération\n\n--\n\n10' Récupération ​  \n\n  \n\n  \n\n  \n\n",
+  "revision": "rev_30562b59f64641dd",
+  "id": "ptrn_uTiQzy2L2ObBtjJ",
+  "athletes": [
+    "usr_F03NuGBUhCPwm4i"
+  ],
+  "group": null,
+  "date_start": "2026-04-28",
+  "time": null,
+  "moment": null,
+  "recurrence": null,
+  "load": {
+    "coggan": 118,
+    "coggan_source": "manual",
+    "foster": 568
+  },
+  "time_in_zones": {
+    "heartrate": [
+      {
+        "name": "Zone 4",
+        "order": 4,
+        "color": "#ff9e0d",
+        "seconds": 1200
+      }
+    ],
+    "pace": [
+      {
+        "name": "Zone 5",
+        "order": 5,
+        "color": "#ff0035",
+        "seconds": 240
+      }
+    ]
+  }
+}

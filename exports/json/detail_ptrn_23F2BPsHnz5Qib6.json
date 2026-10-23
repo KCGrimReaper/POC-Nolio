@@ -1,0 +1,37 @@
+{
+  "name": "Sortie rando/trail tranquille",
+  "sport": "spt_kNYHjuEzDJRiYCX",
+  "description": "Sortie rando/trail tranquille proche 5h. S'approcher des 2000 de d+ serait bien :) ( au moins 1700/1800 si possible)",
+  "description_html": null,
+  "duration": {
+    "value": 18000,
+    "unit": "s"
+  },
+  "distance": null,
+  "elevation_gain": null,
+  "elevation_loss": null,
+  "rpe": 3,
+  "show_rpe": true,
+  "coggan_load": 200,
+  "color": null,
+  "tags": [],
+  "workout": null,
+  "has_structured_workout": false,
+  "summary": null,
+  "revision": "rev_a123e05563ae90ca",
+  "id": "ptrn_23F2BPsHnz5Qib6",
+  "athletes": [
+    "usr_F03NuGBUhCPwm4i"
+  ],
+  "group": null,
+  "date_start": "2026-05-30",
+  "time": null,
+  "moment": null,
+  "recurrence": null,
+  "load": {
+    "coggan": 200,
+    "coggan_source": "manual",
+    "foster": 900
+  },
+  "time_in_zones": {}
+}

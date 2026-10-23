@@ -1,0 +1,122 @@
+{
+  "name": "5* 1'30\"",
+  "sport": "spt_kNYHjuEzDJRiYCX",
+  "description": "20 à 30' échauffement + 5 * 1'30\"/ 1' + 10' récup\nA faire en nature, en terrain plutôt plat ou un peu vallonné. Les 1'30\" \" à la sensation\" ( souple, juste pour allonger un peu la foulée)\n1' récup petit trot",
+  "description_html": null,
+  "duration": {
+    "value": 2550,
+    "unit": "s"
+  },
+  "distance": {
+    "value": 12,
+    "unit": "km"
+  },
+  "elevation_gain": null,
+  "elevation_loss": null,
+  "rpe": 7,
+  "show_rpe": false,
+  "coggan_load": 92,
+  "color": null,
+  "tags": [],
+  "workout": [
+    {
+      "kind": "step",
+      "id": "l55jyw6xjqm1ex4k1ei",
+      "duration": {
+        "value": 1200,
+        "unit": "s"
+      },
+      "targets": [
+        {
+          "type": "no_target"
+        }
+      ],
+      "intensity": "warmup",
+      "lap_advance": true
+    },
+    {
+      "kind": "repeat",
+      "id": "FWPK4SE81GA0VTQ13CSR",
+      "times": 5,
+      "steps": [
+        {
+          "kind": "step",
+          "id": "l55k0a3r3ozyuutpnmb",
+          "duration": {
+            "value": 90,
+            "unit": "s"
+          },
+          "targets": [
+            {
+              "type": "metric",
+              "metric": "FCMAX",
+              "percent": 85,
+              "percent_max": 95,
+              "resolved": {
+                "low": 162,
+                "high": 181,
+                "unit": "bpm"
+              }
+            }
+          ],
+          "intensity": "work"
+        },
+        {
+          "kind": "step",
+          "id": "l55k0a3ztn2twn24d7",
+          "duration": {
+            "value": 60,
+            "unit": "s"
+          },
+          "targets": [
+            {
+              "type": "no_target"
+            }
+          ],
+          "intensity": "cooldown"
+        }
+      ]
+    },
+    {
+      "kind": "step",
+      "id": "l55k0txai1jajj8x5y",
+      "duration": {
+        "value": 600,
+        "unit": "s"
+      },
+      "targets": [
+        {
+          "type": "no_target"
+        }
+      ],
+      "intensity": "cooldown"
+    }
+  ],
+  "has_structured_workout": true,
+  "summary": "20 à 30' échauffement + **5***** 1'30\"/ 1'** \\+ 10' récup\n\nA faire en nature, en terrain plutôt plat ou un peu vallonné. Les 1'30\" \" à la sensation\" ( souple, juste pour allonger un peu la foulée)\n\n1' récup petit trot\n\n20' Échauffement ​\n\n​  \n  \n\n-- 5x\n\n1'30\" @85% - 95% FC Max (162 - 181) bpm Corps de séance\n\n1' Récupération\n\n--\n\n10' Récupération​\n\n  \n  \n\n",
+  "revision": "rev_0b5f391233cd5ea8",
+  "id": "ptrn_cFY3vL9aCjkgrZ9",
+  "athletes": [
+    "usr_F03NuGBUhCPwm4i"
+  ],
+  "group": null,
+  "date_start": "2026-05-11",
+  "time": null,
+  "moment": null,
+  "recurrence": null,
+  "load": {
+    "coggan": 92,
+    "coggan_source": "manual",
+    "foster": 297.5
+  },
+  "time_in_zones": {
+    "heartrate": [
+      {
+        "name": "Zone 3",
+        "order": 3,
+        "color": "#72ea24",
+        "seconds": 450
+      }
+    ]
+  }
+}

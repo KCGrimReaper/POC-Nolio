@@ -1,0 +1,170 @@
+{
+  "name": "12'/ 10' / 8'",
+  "sport": "spt_kNYHjuEzDJRiYCX",
+  "description": "20' échauffement cool + 12' + 10' + 8' + 10' récup\nLes séries au seuil ( entre 90 et 95%fc max) , I4\nR : 5' ( entre les séries)\nA faire en terrain varié et vallonné",
+  "description_html": null,
+  "duration": {
+    "value": 4200,
+    "unit": "s"
+  },
+  "distance": null,
+  "elevation_gain": null,
+  "elevation_loss": null,
+  "rpe": 9,
+  "show_rpe": true,
+  "coggan_load": 140,
+  "color": null,
+  "tags": [],
+  "workout": [
+    {
+      "kind": "step",
+      "id": "ln0kdqmyii35qhtn69",
+      "duration": {
+        "value": 1200,
+        "unit": "s"
+      },
+      "targets": [
+        {
+          "type": "no_target"
+        }
+      ],
+      "intensity": "warmup",
+      "lap_advance": true
+    },
+    {
+      "kind": "step",
+      "id": "ln0ke0gpvlzsdhqpcj",
+      "duration": {
+        "value": 720,
+        "unit": "s"
+      },
+      "targets": [
+        {
+          "type": "metric",
+          "metric": "FCMAX",
+          "percent": 90,
+          "percent_max": 95,
+          "resolved": {
+            "low": 171,
+            "high": 181,
+            "unit": "bpm"
+          }
+        }
+      ],
+      "intensity": "work"
+    },
+    {
+      "kind": "step",
+      "id": "ln0kedw46ty6wywwmdd",
+      "duration": {
+        "value": 300,
+        "unit": "s"
+      },
+      "targets": [
+        {
+          "type": "no_target"
+        }
+      ],
+      "intensity": "cooldown"
+    },
+    {
+      "kind": "step",
+      "id": "ln0ken7spbj93iuw2op",
+      "duration": {
+        "value": 600,
+        "unit": "s"
+      },
+      "targets": [
+        {
+          "type": "metric",
+          "metric": "FCMAX",
+          "percent": 90,
+          "percent_max": 95,
+          "resolved": {
+            "low": 171,
+            "high": 181,
+            "unit": "bpm"
+          }
+        }
+      ],
+      "intensity": "work"
+    },
+    {
+      "kind": "step",
+      "id": "ln0kez5wp1wzdyb1p6f",
+      "duration": {
+        "value": 300,
+        "unit": "s"
+      },
+      "targets": [
+        {
+          "type": "no_target"
+        }
+      ],
+      "intensity": "cooldown"
+    },
+    {
+      "kind": "step",
+      "id": "ln0kf8h4y1mfnl1b9u",
+      "duration": {
+        "value": 480,
+        "unit": "s"
+      },
+      "targets": [
+        {
+          "type": "metric",
+          "metric": "FCMAX",
+          "percent": 90,
+          "percent_max": 95,
+          "resolved": {
+            "low": 171,
+            "high": 181,
+            "unit": "bpm"
+          }
+        }
+      ],
+      "intensity": "work"
+    },
+    {
+      "kind": "step",
+      "id": "ln0kfo7ult4akd7dx5",
+      "duration": {
+        "value": 600,
+        "unit": "s"
+      },
+      "targets": [
+        {
+          "type": "no_target"
+        }
+      ],
+      "intensity": "cooldown"
+    }
+  ],
+  "has_structured_workout": true,
+  "summary": "20' échauffement cool + **12' + 10' + 8'** \\+ 10' récup\n\nLes séries au seuil ( entre 90 et 95%fc max) , I4\n\nR : 5' ( entre les séries)\n\nA faire en terrain varié et vallonné\n\n20' Échauffement ​\n\n12' @90% - 95% FC Max (171 - 181) bpm Corps de séance​\n\n5' Récupération​\n\n10' @90% - 95% FC Max (171 - 181) bpm Corps de séance​\n\n5' Récupération​\n\n8' @90% - 95% FC Max (171 - 181) bpm Corps de séance​\n\n10' Récupération​  \n  \n  \n  \n  \n  \n  \n\n",
+  "revision": "rev_9f88121798b0d938",
+  "id": "ptrn_64YbLaFFcXVtSoa",
+  "athletes": [
+    "usr_F03NuGBUhCPwm4i"
+  ],
+  "group": null,
+  "date_start": "2026-04-21",
+  "time": null,
+  "moment": null,
+  "recurrence": null,
+  "load": {
+    "coggan": 140,
+    "coggan_source": "manual",
+    "foster": 630
+  },
+  "time_in_zones": {
+    "heartrate": [
+      {
+        "name": "Zone 4",
+        "order": 4,
+        "color": "#ff9e0d",
+        "seconds": 1800
+      }
+    ]
+  }
+}

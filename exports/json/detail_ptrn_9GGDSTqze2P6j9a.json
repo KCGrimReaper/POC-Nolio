@@ -1,0 +1,181 @@
+{
+  "name": "Déblocage :)",
+  "sport": "spt_kNYHjuEzDJRiYCX",
+  "description": "Déblocage : envi 40' footing cool avec échauffement avec 5' gammes + 3*30/30 progressif + 3' récup + 3' allure course + récup",
+  "description_html": null,
+  "duration": {
+    "value": 2220,
+    "unit": "s"
+  },
+  "distance": {
+    "value": 0.38,
+    "unit": "km"
+  },
+  "elevation_gain": null,
+  "elevation_loss": null,
+  "rpe": 3,
+  "show_rpe": false,
+  "coggan_load": 38,
+  "color": null,
+  "tags": [],
+  "workout": [
+    {
+      "kind": "step",
+      "id": "mlsf3fp4qg2ti36v3n",
+      "duration": {
+        "value": 1200,
+        "unit": "s"
+      },
+      "targets": [
+        {
+          "type": "zone",
+          "zone": 1,
+          "stream": "heartrate",
+          "resolved": {
+            "name": "Zone 1",
+            "low": 120,
+            "high": 143,
+            "unit": "bpm"
+          }
+        }
+      ]
+    },
+    {
+      "kind": "step",
+      "id": "mlsf45b0f35k7sya36g",
+      "duration": {
+        "value": 30,
+        "unit": "s"
+      },
+      "targets": [
+        {
+          "type": "zone",
+          "zone": 4,
+          "stream": "heartrate",
+          "resolved": {
+            "name": "Zone 4",
+            "low": 175,
+            "high": 182,
+            "unit": "bpm"
+          }
+        }
+      ],
+      "intensity": "work"
+    },
+    {
+      "kind": "step",
+      "id": "mlsf45arlwlp8rxwz3p",
+      "duration": {
+        "value": 30,
+        "unit": "s"
+      },
+      "targets": [
+        {
+          "type": "no_target"
+        }
+      ],
+      "intensity": "cooldown"
+    },
+    {
+      "kind": "step",
+      "id": "mlsf50cschfcms930ql",
+      "duration": {
+        "value": 180,
+        "unit": "s"
+      },
+      "targets": [
+        {
+          "type": "zone",
+          "zone": 1,
+          "stream": "heartrate",
+          "resolved": {
+            "name": "Zone 1",
+            "low": 120,
+            "high": 143,
+            "unit": "bpm"
+          }
+        }
+      ],
+      "intensity": "cooldown"
+    },
+    {
+      "kind": "step",
+      "id": "mlsf5fot7zrnlry3wz4",
+      "duration": {
+        "value": 180,
+        "unit": "s"
+      },
+      "targets": [
+        {
+          "type": "raw",
+          "value": 7,
+          "value_max": 8,
+          "unit": "km/h"
+        }
+      ]
+    },
+    {
+      "kind": "step",
+      "id": "mlsf5vjbjm6xswrx2y",
+      "duration": {
+        "value": 600,
+        "unit": "s"
+      },
+      "targets": [
+        {
+          "type": "zone",
+          "zone": 1,
+          "stream": "heartrate",
+          "resolved": {
+            "name": "Zone 1",
+            "low": 120,
+            "high": 143,
+            "unit": "bpm"
+          }
+        }
+      ],
+      "intensity": "cooldown"
+    }
+  ],
+  "has_structured_workout": true,
+  "summary": "Déblocage : envi 40' footing cool avec échauffement avec 5' gammes + 3*30/30 progressif + 3' récup + 3' allure course + récup\n\n20min @Zone 1 (120 - 143) bpm\n\n  \n\n30sec @Zone 4 (175 - 182) bpm Corps de séance\n\n30sec Récupération\n\n3min @Zone 1 (120 - 143) bpm Récupération\n\n3min (7 - 8) km/h - (08:34 - 07:30) min/km\n\n10min @Zone 1 (120 - 143) bpm Récupération\n\n",
+  "revision": "rev_55fb156e4eccb163",
+  "id": "ptrn_9GGDSTqze2P6j9a",
+  "athletes": [
+    "usr_F03NuGBUhCPwm4i"
+  ],
+  "group": null,
+  "date_start": "2026-02-28",
+  "time": null,
+  "moment": "afternoon",
+  "recurrence": null,
+  "load": {
+    "coggan": 38,
+    "coggan_source": "manual",
+    "foster": 111
+  },
+  "time_in_zones": {
+    "heartrate": [
+      {
+        "name": "Zone 1",
+        "order": 1,
+        "color": "#888888",
+        "seconds": 1980
+      },
+      {
+        "name": "Zone 4",
+        "order": 4,
+        "color": "#ff9e0d",
+        "seconds": 30
+      }
+    ],
+    "pace": [
+      {
+        "name": "Zone 1",
+        "order": 1,
+        "color": "#888888",
+        "seconds": 180
+      }
+    ]
+  }
+}

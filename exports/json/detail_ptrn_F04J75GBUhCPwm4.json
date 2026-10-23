@@ -1,0 +1,119 @@
+{
+  "name": "3 * 5' seuil",
+  "sport": "spt_kNYHjuEzDJRiYCX",
+  "description": "20 à 30' échauffement cool + 3 * 5' + 10' récup\nLes 5' à envi 90/95%fc max ( I4)\nR : 2' entre les 3 blocs\nA faire en nature, en terrain varié et vallonné",
+  "description_html": null,
+  "duration": {
+    "value": 3060,
+    "unit": "s"
+  },
+  "distance": null,
+  "elevation_gain": null,
+  "elevation_loss": null,
+  "rpe": 8,
+  "show_rpe": false,
+  "coggan_load": 98,
+  "color": null,
+  "tags": [],
+  "workout": [
+    {
+      "kind": "step",
+      "id": "l58dafb0ruya8l6j4uk",
+      "duration": {
+        "value": 1200,
+        "unit": "s"
+      },
+      "targets": [
+        {
+          "type": "no_target"
+        }
+      ],
+      "intensity": "warmup",
+      "lap_advance": true
+    },
+    {
+      "kind": "repeat",
+      "id": "3L5P801Q5XDWFSIEX599",
+      "times": 3,
+      "steps": [
+        {
+          "kind": "step",
+          "id": "l58dcnwjg6mux1vpbdo",
+          "duration": {
+            "value": 300,
+            "unit": "s"
+          },
+          "targets": [
+            {
+              "type": "metric",
+              "metric": "FCMAX",
+              "percent": 90,
+              "percent_max": 95,
+              "resolved": {
+                "low": 171,
+                "high": 181,
+                "unit": "bpm"
+              }
+            }
+          ],
+          "intensity": "work"
+        },
+        {
+          "kind": "step",
+          "id": "l58dcnws29fhgq9dry4",
+          "duration": {
+            "value": 120,
+            "unit": "s"
+          },
+          "targets": [
+            {
+              "type": "no_target"
+            }
+          ],
+          "intensity": "cooldown"
+        }
+      ]
+    },
+    {
+      "kind": "step",
+      "id": "l58ddf2jvqe06jgjfir",
+      "duration": {
+        "value": 600,
+        "unit": "s"
+      },
+      "targets": [
+        {
+          "type": "no_target"
+        }
+      ],
+      "intensity": "cooldown"
+    }
+  ],
+  "has_structured_workout": true,
+  "summary": "20 à 30' échauffement cool + **3 * 5'** \\+ 10' récup\n\nLes 5' à envi 90/95%fc max ( I4)\n\nR : 2' entre les 3 blocs\n\nA faire en nature, en terrain varié et vallonné\n\n20' Échauffement ​\n\n​  \n  \n\n-- 3x\n\n5' @90% - 95% FC Max (171 - 181) bpm Corps de séance\n\n2' Récupération\n\n--\n\n10' Récupération​  \n\n",
+  "revision": "rev_32ad7fb81aae2146",
+  "id": "ptrn_F04J75GBUhCPwm4",
+  "athletes": [
+    "usr_F03NuGBUhCPwm4i"
+  ],
+  "group": null,
+  "date_start": "2026-02-21",
+  "time": null,
+  "moment": null,
+  "recurrence": null,
+  "load": {
+    "coggan": 98,
+    "coggan_source": "manual",
+    "foster": 408
+  },
+  "time_in_zones": {
+    "heartrate": [
+      {
+        "name": "Zone 4",
+        "order": 4,
+        "color": "#ff9e0d",
+        "seconds": 900
+      }
+    ]
+  }
+}

@@ -1,0 +1,191 @@
+{
+  "name": "Déblocage :)",
+  "sport": "spt_kNYHjuEzDJRiYCX",
+  "description": "Footing cool envi 40' avec 5' gammes + 3*45/45 + 3' récup + 4' allure course + récup",
+  "description_html": null,
+  "duration": {
+    "value": 3690,
+    "unit": "s"
+  },
+  "distance": {
+    "value": 10,
+    "unit": "km"
+  },
+  "elevation_gain": null,
+  "elevation_loss": null,
+  "rpe": 3,
+  "show_rpe": false,
+  "coggan_load": 40,
+  "color": null,
+  "tags": [],
+  "workout": [
+    {
+      "kind": "step",
+      "id": "mkfjboi22ofznq4b62n",
+      "duration": {
+        "value": 2400,
+        "unit": "s"
+      },
+      "targets": [
+        {
+          "type": "zone",
+          "zone": 1,
+          "stream": "heartrate",
+          "resolved": {
+            "name": "Zone 1",
+            "low": 120,
+            "high": 143,
+            "unit": "bpm"
+          }
+        }
+      ],
+      "intensity": "work"
+    },
+    {
+      "kind": "repeat",
+      "id": "mkfjcr65pbmxxmgp2ff",
+      "times": 3,
+      "steps": [
+        {
+          "kind": "step",
+          "id": "mkfjcr6xcz9865425v7",
+          "duration": {
+            "value": 45,
+            "unit": "s"
+          },
+          "targets": [
+            {
+              "type": "metric",
+              "metric": "VMA",
+              "percent": 90,
+              "percent_max": 95,
+              "resolved": {
+                "low": 13.5,
+                "high": 14.25,
+                "unit": "km/h"
+              }
+            }
+          ],
+          "intensity": "work"
+        },
+        {
+          "kind": "step",
+          "id": "mkfjcr6okoq5tqeifig",
+          "duration": {
+            "value": 45,
+            "unit": "s"
+          },
+          "targets": [
+            {
+              "type": "no_target"
+            }
+          ],
+          "intensity": "cooldown"
+        }
+      ]
+    },
+    {
+      "kind": "step",
+      "id": "mkfjdv8u3sstxjcn4sa",
+      "duration": {
+        "value": 180,
+        "unit": "s"
+      },
+      "targets": [
+        {
+          "type": "zone",
+          "zone": 1,
+          "stream": "heartrate",
+          "resolved": {
+            "name": "Zone 1",
+            "low": 120,
+            "high": 143,
+            "unit": "bpm"
+          }
+        }
+      ],
+      "intensity": "cooldown"
+    },
+    {
+      "kind": "step",
+      "id": "mkfjebdmspd408mjeja",
+      "duration": {
+        "value": 240,
+        "unit": "s"
+      },
+      "targets": [
+        {
+          "type": "raw",
+          "value": "5:15",
+          "value_max": "5:25",
+          "unit": "/km"
+        }
+      ],
+      "intensity": "work",
+      "comment": "Allure cible course"
+    },
+    {
+      "kind": "step",
+      "id": "mkfjfsde48aerg63q8f",
+      "duration": {
+        "value": 600,
+        "unit": "s"
+      },
+      "targets": [
+        {
+          "type": "zone",
+          "zone": 1,
+          "stream": "heartrate",
+          "resolved": {
+            "name": "Zone 1",
+            "low": 120,
+            "high": 143,
+            "unit": "bpm"
+          }
+        }
+      ],
+      "intensity": "cooldown"
+    }
+  ],
+  "has_structured_workout": true,
+  "summary": "Footing cool envi 40' avec 5' gammes + 3*45/45 + 3' récup + 4' allure course + récup\n\n  \n\n40min @Zone 1 (120 - 143) bpm Corps de séance\n\n  \n\n-- 3x\n\n45sec @90% - 95% VMA (13.5 - 14.25) km/h - (04:27 - 04:13) min/km Corps de séance\n\n45sec Récupération\n\n--\n\n  \n\n3min @Zone 1 (120 - 143) bpm Récupération\n\n  \n\n4min (05:25 - 05:15) min/km - (11.08 - 11.43) km/h Corps de séance Allure cible course\n\n10min @Zone 1 (120 - 143) bpm Récupération\n\n",
+  "revision": "rev_9f316b6015a9897f",
+  "id": "ptrn_7EMbX3OgBo9OEMR",
+  "athletes": [
+    "usr_F03NuGBUhCPwm4i"
+  ],
+  "group": null,
+  "date_start": "2026-01-16",
+  "time": null,
+  "moment": null,
+  "recurrence": null,
+  "load": {
+    "coggan": 40,
+    "coggan_source": "manual",
+    "foster": 184.5
+  },
+  "time_in_zones": {
+    "heartrate": [
+      {
+        "name": "Zone 1",
+        "order": 1,
+        "color": "#888888",
+        "seconds": 3180
+      }
+    ],
+    "pace": [
+      {
+        "name": "Zone 2",
+        "order": 2,
+        "color": "#11a9ed",
+        "seconds": 240
+      },
+      {
+        "name": "Zone 4",
+        "order": 4,
+        "color": "#ff9e0d",
+        "seconds": 135
+      }
+    ]
+  }
+}

@@ -1,0 +1,170 @@
+{
+  "name": "3* 7' seuil à plat + 5* 1'/1' en côte",
+  "sport": "spt_kNYHjuEzDJRiYCX",
+  "description": "20 à 30' échauffement cool + 3* 7' seuil à plat + 5*1'/1' en côte + récup\nLes 7' à plat au seuil (I4) et les 1' çà fond (I5). R : 2' ( entre les blocs)",
+  "description_html": null,
+  "duration": {
+    "value": 4320,
+    "unit": "s"
+  },
+  "distance": null,
+  "elevation_gain": null,
+  "elevation_loss": null,
+  "rpe": 9,
+  "show_rpe": true,
+  "coggan_load": 144,
+  "color": null,
+  "tags": [],
+  "workout": [
+    {
+      "kind": "step",
+      "id": "makr1szfk9b6eecnhcf",
+      "duration": {
+        "value": 1500,
+        "unit": "s"
+      },
+      "targets": [
+        {
+          "type": "no_target"
+        }
+      ],
+      "intensity": "warmup",
+      "lap_advance": true
+    },
+    {
+      "kind": "repeat",
+      "id": "makr2t6ikcj1eg50hg",
+      "times": 3,
+      "steps": [
+        {
+          "kind": "step",
+          "id": "makr2d2gaua6716c10b",
+          "duration": {
+            "value": 420,
+            "unit": "s"
+          },
+          "targets": [
+            {
+              "type": "metric",
+              "metric": "FCMAX",
+              "percent": 90,
+              "percent_max": 95,
+              "resolved": {
+                "low": 171,
+                "high": 180,
+                "unit": "bpm"
+              }
+            }
+          ],
+          "intensity": "work"
+        },
+        {
+          "kind": "step",
+          "id": "makr2t6uaio30vi6w6s",
+          "duration": {
+            "value": 120,
+            "unit": "s"
+          },
+          "targets": [
+            {
+              "type": "no_target"
+            }
+          ],
+          "intensity": "cooldown"
+        }
+      ]
+    },
+    {
+      "kind": "repeat",
+      "id": "makr3lo156yofrndun5",
+      "times": 5,
+      "steps": [
+        {
+          "kind": "step",
+          "id": "makr349lmxdjkywq42",
+          "duration": {
+            "value": 60,
+            "unit": "s"
+          },
+          "targets": [
+            {
+              "type": "metric",
+              "metric": "PMA",
+              "percent": 95,
+              "percent_max": 100,
+              "resolved": {
+                "low": 238,
+                "high": 250,
+                "unit": "W"
+              }
+            }
+          ],
+          "intensity": "work"
+        },
+        {
+          "kind": "step",
+          "id": "makr3lodu7bu09wxuhl",
+          "duration": {
+            "value": 60,
+            "unit": "s"
+          },
+          "targets": [
+            {
+              "type": "no_target"
+            }
+          ],
+          "intensity": "cooldown"
+        }
+      ]
+    },
+    {
+      "kind": "step",
+      "id": "makr3v9iilqfm836h2q",
+      "duration": {
+        "value": 600,
+        "unit": "s"
+      },
+      "targets": [
+        {
+          "type": "no_target"
+        }
+      ],
+      "intensity": "cooldown"
+    }
+  ],
+  "has_structured_workout": true,
+  "summary": "20 à 30' échauffement cool + **3* 7' seuil à plat + 5*1'/1' en côte** \\+ récup\n\nLes 7' à plat au seuil (I4) et les 1' çà fond (I5). R : 2' ( entre les blocs)\n\n25' Échauffement\n\n-- 3x\n\n7' @90% - 95% FC Max (171 - 180) bpm Corps de séance\n\n2' Récupération\n\n--\n\n-- 5x\n\n1' @95% - 100% PMA (238 - 250) W Corps de séance\n\n1' Récupération\n\n--\n\n10' Récupération\n\n",
+  "revision": "rev_07a4269c60c37922",
+  "id": "ptrn_JvVZUXzPvTFg6js",
+  "athletes": [
+    "usr_F03NuGBUhCPwm4i"
+  ],
+  "group": null,
+  "date_start": "2026-04-07",
+  "time": null,
+  "moment": null,
+  "recurrence": null,
+  "load": {
+    "coggan": 144,
+    "coggan_source": "manual",
+    "foster": 648
+  },
+  "time_in_zones": {
+    "watts": [
+      {
+        "name": "Zone 4",
+        "order": 4,
+        "color": "#ff9e0d",
+        "seconds": 300
+      }
+    ],
+    "heartrate": [
+      {
+        "name": "Zone 4",
+        "order": 4,
+        "color": "#ff9e0d",
+        "seconds": 1260
+      }
+    ]
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "name": "Optionnel : footing cool",
+  "sport": "spt_kNYHjuEzDJRiYCX",
+  "description": "Optionnel : footing cool",
+  "description_html": null,
+  "duration": {
+    "value": 2400,
+    "unit": "s"
+  },
+  "distance": null,
+  "elevation_gain": null,
+  "elevation_loss": null,
+  "rpe": 3,
+  "show_rpe": true,
+  "coggan_load": 26,
+  "color": null,
+  "tags": [],
+  "workout": null,
+  "has_structured_workout": false,
+  "summary": null,
+  "revision": "rev_490b8c464a138adc",
+  "id": "ptrn_F0DLCqGBUhCPwm4",
+  "athletes": [
+    "usr_F03NuGBUhCPwm4i"
+  ],
+  "group": null,
+  "date_start": "2026-03-08",
+  "time": null,
+  "moment": null,
+  "recurrence": null,
+  "load": {
+    "coggan": 26,
+    "coggan_source": "manual",
+    "foster": 120
+  },
+  "time_in_zones": {}
+}

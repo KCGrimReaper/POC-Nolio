@@ -1,0 +1,122 @@
+{
+  "name": "12*35/25",
+  "sport": "spt_kNYHjuEzDJRiYCX",
+  "description": "20 à 30' échauffement cool + 12*35''/25''   + récup. Les 35'' à 95-100% ( I5)\nFais surtout \" à la sensation\" ( on rallonge la foulée)",
+  "description_html": null,
+  "duration": {
+    "value": 2820,
+    "unit": "s"
+  },
+  "distance": {
+    "value": 1.71,
+    "unit": "km"
+  },
+  "elevation_gain": null,
+  "elevation_loss": null,
+  "rpe": 6,
+  "show_rpe": false,
+  "coggan_load": null,
+  "color": null,
+  "tags": [],
+  "workout": [
+    {
+      "kind": "step",
+      "id": "l4prm7xzdw86kc7tux",
+      "duration": {
+        "value": 1500,
+        "unit": "s"
+      },
+      "targets": [
+        {
+          "type": "no_target"
+        }
+      ],
+      "intensity": "warmup",
+      "lap_advance": true
+    },
+    {
+      "kind": "repeat",
+      "id": "TQ25KW4QKUI3OS57KOLX",
+      "times": 12,
+      "steps": [
+        {
+          "kind": "step",
+          "id": "l4prmxp5vrap1r3cs1",
+          "duration": {
+            "value": 35,
+            "unit": "s"
+          },
+          "targets": [
+            {
+              "type": "metric",
+              "metric": "VMA",
+              "percent": 95,
+              "percent_max": 100,
+              "resolved": {
+                "low": 14.25,
+                "high": 15,
+                "unit": "km/h"
+              }
+            }
+          ],
+          "intensity": "work"
+        },
+        {
+          "kind": "step",
+          "id": "l4prmxpcaed1s8jkcup",
+          "duration": {
+            "value": 25,
+            "unit": "s"
+          },
+          "targets": [
+            {
+              "type": "no_target"
+            }
+          ],
+          "intensity": "cooldown"
+        }
+      ]
+    },
+    {
+      "kind": "step",
+      "id": "l4prnd2btw16cnqgjd",
+      "duration": {
+        "value": 600,
+        "unit": "s"
+      },
+      "targets": [
+        {
+          "type": "no_target"
+        }
+      ],
+      "intensity": "cooldown"
+    }
+  ],
+  "has_structured_workout": true,
+  "summary": "20 à 30' échauffement cool + **12*35''/25''** \\+ récup. Les 35'' à 95-100% ( I5)\n\nFais surtout \" à la sensation\" ( on rallonge la foulée)\n\n25' Échauffement ​\n\n​  \n\n-- 12x\n\n35'' @95% - 100% VMA (14.25 - 15) km/h - (04:13 - 04:00) min/km - (138.54 - 145.83) m Corps de séance\n\n25'' Récupération\n\n--\n\n10' Récupération​  \n\n",
+  "revision": "rev_882c7e72f247bd61",
+  "id": "ptrn_NJvoOkWcousO0Yt",
+  "athletes": [
+    "usr_F03NuGBUhCPwm4i"
+  ],
+  "group": null,
+  "date_start": "2026-03-10",
+  "time": null,
+  "moment": null,
+  "recurrence": null,
+  "load": {
+    "coggan": 54.8,
+    "coggan_source": "rpe",
+    "foster": 282
+  },
+  "time_in_zones": {
+    "pace": [
+      {
+        "name": "Zone 5",
+        "order": 5,
+        "color": "#ff0035",
+        "seconds": 420
+      }
+    ]
+  }
+}

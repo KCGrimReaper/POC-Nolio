@@ -1,0 +1,119 @@
+{
+  "name": "6 * 3' seuil",
+  "sport": "spt_kNYHjuEzDJRiYCX",
+  "description": "20 à 30' échauffement cool + 6* 3' seuil + 10' récup\nLes 3' au seuil : entre 90 et 95%fc max ( I4). A faire en terrain varié et vallonné.\nR: 1'30\"",
+  "description_html": null,
+  "duration": {
+    "value": 3720,
+    "unit": "s"
+  },
+  "distance": null,
+  "elevation_gain": null,
+  "elevation_loss": null,
+  "rpe": 8,
+  "show_rpe": true,
+  "coggan_load": 103,
+  "color": null,
+  "tags": [],
+  "workout": [
+    {
+      "kind": "step",
+      "id": "m1kaoociijkh1v8f6wn",
+      "duration": {
+        "value": 1500,
+        "unit": "s"
+      },
+      "targets": [
+        {
+          "type": "no_target"
+        }
+      ],
+      "intensity": "warmup",
+      "lap_advance": true
+    },
+    {
+      "kind": "repeat",
+      "id": "8B39TZZ0I2DWMUOKOMR1",
+      "times": 6,
+      "steps": [
+        {
+          "kind": "step",
+          "id": "m1kapc4aiy143nn5mm",
+          "duration": {
+            "value": 180,
+            "unit": "s"
+          },
+          "targets": [
+            {
+              "type": "metric",
+              "metric": "FCMAX",
+              "percent": 85,
+              "percent_max": 95,
+              "resolved": {
+                "low": 162,
+                "high": 181,
+                "unit": "bpm"
+              }
+            }
+          ],
+          "intensity": "work"
+        },
+        {
+          "kind": "step",
+          "id": "m1kapc4fdql14kt4rg",
+          "duration": {
+            "value": 90,
+            "unit": "s"
+          },
+          "targets": [
+            {
+              "type": "no_target"
+            }
+          ],
+          "intensity": "cooldown"
+        }
+      ]
+    },
+    {
+      "kind": "step",
+      "id": "m1kaplhn5yxijwj7epf",
+      "duration": {
+        "value": 600,
+        "unit": "s"
+      },
+      "targets": [
+        {
+          "type": "no_target"
+        }
+      ],
+      "intensity": "cooldown"
+    }
+  ],
+  "has_structured_workout": true,
+  "summary": "20 à 30' échauffement cool + **6***** 3' seuil** \\+ 10' récup\n\nLes 3' au seuil : entre 90 et 95%fc max ( I4). A faire en terrain varié et vallonné.\n\nR: 1'30\"\n\n25' Échauffement ​\n\n​  \n\n-- 6x\n\n3' @85% - 95% FC Max (162 - 181) bpm Corps de séance\n\n1'30\" Récupération\n\n--\n\n10' Récupération ​  \n\n  \n\n",
+  "revision": "rev_0ec5587f05b122e5",
+  "id": "ptrn_LfotXfBwH2OE1bI",
+  "athletes": [
+    "usr_F03NuGBUhCPwm4i"
+  ],
+  "group": null,
+  "date_start": "2026-01-02",
+  "time": null,
+  "moment": null,
+  "recurrence": null,
+  "load": {
+    "coggan": 103,
+    "coggan_source": "manual",
+    "foster": 496
+  },
+  "time_in_zones": {
+    "heartrate": [
+      {
+        "name": "Zone 3",
+        "order": 3,
+        "color": "#72ea24",
+        "seconds": 1080
+      }
+    ]
+  }
+}

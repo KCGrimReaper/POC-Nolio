@@ -1,0 +1,37 @@
+{
+  "name": "Sortie rando/trail",
+  "sport": "spt_kNYHjuEzDJRiYCX",
+  "description": "Sortie rando/trail tranquille ( si possible au moins 3h si tu peux :) et si tu t'approches des 3h30 c'est top ;))",
+  "description_html": null,
+  "duration": {
+    "value": 11700,
+    "unit": "s"
+  },
+  "distance": null,
+  "elevation_gain": null,
+  "elevation_loss": null,
+  "rpe": 3,
+  "show_rpe": true,
+  "coggan_load": 130,
+  "color": null,
+  "tags": [],
+  "workout": null,
+  "has_structured_workout": false,
+  "summary": null,
+  "revision": "rev_d0f778f85ced9428",
+  "id": "ptrn_NJlHN7WcousO0Yt",
+  "athletes": [
+    "usr_F03NuGBUhCPwm4i"
+  ],
+  "group": null,
+  "date_start": "2026-01-18",
+  "time": null,
+  "moment": null,
+  "recurrence": null,
+  "load": {
+    "coggan": 130,
+    "coggan_source": "manual",
+    "foster": 585
+  },
+  "time_in_zones": {}
+}

@@ -1,0 +1,119 @@
+{
+  "name": "3 *20' en côte( 15' montée/5' descente)",
+  "sport": "spt_kNYHjuEzDJRiYCX",
+  "description": "20 à 30' échauffement cool + en côte : 3 * 20' + récup\nLes séries proche I3 \" tempo\". A faire en côte ( possibilité d'alterner marche rapide et course). 15' montée tempo+ 5' descente rapide\nR : 6'",
+  "description_html": null,
+  "duration": {
+    "value": 6780,
+    "unit": "s"
+  },
+  "distance": null,
+  "elevation_gain": null,
+  "elevation_loss": null,
+  "rpe": 9,
+  "show_rpe": false,
+  "coggan_load": 226,
+  "color": null,
+  "tags": [],
+  "workout": [
+    {
+      "kind": "step",
+      "id": "l59vwhyk3273o9mg4t4",
+      "duration": {
+        "value": 1500,
+        "unit": "s"
+      },
+      "targets": [
+        {
+          "type": "no_target"
+        }
+      ],
+      "intensity": "warmup",
+      "lap_advance": true
+    },
+    {
+      "kind": "repeat",
+      "id": "MRO0YWHGEE8SYQ0EU1V9",
+      "times": 3,
+      "steps": [
+        {
+          "kind": "step",
+          "id": "l59vxbl6ak180epywn",
+          "duration": {
+            "value": 1200,
+            "unit": "s"
+          },
+          "targets": [
+            {
+              "type": "metric",
+              "metric": "FCMAX",
+              "percent": 85,
+              "percent_max": 90,
+              "resolved": {
+                "low": 162,
+                "high": 171,
+                "unit": "bpm"
+              }
+            }
+          ],
+          "intensity": "work"
+        },
+        {
+          "kind": "step",
+          "id": "l59vxblec5vqizcup4l",
+          "duration": {
+            "value": 360,
+            "unit": "s"
+          },
+          "targets": [
+            {
+              "type": "no_target"
+            }
+          ],
+          "intensity": "cooldown"
+        }
+      ]
+    },
+    {
+      "kind": "step",
+      "id": "l59vy7wdb0h2dan3elt",
+      "duration": {
+        "value": 600,
+        "unit": "s"
+      },
+      "targets": [
+        {
+          "type": "no_target"
+        }
+      ],
+      "intensity": "cooldown"
+    }
+  ],
+  "has_structured_workout": true,
+  "summary": "20 à 30' échauffement cool + **en côte : 3 * 20'** \\+ récup\n\nLes séries proche I3 \" tempo\". A faire en côte ( possibilité d'alterner marche rapide et course). 15' montée tempo+ 5' descente rapide\n\nR : 6'\n\n25' Échauffement ​\n\n​  \n  \n\n-- 3x\n\n20' @85% - 90% FC Max (162 - 171) bpm Corps de séance\n\n6' Récupération\n\n--\n\n10' Récupération​  \n\n",
+  "revision": "rev_d60d73928f2ef2a9",
+  "id": "ptrn_LMG6vyBwH2OE1bI",
+  "athletes": [
+    "usr_F03NuGBUhCPwm4i"
+  ],
+  "group": null,
+  "date_start": "2026-04-30",
+  "time": null,
+  "moment": null,
+  "recurrence": null,
+  "load": {
+    "coggan": 226,
+    "coggan_source": "manual",
+    "foster": 1017
+  },
+  "time_in_zones": {
+    "heartrate": [
+      {
+        "name": "Zone 3",
+        "order": 3,
+        "color": "#72ea24",
+        "seconds": 3600
+      }
+    ]
+  }
+}

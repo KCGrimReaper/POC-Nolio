@@ -1,0 +1,122 @@
+{
+  "name": "12*35/25",
+  "sport": "spt_kNYHjuEzDJRiYCX",
+  "description": "20 à 30' échauffement cool + 12*35''/25''   + récup. Les 35'' à 95-100% vma et récup\nFais surtout \" à la sensation\". A faire en terrain varié et vallonné",
+  "description_html": null,
+  "duration": {
+    "value": 3000,
+    "unit": "s"
+  },
+  "distance": {
+    "value": 1.42,
+    "unit": "km"
+  },
+  "elevation_gain": null,
+  "elevation_loss": null,
+  "rpe": 6,
+  "show_rpe": false,
+  "coggan_load": null,
+  "color": null,
+  "tags": [],
+  "workout": [
+    {
+      "kind": "step",
+      "id": "l4prm7xzdw86kc7tux",
+      "duration": {
+        "value": 1500,
+        "unit": "s"
+      },
+      "targets": [
+        {
+          "type": "no_target"
+        }
+      ],
+      "intensity": "warmup",
+      "lap_advance": true
+    },
+    {
+      "kind": "repeat",
+      "id": "F7WT4A9VE6NZ7CE2RZFE",
+      "times": 10,
+      "steps": [
+        {
+          "kind": "step",
+          "id": "l4prmxp5vrap1r3cs1",
+          "duration": {
+            "value": 35,
+            "unit": "s"
+          },
+          "targets": [
+            {
+              "type": "metric",
+              "metric": "VMA",
+              "percent": 95,
+              "percent_max": 100,
+              "resolved": {
+                "low": 14.25,
+                "high": 15,
+                "unit": "km/h"
+              }
+            }
+          ],
+          "intensity": "work"
+        },
+        {
+          "kind": "step",
+          "id": "l4prmxpcaed1s8jkcup",
+          "duration": {
+            "value": 25,
+            "unit": "s"
+          },
+          "targets": [
+            {
+              "type": "no_target"
+            }
+          ],
+          "intensity": "cooldown"
+        }
+      ]
+    },
+    {
+      "kind": "step",
+      "id": "l4prnd2btw16cnqgjd",
+      "duration": {
+        "value": 900,
+        "unit": "s"
+      },
+      "targets": [
+        {
+          "type": "no_target"
+        }
+      ],
+      "intensity": "cooldown"
+    }
+  ],
+  "has_structured_workout": true,
+  "summary": "20 à 30' échauffement cool + **12*35''/25''** \\+ récup. Les 35'' à 95-100% vma et récup\n\nFais surtout \" à la sensation\". A faire en terrain varié et vallonné\n\n25' Échauffement ​\n\n​  \n  \n\n-- 10x\n\n35'' @95% - 100% VMA (14.25 - 15) km/h - (04:13 - 04:00) min/km - (138.54 - 145.83) m Corps de séance\n\n25'' Récupération\n\n--\n\n15' Récupération​  \n\n",
+  "revision": "rev_e763f62a2e5c5ebf",
+  "id": "ptrn_3ftPGVLAdN5P0xM",
+  "athletes": [
+    "usr_F03NuGBUhCPwm4i"
+  ],
+  "group": null,
+  "date_start": "2026-06-23",
+  "time": null,
+  "moment": null,
+  "recurrence": null,
+  "load": {
+    "coggan": 58.3,
+    "coggan_source": "rpe",
+    "foster": 300
+  },
+  "time_in_zones": {
+    "pace": [
+      {
+        "name": "Zone 5",
+        "order": 5,
+        "color": "#ff0035",
+        "seconds": 350
+      }
+    ]
+  }
+}

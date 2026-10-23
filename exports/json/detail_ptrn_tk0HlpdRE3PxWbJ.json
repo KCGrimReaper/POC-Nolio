@@ -1,0 +1,37 @@
+{
+  "name": "Sortie trail tranquille",
+  "sport": "spt_kNYHjuEzDJRiYCX",
+  "description": "Sortie trail tranquille envi 2h30",
+  "description_html": null,
+  "duration": {
+    "value": 9000,
+    "unit": "s"
+  },
+  "distance": null,
+  "elevation_gain": null,
+  "elevation_loss": null,
+  "rpe": 3,
+  "show_rpe": true,
+  "coggan_load": 100,
+  "color": null,
+  "tags": [],
+  "workout": null,
+  "has_structured_workout": false,
+  "summary": null,
+  "revision": "rev_a8af5ccfcee84c0d",
+  "id": "ptrn_tk0HlpdRE3PxWbJ",
+  "athletes": [
+    "usr_F03NuGBUhCPwm4i"
+  ],
+  "group": null,
+  "date_start": "2025-12-20",
+  "time": null,
+  "moment": null,
+  "recurrence": null,
+  "load": {
+    "coggan": 100,
+    "coggan_source": "manual",
+    "foster": 450
+  },
+  "time_in_zones": {}
+}

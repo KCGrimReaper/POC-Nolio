@@ -1,0 +1,119 @@
+{
+  "name": "Renfo ( éducatifs en côte) + pma 30\"",
+  "sport": "spt_kNYHjuEzDJRiYCX",
+  "description": "20 à 30' échauffement cool avec 5' gammes + en côte : 10* (30\" montée de genoux + 30\" foulées bondissantes + 30\" sprint) + récup\nLes exercices sont à faire en montant la côte, de façon dynamique et en continu ( 1'30\" d'effort continu en bosse). R : 1' en descente",
+  "description_html": null,
+  "duration": {
+    "value": 3600,
+    "unit": "s"
+  },
+  "distance": null,
+  "elevation_gain": null,
+  "elevation_loss": null,
+  "rpe": 8,
+  "show_rpe": true,
+  "coggan_load": 100,
+  "color": null,
+  "tags": [],
+  "workout": [
+    {
+      "kind": "step",
+      "id": "lox11k5rzajoig4v56l",
+      "duration": {
+        "value": 1500,
+        "unit": "s"
+      },
+      "targets": [
+        {
+          "type": "no_target"
+        }
+      ],
+      "intensity": "warmup",
+      "lap_advance": true
+    },
+    {
+      "kind": "repeat",
+      "id": "5ZML7L534E87V6BI3KSU",
+      "times": 10,
+      "steps": [
+        {
+          "kind": "step",
+          "id": "lox13fwvujs4jow0jg",
+          "duration": {
+            "value": 90,
+            "unit": "s"
+          },
+          "targets": [
+            {
+              "type": "metric",
+              "metric": "PMA",
+              "percent": 90,
+              "percent_max": 100,
+              "resolved": {
+                "low": 225,
+                "high": 250,
+                "unit": "W"
+              }
+            }
+          ],
+          "intensity": "work"
+        },
+        {
+          "kind": "step",
+          "id": "lox13fx12muoitfeayk",
+          "duration": {
+            "value": 60,
+            "unit": "s"
+          },
+          "targets": [
+            {
+              "type": "no_target"
+            }
+          ],
+          "intensity": "cooldown"
+        }
+      ]
+    },
+    {
+      "kind": "step",
+      "id": "lox13rzm2wooo0qgkbh",
+      "duration": {
+        "value": 600,
+        "unit": "s"
+      },
+      "targets": [
+        {
+          "type": "no_target"
+        }
+      ],
+      "intensity": "cooldown"
+    }
+  ],
+  "has_structured_workout": true,
+  "summary": "20 à 30' échauffement cool avec 5' gammes + **en côte : 10* (30\" montée de genoux + 30\" foulées bondissantes + 30\" sprint)** \\+ récup\n\nLes exercices sont à faire en montant la côte, de façon dynamique et en continu ( 1'30\" d'effort continu en bosse). R : 1' en descente\n\n25' Échauffement ​\n\n​  \n  \n\n-- 10x\n\n1'30\" @90% - 100% PMA (225 - 250) W Corps de séance\n\n1' Récupération\n\n--\n\n10' Récupération​  \n\n  \n\n",
+  "revision": "rev_473db7aac6912572",
+  "id": "ptrn_8yJZVxkfia7SvLr",
+  "athletes": [
+    "usr_F03NuGBUhCPwm4i"
+  ],
+  "group": null,
+  "date_start": "2026-03-12",
+  "time": null,
+  "moment": null,
+  "recurrence": null,
+  "load": {
+    "coggan": 100,
+    "coggan_source": "manual",
+    "foster": 480
+  },
+  "time_in_zones": {
+    "watts": [
+      {
+        "name": "Zone 4",
+        "order": 4,
+        "color": "#ff9e0d",
+        "seconds": 900
+      }
+    ]
+  }
+}
