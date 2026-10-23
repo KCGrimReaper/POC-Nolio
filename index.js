@@ -12,7 +12,12 @@ const fetchWorkoutDetail = async (id, token) => {
       }
     });
     if (response.ok) {
-      return await response.json();
+      const data = await response.json();
+      // Affiche toutes les clés disponibles dans le détail de la séance
+      console.log(`\n🔍 Clés dispo pour ${id}:`, Object.keys(data));
+      // Affiche le JSON complet pour qu'on voie où sont les blocs
+      console.log(JSON.stringify(data, null, 2));
+      return data;
     }
   } catch (error) {
     console.error(`Erreur fetch detail pour ${id} :`, error.message);
