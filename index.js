@@ -114,7 +114,7 @@ const fetchNolioData = async () => {
     process.exit(1);
   }
 
-  const dateFrom = '2026-10-01';
+  const dateFrom = '2025-12-01';
   const dateTo = '2026-10-31';
   const url = `https://www.nolio.io/api/v2/planned/trainings/?date_from=${dateFrom}&date_to=${dateTo}`;
 
