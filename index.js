@@ -6,10 +6,10 @@ const fetchNolioData = async () => {
     process.exit(1);
   }
 
-  // Bon endpoint de l'API Nolio pour les séances planifiées
-  const url = 'https://www.nolio.io/api/get/planned/training/?from=2026-10-01&to=2026-10-31';
+  // Base URL v2 avec le slash final obligatoire pour éviter le 404
+  const url = 'https://www.nolio.io/api/v2/me/';
 
-  console.log(`Tentative de requête vers ${url}...`);
+  console.log(`Tentative de requête v2 vers ${url}...`);
 
   try {
     const response = await fetch(url, {
