@@ -27,11 +27,11 @@ jobs:
           NOLIO_TOKEN: ${{ secrets.NOLIO_TOKEN }}
         run: npm start
 
-      - name: Commit and push CSV report
+      - name: Commit and push reports
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git pull origin main --rebase
-          git add exports/workouts_*.csv
+          git add exports/
           git commit -m "Add automatic workouts CSV export" || echo "No changes to commit"
           git push
