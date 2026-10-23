@@ -32,4 +32,4 @@ jobs:
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: "Add automatic workouts CSV export"
-          file_pattern: "workouts_*.csv"
+          file_pattern: "exports/workouts_*.csv"
