@@ -6,10 +6,12 @@ const fetchNolioData = async () => {
     process.exit(1);
   }
 
-  // Base URL v2 avec le slash final obligatoire pour éviter le 404
-  const url = 'https://www.nolio.io/api/v2/me/';
+  const startDate = '2026-10-01';
+  const endDate = '2026-10-31';
+  // Endpoint v2 pour les séances planifiées avec les bons paramètres et le slash final
+  const url = `https://www.nolio.io/api/v2/workouts/planned/?from=${startDate}&to=${endDate}`;
 
-  console.log(`Tentative de requête v2 vers ${url}...`);
+  console.log(`Interrogation des séances planifiées du ${startDate} au ${endDate}...`);
 
   try {
     const response = await fetch(url, {
@@ -22,7 +24,7 @@ const fetchNolioData = async () => {
 
     console.log(`Statut HTTP reçu : ${response.status} ${response.statusText}`);
     const text = await response.text();
-    console.log("Réponse du serveur :", text);
+    console.log("Données récupérées :", text);
 
   } catch (error) {
     console.error("Erreur de fetch détaillée :", error.cause || error.message);
