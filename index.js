@@ -6,31 +6,30 @@ const fetchNolioData = async () => {
     process.exit(1);
   }
 
-  const startDate = '2026-10-01';
-  const endDate = '2026-10-31';
-  const url = `https://api.nolio.io/api/v2/workouts/planned?from=${startDate}&to=${endDate}`;
+  // Utilisation de l'URL de base officielle de l'API Nolio
+  const url = 'https://www.nolio.io/api/v1/user/'; // ou l'endpoint de test de base
 
-  console.log(`Interrogation de l'URL : ${url}`);
+  console.log(`Tentative de connexion à l'API Nolio...`);
 
   try {
     const response = await fetch(url, {
       method: 'GET',
       headers: {
         'Authorization': `Bearer ${token}`,
-        'Accept': 'application/json'
+        'Accept': 'application/json',
+        'User-Agent': 'POC-Nolio-Script'
       }
     });
 
-    console.log(`Statut de la réponse : ${response.status} ${response.statusText}`);
-
-    const responseText = await response.text();
-    console.log("Corps de la réponse brute :", responseText);
+    console.log(`Statut HTTP reçu : ${response.status} ${response.statusText}`);
+    const text = await response.text();
+    console.log("Réponse du serveur :", text);
 
     if (!response.ok) {
       throw new Error(`Erreur HTTP : ${response.status}`);
     }
   } catch (error) {
-    console.error("Échec de la requête Nolio :", error.message);
+    console.error("Échec critique de la requête réseau :", error);
     process.exit(1);
   }
 };
