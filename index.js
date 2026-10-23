@@ -57,7 +57,10 @@ const fetchNolioData = async () => {
       csvContent += `"${workout.date_start}";"${name}";"${description}";"${durationStr}"\n`;
     });
 
-    // Génération du nom de fichier directement dans ton dossier 'exports' existant
+    // Création automatique du dossier 'exports' s'il n'existe pas pour éviter l'erreur ENOENT
+    await fs.mkdir('exports', { recursive: true });
+
+    // Génération d'un nom de fichier avec la date et l'heure dans le dossier exports
     const now = new Date();
     const timestamp = now.toISOString().replace(/[:.]/g, '-').slice(0, 19);
     const fileName = `exports/workouts_${timestamp}.csv`;
