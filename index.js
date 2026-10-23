@@ -6,8 +6,8 @@ const fetchNolioData = async () => {
     process.exit(1);
   }
 
-  // Utilisation d'un endpoint valide de l'API v2 (ex: profil ou séances)
-  const url = 'https://api.nolio.io/api/v2/user/me';
+  // Bonne URL de base officielle
+  const url = 'https://www.nolio.io/api/v2/workouts/planned?from=2026-10-01&to=2026-10-31';
 
   console.log(`Tentative de requête vers ${url}...`);
 
