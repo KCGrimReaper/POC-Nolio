@@ -1,0 +1,38 @@
+name: Export Nolio Workouts
+
+on:
+  workflow_dispatch: # Permet de lancer l'action manuellement depuis l'onglet Actions de GitHub
+  schedule:
+    - cron: '0 6 * * *' # Optionnel : exécution automatique tous les jours à 6h00 UTC
+
+jobs:
+  run-export:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write # Indispensable pour autoriser le bot à faire un git push sur le dépôt
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Run Nolio export script
+        env:
+          NOLIO_TOKEN: ${{ secrets.NOLIO_TOKEN }}
+        node index.js
+
+      - name: Commit and push exports
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git pull origin main --rebase
+          git add exports/
+          git commit -m "Add automatic workouts CSV and JSON exports" || echo "No changes to commit"
+          git push
