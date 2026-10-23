@@ -6,27 +6,23 @@ const fetchNolioData = async () => {
     process.exit(1);
   }
 
-  // ==========================================
-  // 1. C'EST ICI QUE TU METS TON URL ET TES PARAMÈTRES
-  // ==========================================
-  const startDate = '2026-10-01';
-const endDate = '2026-10-31';
-const url = `https://www.nolio.io/api/v2/planned/trainings/?date_from=${startDate}&date_to=${endDate}`;
+  // 1. Les paramètres de requête (issus de Query Parameters dans Scalar)
+  const dateFrom = '2026-10-01';
+  const dateTo = '2026-10-31';
+
+  // 2. L'URL exacte de l'endpoint (issue de la barre de recherche Scalar) avec les paramètres date_from et date_to
+  const url = `https://www.nolio.io/api/v2/planned/trainings/?date_from=${dateFrom}&date_to=${dateTo}`;
 
   console.log(`Exécution de la requête vers : ${url}`);
 
   try {
-    // ==========================================
-    // 2. C'EST ICI QUE TU CONFIGURES LA MÉTHODE (GET / POST)
-    // ==========================================
+    // 3. Le fetch avec la méthode GET et les en-têtes d'authentification (Bearer Token)
     const response = await fetch(url, {
-      method: 'GET', // Mets 'POST' si tu envoies des données, 'GET' pour les récupérer
+      method: 'GET',
       headers: {
-        'Authorization': `Bearer ${token}`,
-        'Accept': 'application/json'
+        'Authorization': `Bearer ${token}`, // Correspond au Bearer Token de Scalar
+        'Accept': 'application/json'          // Correspond au header 'accept' de Scalar
       }
-      // Si tu fais un POST, tu ajouterais une ligne body ici :
-      // body: JSON.stringify({ ... })
     });
 
     console.log(`Statut HTTP reçu : ${response.status} ${response.statusText}`);
