@@ -1,6 +1,6 @@
 import fs from 'fs/promises';
 
-// Fonction pour récupérer le détail complet d'une séance via son ID
+// Fonction pour récupérer et sauvegarder le détail complet de chaque séance
 const fetchWorkoutDetail = async (id, token) => {
   const url = `https://www.nolio.io/api/v2/planned/trainings/${id}/`;
   try {
@@ -14,9 +14,8 @@ const fetchWorkoutDetail = async (id, token) => {
     if (response.ok) {
       const data = await response.json();
       
-      // Sauvegarde directe dans un fichier dans le dossier exports
-      await fs.writeFile('exports/debug_detail.json', JSON.stringify(data, null, 2), 'utf8');
-      console.log(`Détail de la séance sauvegardé dans exports/debug_detail.json`);
+      // Sauvegarde d'un fichier JSON unique par séance pour pouvoir l'inspecter
+      await fs.writeFile(`exports/detail_${id}.json`, JSON.stringify(data, null, 2), 'utf8');
       
       return data;
     }
@@ -61,10 +60,11 @@ const fetchNolioData = async () => {
     const workouts = jsonResponse.data;
     console.log(`Nombre de séances trouvées : ${workouts.length}`);
 
-    // \uFEFF (BOM UTF-8) force Excel à reconnaître les accents
-    let csvContent = "\uFEFFDate;Nom;Description;Durée;Détail Structuré\n";
+    // Création automatique du dossier 'exports' s'il n'existe pas
+    await fs.mkdir('exports', { recursive: true });
 
-    // On boucle sur chaque séance de la liste pour aller chercher son vrai contenu détaillé
+    let csvContent = "\uFEFFDate;Nom;Description;Durée;Détail Brut JSON\n";
+
     for (const workout of workouts) {
       console.log(`Récupération du détail pour : ${workout.name} (${workout.id})`);
       const detail = await fetchWorkoutDetail(workout.id, token);
@@ -77,21 +77,18 @@ const fetchNolioData = async () => {
       const name = (workout.name || '').replace(/[\r\n]+/g, ' ');
       const description = (workout.description || 'Aucune').replace(/[\r\n]+/g, ' ');
 
-      // Extraction du détail structuré si présent
-      const structuredInfo = detail && detail.structured ? JSON.stringify(detail.structured).replace(/[\r\n]+/g, ' ') : '';
+      // On met tout le contenu du détail en JSON dans la colonne pour voir ce qu'il y a dedans
+      const fullDetailStr = detail ? JSON.stringify(detail).replace(/[\r\n]+/g, ' ').replace(/"/g, '""') : '';
 
-      csvContent += `"${workout.date_start}";"${name}";"${description}";"${durationStr}";"${structuredInfo}"\n`;
+      csvContent += `"${workout.date_start}";"${name}";"${description}";"${durationStr}";"${fullDetailStr}"\n`;
     }
-
-    // Création automatique du dossier 'exports' s'il n'existe pas
-    await fs.mkdir('exports', { recursive: true });
 
     const now = new Date();
     const timestamp = now.toISOString().replace(/[:.]/g, '-').slice(0, 19);
     const fileName = `exports/workouts_${timestamp}.csv`;
 
     await fs.writeFile(fileName, csvContent, 'utf8');
-    console.log(`Fichier '${fileName}' généré avec succès avec tous les détails.`);
+    console.log(`Fichier '${fileName}' généré avec succès.`);
 
   } catch (error) {
     console.error("Erreur de fetch détaillée :", error.message);
