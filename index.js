@@ -27,7 +27,6 @@ const cleanText = (str) => {
   return String(str).replace(/"/g, '""').replace(/[\r\n]+/g, ' ').trim();
 };
 
-// Fonction pour nettoyer le nom de la séance pour en faire un nom de fichier valide
 const cleanFilename = (str) => {
   if (!str) return 'seance';
   return str
@@ -38,13 +37,11 @@ const cleanFilename = (str) => {
     .replace(/^_|_$/g, '');
 };
 
-// Fonction de conversion des secondes en format lisible (ex: 600s -> 10', 20s -> 20")
 const formatDuration = (value, unit) => {
   if (value === undefined || value === null || value === '') return '';
   let num = parseInt(value, 10);
   if (isNaN(num)) return `${value}${unit || ''}`;
 
-  // Si l'unité d'origine est en secondes (s)
   if (unit === 's') {
     if (num >= 60) {
       const mins = Math.floor(num / 60);
@@ -78,6 +75,7 @@ const formatStepsMarkdown = (stepsArray, depth = 0) => {
         const t = item.targets[0];
         if (t.type === 'metric') {
           const metricName = t.metric || '';
+          
           let percentPart = '';
           if (t.percent !== undefined && t.percent !== null) {
             if (t.percent_max !== undefined && t.percent_max !== null && t.percent_max !== t.percent) {
@@ -86,6 +84,8 @@ const formatStepsMarkdown = (stepsArray, depth = 0) => {
               percentPart = ` ${t.percent}%`;
             }
           }
+          
+          // Récupération des valeurs absolues (ex: 250 W ou 171-180 bpm)
           let resolvedPart = '';
           if (t.resolved) {
             const low = t.resolved.low;
@@ -97,6 +97,7 @@ const formatStepsMarkdown = (stepsArray, depth = 0) => {
               resolvedPart = ` (${low} ${unit})`;
             }
           }
+
           targetStr = `${metricName}${percentPart}${resolvedPart}`.trim();
         }
       }
@@ -149,11 +150,13 @@ const fetchNolioData = async () => {
       const name = cleanText(workout.name);
       const description = workout.description || 'Aucune description';
 
+      // Construction de la fiche Markdown avec la Date placée avant la Durée
       let mdSheet = `WS COACHING\n`;
       mdSheet += `Ton entraîneur\n`;
       mdSheet += `William Sandy Wscoaching 63 - Wscoaching63@gmail.com - 0637421016\n`;
       mdSheet += `Vallonné - Course à pied\n\n`;
       mdSheet += `✓ Séance structurée envoyée vers Suunto app\n\n`;
+      mdSheet += `**Date :** ${workout.date_start}  \n`;
       mdSheet += `**Durée :** ${durationFormatted}  \n`;
       mdSheet += `**Allure :** 5'25/km - 11.08 km/h  \n`;
       mdSheet += `**Distance :** ${distanceKm}  \n`;
@@ -203,7 +206,6 @@ const fetchNolioData = async () => {
 
       mdSheet += `\nConçu avec Nolio\nwww.nolio.io\nnöliö\n`;
       
-      // Nom du fichier personnalisé avec date + nom de la séance
       const safeFileName = cleanFilename(workout.name);
       await fs.writeFile(`exports/md/${workout.date_start}_${safeFileName}.md`, mdSheet, 'utf8');
     }
@@ -211,7 +213,7 @@ const fetchNolioData = async () => {
     const now = new Date();
     const timestamp = now.toISOString().replace(/[:.]/g, '-').slice(0, 19);
     await fs.writeFile(`exports/csv/workouts_${timestamp}.csv`, csvContent, 'utf8');
-    console.log(`Fichiers générés et convertis avec succès dans exports/csv/ et exports/md/ !`);
+    console.log(`Fichiers générés avec succès !`);
 
   } catch (error) {
     console.error("Erreur :", error.message);
