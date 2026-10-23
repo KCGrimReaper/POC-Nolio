@@ -1,0 +1,264 @@
+{
+  "name": "Bosse: 4*20/20 + 4*30/30 + 4*45/45 +2* 5' seuil + Récup",
+  "sport": "spt_kNYHjuEzDJRiYCX",
+  "description": "20 à 30' échauffement cool + en côte : 4*20/20 + 4 *30/30 + 4*45/45 + 2* 5' seuil à plat + récup\nSéance en bosse et récup descente. Et les 5' à plat ( ou un peu vallonné)\nLes séries : I5 et les 5' au seuil ( I4); R : 2'30\"",
+  "description_html": null,
+  "duration": {
+    "value": 3715,
+    "unit": "s"
+  },
+  "distance": null,
+  "elevation_gain": null,
+  "elevation_loss": null,
+  "rpe": 7,
+  "show_rpe": true,
+  "coggan_load": 68,
+  "color": null,
+  "tags": [],
+  "workout": [
+    {
+      "kind": "step",
+      "id": "lyr6453ids15wn1iaq",
+      "duration": {
+        "value": 1200,
+        "unit": "s"
+      },
+      "targets": [
+        {
+          "type": "no_target"
+        }
+      ],
+      "intensity": "warmup",
+      "lap_advance": true
+    },
+    {
+      "kind": "repeat",
+      "id": "W4F5R8IY82T1T8BKKXU5",
+      "times": 4,
+      "steps": [
+        {
+          "kind": "step",
+          "id": "lyr66mja1ko9nt8c1xm",
+          "duration": {
+            "value": 20,
+            "unit": "s"
+          },
+          "targets": [
+            {
+              "type": "metric",
+              "metric": "PMA",
+              "percent": 100,
+              "resolved": {
+                "value": 250,
+                "unit": "W"
+              }
+            }
+          ],
+          "intensity": "work"
+        },
+        {
+          "kind": "step",
+          "id": "lyr66mjedv46lk5edgh",
+          "duration": {
+            "value": 20,
+            "unit": "s"
+          },
+          "targets": [
+            {
+              "type": "no_target"
+            }
+          ],
+          "intensity": "cooldown"
+        }
+      ]
+    },
+    {
+      "kind": "repeat",
+      "id": "OJDA26PXS8DEQ4Q298D6",
+      "times": 4,
+      "steps": [
+        {
+          "kind": "step",
+          "id": "lyr66zi5zl45l9bbwfs",
+          "duration": {
+            "value": 30,
+            "unit": "s"
+          },
+          "targets": [
+            {
+              "type": "metric",
+              "metric": "PMA",
+              "percent": 100,
+              "resolved": {
+                "value": 250,
+                "unit": "W"
+              }
+            }
+          ],
+          "intensity": "work"
+        },
+        {
+          "kind": "step",
+          "id": "lyr66zib69t3xvup3f9",
+          "duration": {
+            "value": 30,
+            "unit": "s"
+          },
+          "targets": [
+            {
+              "type": "no_target"
+            }
+          ],
+          "intensity": "cooldown"
+        }
+      ]
+    },
+    {
+      "kind": "repeat",
+      "id": "BLLFWNQTDMI9W8FSHIY0",
+      "times": 4,
+      "steps": [
+        {
+          "kind": "step",
+          "id": "lyr67fv2hu27gr4hw6",
+          "duration": {
+            "value": 45,
+            "unit": "s"
+          },
+          "targets": [
+            {
+              "type": "metric",
+              "metric": "PMA",
+              "percent": 95,
+              "resolved": {
+                "value": 238,
+                "unit": "W"
+              }
+            }
+          ],
+          "intensity": "work"
+        },
+        {
+          "kind": "step",
+          "id": "lyr67fv87sodpu0rwh4",
+          "duration": {
+            "value": 45,
+            "unit": "s"
+          },
+          "targets": [
+            {
+              "type": "no_target"
+            }
+          ],
+          "intensity": "cooldown"
+        }
+      ]
+    },
+    {
+      "kind": "step",
+      "id": "lzi7qtecvfntz4ctqsl",
+      "duration": {
+        "value": 255,
+        "unit": "s"
+      },
+      "targets": [
+        {
+          "type": "no_target"
+        }
+      ],
+      "intensity": "cooldown"
+    },
+    {
+      "kind": "repeat",
+      "id": "mv6pbofi7m28nfq4zv9",
+      "times": 2,
+      "steps": [
+        {
+          "kind": "step",
+          "id": "mv6pbcvtcm9fdrpuxj",
+          "duration": {
+            "value": 300,
+            "unit": "s"
+          },
+          "targets": [
+            {
+              "type": "metric",
+              "metric": "FCMAX",
+              "percent": 90,
+              "percent_max": 95,
+              "resolved": {
+                "low": 171,
+                "high": 180,
+                "unit": "bpm"
+              }
+            }
+          ]
+        },
+        {
+          "kind": "step",
+          "id": "mv6pbofiblr4h4gcwfa",
+          "duration": {
+            "value": 150,
+            "unit": "s"
+          },
+          "targets": [
+            {
+              "type": "no_target"
+            }
+          ],
+          "intensity": "cooldown"
+        }
+      ]
+    },
+    {
+      "kind": "step",
+      "id": "lyr67l35kpgmf1ilo3q",
+      "duration": {
+        "value": 600,
+        "unit": "s"
+      },
+      "targets": [
+        {
+          "type": "no_target"
+        }
+      ],
+      "intensity": "cooldown",
+      "comment": "Retour au calme"
+    }
+  ],
+  "has_structured_workout": true,
+  "summary": "20 à 30' échauffement cool + **en côte : 4*20/20 + 4 *30/30 + 4*45/45 + 2* 5' seuil à plat** \\+ récup\n\nSéance en bosse et récup descente. Et les 5' à plat ( ou un peu vallonné)\n\nLes séries : I5 et les 5' au seuil ( I4); R : 2'30\"\n\n20' Échauffement ​\n\n​​\n\n-- 4x\n\n20'' @100% PMA 250 W Corps de séance\n\n20'' Récupération\n\n--\n\n​  \n\n-- 4x\n\n30'' @100% PMA 250 W Corps de séance\n\n30'' Récupération\n\n--\n\n​  \n\n-- 4x\n\n45'' @95% PMA 238 W Corps de séance\n\n45'' Récupération\n\n--\n\n4'15 Récupération ​\n\n​  \n  \n\n-- 2x\n\n5' @90% - 95% FC Max (171 - 180) bpm\n\n2'30\" Récupération\n\n--\n\n10' Récupération Retour au calme ​  \n\n",
+  "revision": "rev_542c222b60dbac24",
+  "id": "ptrn_YWMqFurHS7jgV5v",
+  "athletes": [
+    "usr_F03NuGBUhCPwm4i"
+  ],
+  "group": null,
+  "date_start": "2026-10-22",
+  "time": null,
+  "moment": null,
+  "recurrence": null,
+  "load": {
+    "coggan": 68,
+    "coggan_source": "manual",
+    "foster": 433.4
+  },
+  "time_in_zones": {
+    "watts": [
+      {
+        "name": "Zone 4",
+        "order": 4,
+        "color": "#ff9e0d",
+        "seconds": 380
+      }
+    ],
+    "heartrate": [
+      {
+        "name": "Zone 4",
+        "order": 4,
+        "color": "#ff9e0d",
+        "seconds": 600
+      }
+    ]
+  }
+}
