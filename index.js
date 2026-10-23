@@ -42,24 +42,24 @@ const fetchNolioData = async () => {
     const workouts = jsonResponse.data;
     console.log(`Nombre de séances trouvées : ${workouts.length}`);
 
-    // Création du contenu du fichier lisible
-    let fileContent = `# Entraînements planifiés (${dateFrom} au ${dateTo})\n\n`;
+    // Génération du contenu CSV pour un fichier exploitable dans Excel
+    let csvContent = "Date;Nom;Description;Durée\n";
 
-    // On boucle sur chaque séance pour formater les détails
-    workouts.forEach((workout, index) => {
-      fileContent += `## Séance n°${index + 1} : ${workout.name}\n`;
-      fileContent += `- Date : ${workout.date_start}\n`;
-      fileContent += `- Description : ${workout.description || 'Aucune'}\n`;
-      
+    workouts.forEach((workout) => {
+      let durationStr = '';
       if (workout.duration) {
-        fileContent += `- Durée : ${workout.duration.value} ${workout.duration.unit}\n`;
+        durationStr = `${workout.duration.value} ${workout.duration.unit}`;
       }
-      fileContent += `\n`;
+
+      const name = (workout.name || '').replace(/[\r\n]+/g, ' ');
+      const description = (workout.description || 'Aucune').replace(/[\r\n]+/g, ' ');
+
+      csvContent += `"${workout.date_start}";"${name}";"${description}";"${durationStr}"\n`;
     });
 
-    // Écriture du fichier de sortie en asynchrone (compatible ES modules)
-    await fs.writeFile('workouts.md', fileContent, 'utf8');
-    console.log("Fichier 'workouts.md' généré avec succès.");
+    // Écriture du fichier natif
+    await fs.writeFile('workouts.csv', csvContent, 'utf8');
+    console.log("Fichier 'workouts.csv' généré avec succès.");
 
   } catch (error) {
     console.error("Erreur de fetch détaillée :", error.message);
