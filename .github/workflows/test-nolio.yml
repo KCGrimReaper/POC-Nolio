@@ -30,7 +30,10 @@ jobs:
         run: npm start
 
       - name: Commit and push CSV report
-        uses: stefanzweifel/git-auto-commit-action@v5
-        with:
-          commit_message: "Add automatic workouts CSV export"
-          file_pattern: "workouts_*.csv"
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git pull origin main --rebase
+          git add workouts_*.csv
+          git commit -m "Add automatic workouts CSV export" || echo "No changes to commit"
+          git push
