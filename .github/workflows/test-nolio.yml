@@ -26,8 +26,8 @@ jobs:
           NOLIO_TOKEN: ${{ secrets.NOLIO_TOKEN }}
         run: npm start
 
-      - name: Upload workouts markdown file
+      - name: Upload workouts csv file
         uses: actions/upload-artifact@v4
         with:
           name: workouts-report
-          path: workouts.md
+          path: workouts.csv
