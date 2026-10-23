@@ -13,10 +13,11 @@ const fetchWorkoutDetail = async (id, token) => {
     });
     if (response.ok) {
       const data = await response.json();
-      // Affiche toutes les clés disponibles dans le détail de la séance
-      console.log(`\n🔍 Clés dispo pour ${id}:`, Object.keys(data));
-      // Affiche le JSON complet pour qu'on voie où sont les blocs
-      console.log(JSON.stringify(data, null, 2));
+      
+      // Sauvegarde directe dans un fichier dans le dossier exports
+      await fs.writeFile('exports/debug_detail.json', JSON.stringify(data, null, 2), 'utf8');
+      console.log(`Détail de la séance sauvegardé dans exports/debug_detail.json`);
+      
       return data;
     }
   } catch (error) {
