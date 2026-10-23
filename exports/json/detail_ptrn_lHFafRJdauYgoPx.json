@@ -1,0 +1,119 @@
+{
+  "name": "3 * 20' ( 1 en bosse + 2 à plat)",
+  "sport": "spt_kNYHjuEzDJRiYCX",
+  "description": "20 à 30' échauffement cool + 3 * 20' + 10' récup\nLes 20' \" tempo\" ( I3).\nSi possible, 1 série en bosse + descente (dans l'idéal :) \"envi 10' côte + 5' descente + 5' côte\" / + 2 séries à plat ou un peu vallonné mais plutôt profil roulant.",
+  "description_html": null,
+  "duration": {
+    "value": 6780,
+    "unit": "s"
+  },
+  "distance": null,
+  "elevation_gain": null,
+  "elevation_loss": null,
+  "rpe": 9,
+  "show_rpe": false,
+  "coggan_load": 226,
+  "color": null,
+  "tags": [],
+  "workout": [
+    {
+      "kind": "step",
+      "id": "l59vwhyk3273o9mg4t4",
+      "duration": {
+        "value": 1500,
+        "unit": "s"
+      },
+      "targets": [
+        {
+          "type": "no_target"
+        }
+      ],
+      "intensity": "warmup",
+      "lap_advance": true
+    },
+    {
+      "kind": "repeat",
+      "id": "N7757Y4DNAWB7ZZWKVV6",
+      "times": 3,
+      "steps": [
+        {
+          "kind": "step",
+          "id": "l59vxbl6ak180epywn",
+          "duration": {
+            "value": 1200,
+            "unit": "s"
+          },
+          "targets": [
+            {
+              "type": "metric",
+              "metric": "FCMAX",
+              "percent": 82,
+              "percent_max": 90,
+              "resolved": {
+                "low": 156,
+                "high": 171,
+                "unit": "bpm"
+              }
+            }
+          ],
+          "intensity": "work"
+        },
+        {
+          "kind": "step",
+          "id": "l59vxblec5vqizcup4l",
+          "duration": {
+            "value": 360,
+            "unit": "s"
+          },
+          "targets": [
+            {
+              "type": "no_target"
+            }
+          ],
+          "intensity": "cooldown"
+        }
+      ]
+    },
+    {
+      "kind": "step",
+      "id": "l59vy7wdb0h2dan3elt",
+      "duration": {
+        "value": 600,
+        "unit": "s"
+      },
+      "targets": [
+        {
+          "type": "no_target"
+        }
+      ],
+      "intensity": "cooldown"
+    }
+  ],
+  "has_structured_workout": true,
+  "summary": "20 à 30' échauffement cool + **3 * 20'** \\+ 10' récup\n\nLes 20' \" tempo\" ( I3).\n\n**Si possible, 1 série en bosse + descente (dans l'idéal :) \"envi 10' côte + 5' descente + 5' côte\" / + 2 séries à plat ou un peu vallonné mais plutôt\nprofil roulant.**\n\n25' Échauffement ​\n\n​  \n\n-- 3x\n\n20' @82% - 90% FC Max (156 - 171) bpm Corps de séance\n\n6' Récupération\n\n--\n\n10' Récupération​  \n\n",
+  "revision": "rev_b281f7495ea13e47",
+  "id": "ptrn_lHFafRJdauYgoPx",
+  "athletes": [
+    "usr_F03NuGBUhCPwm4i"
+  ],
+  "group": null,
+  "date_start": "2026-11-13",
+  "time": null,
+  "moment": null,
+  "recurrence": null,
+  "load": {
+    "coggan": 226,
+    "coggan_source": "manual",
+    "foster": 1017
+  },
+  "time_in_zones": {
+    "heartrate": [
+      {
+        "name": "Zone 3",
+        "order": 3,
+        "color": "#72ea24",
+        "seconds": 3600
+      }
+    ]
+  }
+}

@@ -1,0 +1,101 @@
+{
+  "name": "Sortie vallonnée avec 45' tempo",
+  "sport": "spt_kNYHjuEzDJRiYCX",
+  "description": "Sortie vallonnée avec 45' \" tempo\"  I3\nSi possible, caler une bosse un peu longue sur les 45' ( plutôt au milieu de l'IT de préférence) et le reste varié et vallonné mais pas chantier, profil plutôt roulant sur le reste de l'IT.",
+  "description_html": null,
+  "duration": {
+    "value": 5400,
+    "unit": "s"
+  },
+  "distance": null,
+  "elevation_gain": null,
+  "elevation_loss": null,
+  "rpe": null,
+  "show_rpe": true,
+  "coggan_load": null,
+  "color": null,
+  "tags": [],
+  "workout": [
+    {
+      "kind": "step",
+      "id": "mvcinmfrfad9o6qs6jt",
+      "duration": {
+        "value": 1800,
+        "unit": "s"
+      },
+      "targets": [
+        {
+          "type": "no_target"
+        },
+        {
+          "type": "no_target"
+        }
+      ],
+      "intensity": "warmup",
+      "lap_advance": true
+    },
+    {
+      "kind": "step",
+      "id": "mvcio82y5qpmykh29fq",
+      "duration": {
+        "value": 2700,
+        "unit": "s"
+      },
+      "targets": [
+        {
+          "type": "metric",
+          "metric": "FCMAX",
+          "percent": 80,
+          "percent_max": 85,
+          "resolved": {
+            "low": 152,
+            "high": 162,
+            "unit": "bpm"
+          }
+        }
+      ],
+      "intensity": "work"
+    },
+    {
+      "kind": "step",
+      "id": "mvcipo6cvqogww6bake",
+      "duration": {
+        "value": 900,
+        "unit": "s"
+      },
+      "targets": [
+        {
+          "type": "no_target"
+        }
+      ],
+      "intensity": "cooldown"
+    }
+  ],
+  "has_structured_workout": true,
+  "summary": "Sortie vallonnée avec 45' \" tempo\" I3\n\nSi possible, caler une bosse un peu longue sur les 45' ( plutôt au milieu de l'IT de préférence) et le reste varié et vallonné mais pas chantier,\nprofil plutôt roulant sur le reste de l'IT.\n\n30' | Échauffement\n\n45' @80% - 85% FC Max (152 - 162) bpm Corps de séance\n\n15' Récupération\n\n",
+  "revision": "rev_684b579332197c99",
+  "id": "ptrn_T1IyIv3cSxOqH6F",
+  "athletes": [
+    "usr_F03NuGBUhCPwm4i"
+  ],
+  "group": null,
+  "date_start": "2026-11-07",
+  "time": null,
+  "moment": null,
+  "recurrence": null,
+  "load": {
+    "coggan": null,
+    "coggan_source": null,
+    "foster": null
+  },
+  "time_in_zones": {
+    "heartrate": [
+      {
+        "name": "Zone 2",
+        "order": 2,
+        "color": "#11a9ed",
+        "seconds": 2700
+      }
+    ]
+  }
+}
