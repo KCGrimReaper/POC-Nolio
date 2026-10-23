@@ -1,0 +1,34 @@
+WS COACHING
+Ton entraîneur
+William Sandy Wscoaching 63 - Wscoaching63@gmail.com - 0637421016
+Vallonné - Course à pied
+
+✓ Séance structurée envoyée vers Suunto app
+
+**Durée :** 0h 30m  
+**Allure :** 5'25/km - 11.08 km/h  
+**Distance :** N/A  
+**Dénivelé + :** 0 m  
+
+### Commentaire de l'entraîneur
+> Exemple ( tu peux moduler)  
+>   
+> 1- Gainage: 5 * (30" gainage planche ventrale + 30 " mountains climbers)  ; r : 30"  
+>   
+> Gainage dorsal/ fessiers ( sur le dos, on soulève le bassin, les fesses hautes, un genou plié et de l'autre côté jambe tendue en l'air, on maintien la position) : 5* 30"de chaque côté.  
+>   
+> 2- Renfo mollets : ( figure 25) "je monte sur la pointe de pied en 2" / je redescends lentement  en 3" : 3* 20 mouvements ; r : 15"  
+>   
+> 3- 4* 20 squats lents + 10 squats sautés; 15"  
+>   
+> 4- Fessiers : un élastique autour des chevilles ( on entoure les deux pieds avec l'élastique , le corps bien droit , les genoux bien dans l'axe , se déplacer sur le côté en gardant l'élastique tendu ( petits pas chassés à gauche, puis à droite). Faire 10 allers/retours. Bien garder la tension dans l'élastique.  
+>   
+> Si tu n'as pas d'élastique : (figure19 ). Possibilité de rajouter du poids ( 3*20 mouvements/côté)  
+>   
+> 5- Proprio : en appui unipodal sur un plan instable, varier les positions du corps. Faire plusieurs séries de 40" pied gch et pied drt.
+
+### Déroulé structuré
+
+Conçu avec Nolio
+www.nolio.io
+nöliö
