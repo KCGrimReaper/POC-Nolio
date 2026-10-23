@@ -1,0 +1,11 @@
+{
+  "name": "poc-nolio",
+  "version": "1.0.0",
+  "description": "POC pour explorer l'API Nolio",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {}
+}
