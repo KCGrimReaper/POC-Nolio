@@ -1,11 +1,14 @@
-name: Test API Nolio
+name: Run Nolio POC
 
 on:
+  push:
+    branches: [ main ]
   workflow_dispatch:
 
 jobs:
-  test-api:
+  run-script:
     runs-on: ubuntu-latest
+
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
@@ -18,7 +21,13 @@ jobs:
       - name: Install dependencies
         run: npm install
 
-      - name: Run Nolio script
+      - name: Run script
         env:
           NOLIO_TOKEN: ${{ secrets.NOLIO_TOKEN }}
         run: npm start
+
+      - name: Upload workouts markdown file
+        uses: actions/upload-artifact@v4
+        with:
+          name: workouts-report
+          path: workouts.md
