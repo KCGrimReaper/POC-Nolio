@@ -21,28 +21,31 @@ const fetchWorkoutDetail = async (id, token) => {
   return null;
 };
 
-// Fonction sécurisée pour nettoyer le texte et éviter de casser les colonnes CSV
+// Fonction sécurisée pour nettoyer le texte
 const cleanCsvField = (str) => {
   if (!str) return '';
   return String(str).replace(/"/g, '""').replace(/[\r\n]+/g, ' ').trim();
 };
 
-// Fonction récursive pour aplatir les étapes et les blocs de répétition (repeat)
-const flattenWorkoutSteps = (stepsArray, multiplier = 1) => {
+// Fonction récursive pour dérouler chronologiquement les blocs 'repeat'
+const flattenWorkoutSteps = (stepsArray) => {
   let flattened = [];
   if (!stepsArray || !Array.isArray(stepsArray)) return flattened;
 
   for (const item of stepsArray) {
     if (item.kind === 'repeat') {
       const times = item.times || 1;
-      flattened.push(...flattenWorkoutSteps(item.steps, multiplier * times));
+      // On répète la séquence interne 'times' fois dans l'ordre chronologique exact
+      for (let i = 0; i < times; i++) {
+        flattened.push(...flattenWorkoutSteps(item.steps));
+      }
     } else if (item.kind === 'step') {
       flattened.push({
         intensity: item.intensity || 'N/A',
         durationValue: item.duration ? item.duration.value : '',
         durationUnit: item.duration ? item.duration.unit : '',
         targets: item.targets || [],
-        repeats: multiplier > 1 ? multiplier : 1
+        repeats: 1 // L'étape est déroulée unitairement pour respecter l'ordre
       });
     }
   }
@@ -79,7 +82,6 @@ const fetchNolioData = async () => {
 
     await fs.mkdir('exports', { recursive: true });
 
-    // En-têtes clairs avec colonnes low/high séparées pour les cibles
     let csvContent = "\uFEFFDate;Nom;Description;Durée Totale;Intensité Étape;Répétitions;Durée Étape;Unité Durée;Type Cible;Métrique;% Min;% Max;Cible Low;Cible High;Unité Cible\n";
 
     for (const workout of workouts) {
