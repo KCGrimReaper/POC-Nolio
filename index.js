@@ -27,6 +27,36 @@ const cleanText = (str) => {
   return String(str).replace(/"/g, '""').replace(/[\r\n]+/g, ' ').trim();
 };
 
+// Fonction pour nettoyer le nom de la séance pour en faire un nom de fichier valide
+const cleanFilename = (str) => {
+  if (!str) return 'seance';
+  return str
+    .toLowerCase()
+    .normalize("NFD").replace(/[\u0300-\u036f]/g, "")
+    .replace(/[^a-z0-9]/g, '_')
+    .replace(/_+/g, '_')
+    .replace(/^_|_$/g, '');
+};
+
+// Fonction de conversion des secondes en format lisible (ex: 600s -> 10', 20s -> 20")
+const formatDuration = (value, unit) => {
+  if (value === undefined || value === null || value === '') return '';
+  let num = parseInt(value, 10);
+  if (isNaN(num)) return `${value}${unit || ''}`;
+
+  // Si l'unité d'origine est en secondes (s)
+  if (unit === 's') {
+    if (num >= 60) {
+      const mins = Math.floor(num / 60);
+      const secs = num % 60;
+      return secs > 0 ? `${mins}'${secs}"` : `${mins}'`;
+    } else {
+      return `${num}"`;
+    }
+  }
+  return `${num}${unit || ''}`;
+};
+
 const formatStepsMarkdown = (stepsArray, depth = 0) => {
   let md = '';
   if (!stepsArray || !Array.isArray(stepsArray)) return md;
@@ -39,17 +69,38 @@ const formatStepsMarkdown = (stepsArray, depth = 0) => {
       md += formatStepsMarkdown(item.steps, depth + 1);
     } else if (item.kind === 'step') {
       const intensity = item.intensity ? `[${item.intensity}]` : '';
-      const duration = item.duration ? `${item.duration.value}${item.duration.unit}` : '';
+      const rawVal = item.duration ? item.duration.value : '';
+      const rawUnit = item.duration ? item.duration.unit : '';
+      const durationStr = formatDuration(rawVal, rawUnit);
       
       let targetStr = 'Libre';
       if (item.targets && item.targets.length > 0) {
         const t = item.targets[0];
         if (t.type === 'metric') {
-          const resolved = t.resolved ? ` (${t.resolved.low}-${t.resolved.high} ${t.resolved.unit})` : '';
-          targetStr = `${t.metric} ${t.percent}-${t.percent_max}%${resolved}`;
+          const metricName = t.metric || '';
+          let percentPart = '';
+          if (t.percent !== undefined && t.percent !== null) {
+            if (t.percent_max !== undefined && t.percent_max !== null && t.percent_max !== t.percent) {
+              percentPart = ` ${t.percent}-${t.percent_max}%`;
+            } else {
+              percentPart = ` ${t.percent}%`;
+            }
+          }
+          let resolvedPart = '';
+          if (t.resolved) {
+            const low = t.resolved.low;
+            const high = t.resolved.high;
+            const unit = t.resolved.unit || '';
+            if (low !== undefined && high !== undefined && low !== high) {
+              resolvedPart = ` (${low}-${high} ${unit})`;
+            } else if (low !== undefined) {
+              resolvedPart = ` (${low} ${unit})`;
+            }
+          }
+          targetStr = `${metricName}${percentPart}${resolvedPart}`.trim();
         }
       }
-      md += `${indent}- ${intensity} **${duration}** -> Cible : ${targetStr}\n`;
+      md += `${indent}- ${intensity} **${durationStr}** -> Cible : ${targetStr}\n`;
     }
   }
   return md;
@@ -83,7 +134,6 @@ const fetchNolioData = async () => {
     const workouts = jsonResponse.data;
     console.log(`Nombre de séances trouvées : ${workouts.length}`);
 
-    // Création des sous-répertoires pour ranger proprement
     await fs.mkdir('exports/csv', { recursive: true });
     await fs.mkdir('exports/md', { recursive: true });
 
@@ -99,7 +149,6 @@ const fetchNolioData = async () => {
       const name = cleanText(workout.name);
       const description = workout.description || 'Aucune description';
 
-      // Génération de la fiche Markdown individuelle basée sur le modèle WS Coaching[cite: 3]
       let mdSheet = `WS COACHING\n`;
       mdSheet += `Ton entraîneur\n`;
       mdSheet += `William Sandy Wscoaching 63 - Wscoaching63@gmail.com - 0637421016\n`;
@@ -154,14 +203,15 @@ const fetchNolioData = async () => {
 
       mdSheet += `\nConçu avec Nolio\nwww.nolio.io\nnöliö\n`;
       
-      // Sauvegarde de la fiche dans le sous-dossier md/
-      await fs.writeFile(`exports/md/fiche_${workout.date_start}_${workout.id}.md`, mdSheet, 'utf8');
+      // Nom du fichier personnalisé avec date + nom de la séance
+      const safeFileName = cleanFilename(workout.name);
+      await fs.writeFile(`exports/md/${workout.date_start}_${safeFileName}.md`, mdSheet, 'utf8');
     }
 
     const now = new Date();
     const timestamp = now.toISOString().replace(/[:.]/g, '-').slice(0, 19);
     await fs.writeFile(`exports/csv/workouts_${timestamp}.csv`, csvContent, 'utf8');
-    console.log(`Fichiers rangés avec succès dans exports/csv/ et exports/md/ !`);
+    console.log(`Fichiers générés et convertis avec succès dans exports/csv/ et exports/md/ !`);
 
   } catch (error) {
     console.error("Erreur :", error.message);
