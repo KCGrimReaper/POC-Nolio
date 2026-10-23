@@ -10,7 +10,7 @@ const fetchNolioData = async () => {
   const endDate = '2026-10-31';
   const url = `https://api.nolio.io/api/v2/workouts/planned?from=${startDate}&to=${endDate}`;
 
-  console.log(`Interrogation de l'API Nolio pour la période du ${startDate} au ${endDate}...`);
+  console.log(`Interrogation de l'URL : ${url}`);
 
   try {
     const response = await fetch(url, {
@@ -21,13 +21,14 @@ const fetchNolioData = async () => {
       }
     });
 
-    if (!response.ok) {
-      throw new Error(`Erreur HTTP : ${response.status} - ${response.statusText}`);
-    }
+    console.log(`Statut de la réponse : ${response.status} ${response.statusText}`);
 
-    const data = await response.json();
-    console.log("Données récupérées avec succès :");
-    console.log(JSON.stringify(data, null, 2));
+    const responseText = await response.text();
+    console.log("Corps de la réponse brute :", responseText);
+
+    if (!response.ok) {
+      throw new Error(`Erreur HTTP : ${response.status}`);
+    }
   } catch (error) {
     console.error("Échec de la requête Nolio :", error.message);
     process.exit(1);
