@@ -1,3 +1,5 @@
+const fs = require('fs');
+
 const fetchNolioData = async () => {
   const token = process.env.NOLIO_TOKEN;
 
@@ -40,17 +42,24 @@ const fetchNolioData = async () => {
     const workouts = jsonResponse.data;
     console.log(`Nombre de séances trouvées : ${workouts.length}`);
 
-    // On boucle sur chaque séance pour afficher les détails dans les logs
+    // Création du contenu du fichier lisible
+    let fileContent = `# Entraînements planifiés (${dateFrom} au ${dateTo})\n\n`;
+
+    // On boucle sur chaque séance pour formater les détails
     workouts.forEach((workout, index) => {
-      console.log(`\n--- Séance n°${index + 1} ---`);
-      console.log(`Nom : ${workout.name}`);
-      console.log(`Date : ${workout.date_start}`);
-      console.log(`Description : ${workout.description || 'Aucune'}`);
+      fileContent += `## Séance n°${index + 1} : ${workout.name}\n`;
+      fileContent += `- Date : ${workout.date_start}\n`;
+      fileContent += `- Description : ${workout.description || 'Aucune'}\n`;
       
       if (workout.duration) {
-        console.log(`Durée : ${workout.duration.value} ${workout.duration.unit}`);
+        fileContent += `- Durée : ${workout.duration.value} ${workout.duration.unit}\n`;
       }
+      fileContent += `\n`;
     });
+
+    // Écriture du fichier de sortie
+    fs.writeFileSync('workouts.md', fileContent, 'utf8');
+    console.log("Fichier 'workouts.md' généré avec succès.");
 
   } catch (error) {
     console.error("Erreur de fetch détaillée :", error.message);
