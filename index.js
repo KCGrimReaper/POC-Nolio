@@ -1,6 +1,6 @@
 import fs from 'fs/promises';
 
-// Fonction pour récupérer et sauvegarder le détail complet de chaque séance
+// Fonction pour récupérer le détail complet d'une séance via son ID et sauvegarder le JSON
 const fetchWorkoutDetail = async (id, token) => {
   const url = `https://www.nolio.io/api/v2/planned/trainings/${id}/`;
   try {
@@ -14,7 +14,7 @@ const fetchWorkoutDetail = async (id, token) => {
     if (response.ok) {
       const data = await response.json();
       
-      // Sauvegarde d'un fichier JSON unique par séance pour pouvoir l'inspecter
+      // Sauvegarde du JSON individuel dans le dossier exports
       await fs.writeFile(`exports/detail_${id}.json`, JSON.stringify(data, null, 2), 'utf8');
       
       return data;
@@ -63,7 +63,8 @@ const fetchNolioData = async () => {
     // Création automatique du dossier 'exports' s'il n'existe pas
     await fs.mkdir('exports', { recursive: true });
 
-    let csvContent = "\uFEFFDate;Nom;Description;Durée;Détail Brut JSON\n";
+    // \uFEFF (BOM UTF-8) force Excel à reconnaître les accents
+    let csvContent = "\uFEFFDate;Nom;Description;Durée;Détail Structuré (Intensity / Duration / Targets)\n";
 
     for (const workout of workouts) {
       console.log(`Récupération du détail pour : ${workout.name} (${workout.id})`);
@@ -77,10 +78,30 @@ const fetchNolioData = async () => {
       const name = (workout.name || '').replace(/[\r\n]+/g, ' ');
       const description = (workout.description || 'Aucune').replace(/[\r\n]+/g, ' ');
 
-      // On met tout le contenu du détail en JSON dans la colonne pour voir ce qu'il y a dedans
-      const fullDetailStr = detail ? JSON.stringify(detail).replace(/[\r\n]+/g, ' ').replace(/"/g, '""') : '';
+      // Extraction et formatage propre des étapes structurées (workout array)
+      let structuredInfo = '';
+      if (detail && detail.workout && Array.isArray(detail.workout)) {
+        const stepsFormatted = detail.workout.map(step => {
+          const intensity = step.intensity || 'N/A';
+          const durVal = step.duration ? step.duration.value : '';
+          const durUnit = step.duration ? step.duration.unit : '';
+          
+          let targetStr = 'Sans cible';
+          if (step.targets && step.targets.length > 0) {
+            const t = step.targets[0];
+            if (t.type === 'metric') {
+              const resolvedInfo = t.resolved ? ` (${t.resolved.low}-${t.resolved.high} ${t.resolved.unit})` : '';
+              targetStr = `${t.metric} ${t.percent}-${t.percent_max}%${resolvedInfo}`;
+            } else if (t.type === 'no_target') {
+              targetStr = 'Libre';
+            }
+          }
+          return `[${intensity}] ${durVal}${durUnit} -> Cible: ${targetStr}`;
+        });
+        structuredInfo = stepsFormatted.join(' | ').replace(/[\r\n]+/g, ' ');
+      }
 
-      csvContent += `"${workout.date_start}";"${name}";"${description}";"${durationStr}";"${fullDetailStr}"\n`;
+      csvContent += `"${workout.date_start}";"${name}";"${description}";"${durationStr}";"${structuredInfo}"\n`;
     }
 
     const now = new Date();
@@ -88,7 +109,7 @@ const fetchNolioData = async () => {
     const fileName = `exports/workouts_${timestamp}.csv`;
 
     await fs.writeFile(fileName, csvContent, 'utf8');
-    console.log(`Fichier '${fileName}' généré avec succès.`);
+    console.log(`Fichier '${fileName}' généré avec succès avec le détail structuré.`);
 
   } catch (error) {
     console.error("Erreur de fetch détaillée :", error.message);
