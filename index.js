@@ -26,8 +26,31 @@ const fetchNolioData = async () => {
     });
 
     console.log(`Statut HTTP reçu : ${response.status} ${response.statusText}`);
-    const text = await response.text();
-    console.log("Données récupérées :", text);
+    
+    if (!response.ok) {
+      const errorText = await response.text();
+      console.error("Erreur renvoyée par l'API :", errorText);
+      process.exit(1);
+    }
+
+    // On convertit le texte brut en objet JSON exploitable
+    const jsonResponse = await response.json();
+
+    // D'après Scalar, les entraînements sont dans le tableau .data
+    const workouts = jsonResponse.data;
+    console.log(`Nombre de séances trouvées : ${workouts.length}`);
+
+    // On boucle sur chaque séance pour afficher les détails dans les logs
+    workouts.forEach((workout, index) => {
+      console.log(`\n--- Séance n°${index + 1} ---`);
+      console.log(`Nom : ${workout.name}`);
+      console.log(`Date : ${workout.date_start}`);
+      console.log(`Description : ${workout.description || 'Aucune'}`);
+      
+      if (workout.duration) {
+        console.log(`Durée : ${workout.duration.value} ${workout.duration.unit}`);
+      }
+    });
 
   } catch (error) {
     console.error("Erreur de fetch détaillée :", error.message);
