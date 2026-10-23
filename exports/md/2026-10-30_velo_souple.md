@@ -5,6 +5,7 @@ Vallonné - Course à pied
 
 ✓ Séance structurée envoyée vers Suunto app
 
+**Date :** 2026-10-30  
 **Durée :** 2h 30m  
 **Allure :** 5'25/km - 11.08 km/h  
 **Distance :** N/A  
