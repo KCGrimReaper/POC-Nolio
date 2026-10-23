@@ -21,6 +21,12 @@ const fetchWorkoutDetail = async (id, token) => {
   return null;
 };
 
+// Fonction sécurisée pour nettoyer le texte et éviter de casser les colonnes CSV
+const cleanCsvField = (str) => {
+  if (!str) return '';
+  return String(str).replace(/"/g, '""').replace(/[\r\n]+/g, ' ').trim();
+};
+
 // Fonction récursive pour aplatir les étapes et les blocs de répétition (repeat)
 const flattenWorkoutSteps = (stepsArray, multiplier = 1) => {
   let flattened = [];
@@ -29,7 +35,6 @@ const flattenWorkoutSteps = (stepsArray, multiplier = 1) => {
   for (const item of stepsArray) {
     if (item.kind === 'repeat') {
       const times = item.times || 1;
-      // Appel récursif en multipliant le nombre de répétitions
       flattened.push(...flattenWorkoutSteps(item.steps, multiplier * times));
     } else if (item.kind === 'step') {
       flattened.push({
@@ -74,31 +79,43 @@ const fetchNolioData = async () => {
 
     await fs.mkdir('exports', { recursive: true });
 
-    // En-têtes du CSV avec des colonnes bien distinctes
-    let csvContent = "\uFEFFDate;Nom;Description;Durée Totale;Intensité Étape;Répétitions;Durée Étape;Unité;Cible\n";
+    // En-têtes clairs avec colonnes low/high séparées pour les cibles
+    let csvContent = "\uFEFFDate;Nom;Description;Durée Totale;Intensité Étape;Répétitions;Durée Étape;Unité Durée;Type Cible;Métrique;% Min;% Max;Cible Low;Cible High;Unité Cible\n";
 
     for (const workout of workouts) {
       console.log(`Récupération du détail pour : ${workout.name} (${workout.id})`);
       const detail = await fetchWorkoutDetail(workout.id, token);
 
       let totalDurationStr = workout.duration ? `${workout.duration.value} ${workout.duration.unit}` : '';
-      const name = (workout.name || '').replace(/[\r\n]+/g, ' ');
-      const description = (workout.description || 'Aucune').replace(/[\r\n]+/g, ' ');
+      const name = cleanCsvField(workout.name);
+      const description = cleanCsvField(workout.description || 'Aucune');
 
       if (detail && detail.workout) {
         const steps = flattenWorkoutSteps(detail.workout);
 
         for (const step of steps) {
-          let targetStr = 'Libre';
+          let tType = 'no_target';
+          let tMetric = '';
+          let tPercent = '';
+          let tPercentMax = '';
+          let tLow = '';
+          let tHigh = '';
+          let tUnit = '';
+
           if (step.targets && step.targets.length > 0) {
             const t = step.targets[0];
-            if (t.type === 'metric') {
-              const resolvedInfo = t.resolved ? ` (${t.resolved.low}-${t.resolved.high} ${t.resolved.unit})` : '';
-              targetStr = `${t.metric} ${t.percent}-${t.percent_max}%${resolvedInfo}`;
+            tType = t.type || 'no_target';
+            tMetric = t.metric || '';
+            tPercent = t.percent !== undefined ? t.percent : '';
+            tPercentMax = t.percent_max !== undefined ? t.percent_max : '';
+            if (t.resolved) {
+              tLow = t.resolved.low !== undefined ? t.resolved.low : '';
+              tHigh = t.resolved.high !== undefined ? t.resolved.high : '';
+              tUnit = t.resolved.unit || '';
             }
           }
 
-          csvContent += `"${workout.date_start}";"${name}";"${description}";"${totalDurationStr}";"${step.intensity}";"${step.repeats}";"${step.durationValue}";"${step.durationUnit}";"${targetStr}"\n`;
+          csvContent += `"${workout.date_start}";"${name}";"${description}";"${totalDurationStr}";"${step.intensity}";"${step.repeats}";"${step.durationValue}";"${step.durationUnit}";"${tType}";"${tMetric}";"${tPercent}";"${tPercentMax}";"${tLow}";"${tHigh}";"${tUnit}"\n`;
         }
       }
     }
