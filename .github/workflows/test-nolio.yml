@@ -26,8 +26,8 @@ jobs:
           NOLIO_TOKEN: ${{ secrets.NOLIO_TOKEN }}
         run: npm start
 
-      - name: Upload workouts csv file
-        uses: actions/upload-artifact@v4
+      - name: Commit and push CSV report
+        uses: stefanzweifel/git-auto-commit-action@v5
         with:
-          name: workouts-report
-          path: workouts.csv
+          commit_message: "Add automatic workouts CSV export"
+          file_pattern: "workouts_*.csv"
