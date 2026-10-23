@@ -21,13 +21,11 @@ const fetchWorkoutDetail = async (id, token) => {
   return null;
 };
 
-// Fonction sécurisée pour nettoyer le texte
 const cleanCsvField = (str) => {
   if (!str) return '';
   return String(str).replace(/"/g, '""').replace(/[\r\n]+/g, ' ').trim();
 };
 
-// Fonction récursive pour dérouler chronologiquement les blocs 'repeat'
 const flattenWorkoutSteps = (stepsArray) => {
   let flattened = [];
   if (!stepsArray || !Array.isArray(stepsArray)) return flattened;
@@ -35,7 +33,6 @@ const flattenWorkoutSteps = (stepsArray) => {
   for (const item of stepsArray) {
     if (item.kind === 'repeat') {
       const times = item.times || 1;
-      // On répète la séquence interne 'times' fois dans l'ordre chronologique exact
       for (let i = 0; i < times; i++) {
         flattened.push(...flattenWorkoutSteps(item.steps));
       }
@@ -45,7 +42,7 @@ const flattenWorkoutSteps = (stepsArray) => {
         durationValue: item.duration ? item.duration.value : '',
         durationUnit: item.duration ? item.duration.unit : '',
         targets: item.targets || [],
-        repeats: 1 // L'étape est déroulée unitairement pour respecter l'ordre
+        repeats: 1
       });
     }
   }
@@ -83,6 +80,11 @@ const fetchNolioData = async () => {
     await fs.mkdir('exports', { recursive: true });
 
     let csvContent = "\uFEFFDate;Nom;Description;Durée Totale;Intensité Étape;Répétitions;Durée Étape;Unité Durée;Type Cible;Métrique;% Min;% Max;Cible Low;Cible High;Unité Cible\n";
+    
+    // Contenu de base pour le fichier Markdown
+    let mdContent = `# Récapitulatif des entraînements Nolio\n\n`;
+    mdContent += `| Date | Nom | Intensité | Durée | Cible |\n`;
+    mdContent += `| :--- | :--- | :--- | :--- | :--- |\n`;
 
     for (const workout of workouts) {
       console.log(`Récupération du détail pour : ${workout.name} (${workout.id})`);
@@ -118,16 +120,22 @@ const fetchNolioData = async () => {
           }
 
           csvContent += `"${workout.date_start}";"${name}";"${description}";"${totalDurationStr}";"${step.intensity}";"${step.repeats}";"${step.durationValue}";"${step.durationUnit}";"${tType}";"${tMetric}";"${tPercent}";"${tPercentMax}";"${tLow}";"${tHigh}";"${tUnit}"\n`;
+
+          // Ajout de la ligne dans le tableau Markdown
+          const targetDisplay = tLow && tHigh ? `${tMetric} ${tPercent}-${tPercentMax}% (${tLow}-${tHigh} ${tUnit})` : 'Libre';
+          mdContent += `| ${workout.date_start} | ${name} | ${step.intensity} | ${step.durationValue}${step.durationUnit} | ${targetDisplay} |\n`;
         }
       }
     }
 
     const now = new Date();
     const timestamp = now.toISOString().replace(/[:.]/g, '-').slice(0, 19);
-    const fileName = `exports/workouts_${timestamp}.csv`;
+    const csvFileName = `exports/workouts_${timestamp}.csv`;
+    const mdFileName = `exports/workouts_summary.md`;
 
-    await fs.writeFile(fileName, csvContent, 'utf8');
-    console.log(`Fichier '${fileName}' généré avec succès !`);
+    await fs.writeFile(csvFileName, csvContent, 'utf8');
+    await fs.writeFile(mdFileName, mdContent, 'utf8');
+    console.log(`Fichiers CSV et Markdown générés avec succès !`);
 
   } catch (error) {
     console.error("Erreur :", error.message);
