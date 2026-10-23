@@ -1,8 +1,6 @@
 name: Run Nolio POC
 
 on:
-  push:
-    branches: [ main ]
   workflow_dispatch:
 
 permissions:
