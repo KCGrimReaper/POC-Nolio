@@ -1,5 +1,30 @@
 import fs from 'fs/promises';
 
+// Fonction pour aller chercher le détail complet d'une séance via son ID
+const fetchWorkoutDetail = async (id, token) => {
+  const url = `https://www.nolio.io/api/v2/planned/trainings/${id}/`;
+  
+  try {
+    const response = await fetch(url, {
+      method: 'GET',
+      headers: {
+        'Authorization': `Bearer ${token}`,
+        'Accept': 'application/json'
+      }
+    });
+
+    if (response.ok) {
+      const detail = await response.json();
+      console.log(`--- DÉTAIL COMPLET DE LA SÉANCE ${id} ---`);
+      console.log(JSON.stringify(detail, null, 2));
+    } else {
+      console.error(`Erreur ${response.status} en récupérant le détail de la séance ${id}`);
+    }
+  } catch (error) {
+    console.error("Erreur fetch detail :", error.message);
+  }
+};
+
 const fetchNolioData = async () => {
   const token = process.env.NOLIO_TOKEN;
 
