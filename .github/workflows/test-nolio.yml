@@ -4,7 +4,9 @@ on:
   push:
     branches: [ main ]
   workflow_dispatch:
-
+permissions:
+  contents: write  # <-- C'est cette ligne qui donne le droit de push au bot
+  
 jobs:
   run-script:
     runs-on: ubuntu-latest
