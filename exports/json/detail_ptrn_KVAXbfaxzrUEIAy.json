@@ -1,0 +1,122 @@
+{
+  "name": "10*2/1 ( 6 séries en côte + 4 séries à plat)",
+  "sport": "spt_kNYHjuEzDJRiYCX",
+  "description": "20 à 30' échauffement + 10 * 2'/ 1' + 10' récup\nSi possible, 6 séries en côte + 4 séries à plat. Les 2' envi 90/ 95% fc max ( I4)\n1' récup petit trot",
+  "description_html": null,
+  "duration": {
+    "value": 3900,
+    "unit": "s"
+  },
+  "distance": {
+    "value": 12,
+    "unit": "km"
+  },
+  "elevation_gain": null,
+  "elevation_loss": null,
+  "rpe": 7,
+  "show_rpe": false,
+  "coggan_load": 86,
+  "color": null,
+  "tags": [],
+  "workout": [
+    {
+      "kind": "step",
+      "id": "l55jyw6xjqm1ex4k1ei",
+      "duration": {
+        "value": 1500,
+        "unit": "s"
+      },
+      "targets": [
+        {
+          "type": "no_target"
+        }
+      ],
+      "intensity": "warmup",
+      "lap_advance": true
+    },
+    {
+      "kind": "repeat",
+      "id": "DO2WLBM0SJWDTDFD7J5T",
+      "times": 10,
+      "steps": [
+        {
+          "kind": "step",
+          "id": "l55k0a3r3ozyuutpnmb",
+          "duration": {
+            "value": 120,
+            "unit": "s"
+          },
+          "targets": [
+            {
+              "type": "metric",
+              "metric": "FCMAX",
+              "percent": 90,
+              "percent_max": 95,
+              "resolved": {
+                "low": 171,
+                "high": 180,
+                "unit": "bpm"
+              }
+            }
+          ],
+          "intensity": "work"
+        },
+        {
+          "kind": "step",
+          "id": "l55k0a3ztn2twn24d7",
+          "duration": {
+            "value": 60,
+            "unit": "s"
+          },
+          "targets": [
+            {
+              "type": "no_target"
+            }
+          ],
+          "intensity": "cooldown"
+        }
+      ]
+    },
+    {
+      "kind": "step",
+      "id": "l55k0txai1jajj8x5y",
+      "duration": {
+        "value": 600,
+        "unit": "s"
+      },
+      "targets": [
+        {
+          "type": "no_target"
+        }
+      ],
+      "intensity": "cooldown"
+    }
+  ],
+  "has_structured_workout": true,
+  "summary": "20 à 30' échauffement + **10***** 2'/ 1'** \\+ 10' récup\n\n**Si possible, 6 séries en côte + 4 séries à plat.** Les 2' envi 90/ 95% fc max ( I4)\n\n1' récup petit trot\n\n25' Échauffement ​\n\n​  \n  \n\n-- 10x\n\n2' @90% - 95% FC Max (171 - 180) bpm Corps de séance\n\n1' Récupération\n\n--\n\n10' Récupération​\n\n  \n  \n\n",
+  "revision": "rev_073afcf447f3a698",
+  "id": "ptrn_KVAXbfaxzrUEIAy",
+  "athletes": [
+    "usr_F03NuGBUhCPwm4i"
+  ],
+  "group": null,
+  "date_start": "2026-10-27",
+  "time": null,
+  "moment": null,
+  "recurrence": null,
+  "load": {
+    "coggan": 86,
+    "coggan_source": "manual",
+    "foster": 455
+  },
+  "time_in_zones": {
+    "heartrate": [
+      {
+        "name": "Zone 4",
+        "order": 4,
+        "color": "#ff9e0d",
+        "seconds": 1200
+      }
+    ]
+  }
+}
