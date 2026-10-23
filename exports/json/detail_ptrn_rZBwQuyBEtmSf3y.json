@@ -1,0 +1,37 @@
+{
+  "name": "Vélo endurance ( selon dispos...)",
+  "sport": "spt_B41yRYTUXKNmWr8",
+  "description": "Vélo souple envi 3h ( selon dispos...). Si dispo, proche 3h c'est bien, mais sinon 2h/ 2h30 c'est déjà pas mal ;)",
+  "description_html": null,
+  "duration": {
+    "value": 10800,
+    "unit": "s"
+  },
+  "distance": null,
+  "elevation_gain": null,
+  "elevation_loss": null,
+  "rpe": 2,
+  "show_rpe": true,
+  "coggan_load": 90,
+  "color": null,
+  "tags": [],
+  "workout": null,
+  "has_structured_workout": false,
+  "summary": null,
+  "revision": "rev_db722180cd1557fd",
+  "id": "ptrn_rZBwQuyBEtmSf3y",
+  "athletes": [
+    "usr_F03NuGBUhCPwm4i"
+  ],
+  "group": null,
+  "date_start": "2026-09-18",
+  "time": null,
+  "moment": null,
+  "recurrence": null,
+  "load": {
+    "coggan": 90,
+    "coggan_source": "manual",
+    "foster": 360
+  },
+  "time_in_zones": {}
+}

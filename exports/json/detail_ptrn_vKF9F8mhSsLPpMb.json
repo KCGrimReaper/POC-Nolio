@@ -1,0 +1,37 @@
+{
+  "name": "Footing tranquille",
+  "sport": "spt_kNYHjuEzDJRiYCX",
+  "description": "Footing cool envi 1h15/1h30",
+  "description_html": null,
+  "duration": {
+    "value": 4500,
+    "unit": "s"
+  },
+  "distance": null,
+  "elevation_gain": null,
+  "elevation_loss": null,
+  "rpe": 3,
+  "show_rpe": true,
+  "coggan_load": 50,
+  "color": null,
+  "tags": [],
+  "workout": null,
+  "has_structured_workout": false,
+  "summary": null,
+  "revision": "rev_d4a67f7578046af4",
+  "id": "ptrn_vKF9F8mhSsLPpMb",
+  "athletes": [
+    "usr_F03NuGBUhCPwm4i"
+  ],
+  "group": null,
+  "date_start": "2026-10-18",
+  "time": null,
+  "moment": null,
+  "recurrence": null,
+  "load": {
+    "coggan": 50,
+    "coggan_source": "manual",
+    "foster": 225
+  },
+  "time_in_zones": {}
+}

@@ -1,0 +1,122 @@
+{
+  "name": "5*2/1'30\"",
+  "sport": "spt_kNYHjuEzDJRiYCX",
+  "description": "15 à 30' échauffement cool + 5 * 2'/ 1'30\" + 10' récup\nA faire en terrain plutôt roulant. A faire \" à la sensation\" ( juste pour allonger la foulée)\n1'30\" récup petit trot",
+  "description_html": null,
+  "duration": {
+    "value": 2850,
+    "unit": "s"
+  },
+  "distance": {
+    "value": 12,
+    "unit": "km"
+  },
+  "elevation_gain": null,
+  "elevation_loss": null,
+  "rpe": 7,
+  "show_rpe": false,
+  "coggan_load": 92,
+  "color": null,
+  "tags": [],
+  "workout": [
+    {
+      "kind": "step",
+      "id": "l55jyw6xjqm1ex4k1ei",
+      "duration": {
+        "value": 1200,
+        "unit": "s"
+      },
+      "targets": [
+        {
+          "type": "no_target"
+        }
+      ],
+      "intensity": "warmup",
+      "lap_advance": true
+    },
+    {
+      "kind": "repeat",
+      "id": "SAMFLDXUU20ABMDO7EE9",
+      "times": 5,
+      "steps": [
+        {
+          "kind": "step",
+          "id": "l55k0a3r3ozyuutpnmb",
+          "duration": {
+            "value": 120,
+            "unit": "s"
+          },
+          "targets": [
+            {
+              "type": "metric",
+              "metric": "FCMAX",
+              "percent": 80,
+              "percent_max": 95,
+              "resolved": {
+                "low": 152,
+                "high": 180,
+                "unit": "bpm"
+              }
+            }
+          ],
+          "intensity": "work"
+        },
+        {
+          "kind": "step",
+          "id": "l55k0a3ztn2twn24d7",
+          "duration": {
+            "value": 90,
+            "unit": "s"
+          },
+          "targets": [
+            {
+              "type": "no_target"
+            }
+          ],
+          "intensity": "cooldown"
+        }
+      ]
+    },
+    {
+      "kind": "step",
+      "id": "l55k0txai1jajj8x5y",
+      "duration": {
+        "value": 600,
+        "unit": "s"
+      },
+      "targets": [
+        {
+          "type": "no_target"
+        }
+      ],
+      "intensity": "cooldown"
+    }
+  ],
+  "has_structured_workout": true,
+  "summary": "15 à 30' échauffement cool + **5***** 2'/ 1'30\"** \\+ 10' récup\n\nA faire en terrain plutôt roulant. A faire \" à la sensation\" ( juste pour allonger la foulée)\n\n1'30\" récup petit trot\n\n20' Échauffement ​\n\n​  \n  \n\n-- 5x\n\n2' @80% - 95% FC Max (152 - 180) bpm Corps de séance\n\n1'30\" Récupération\n\n--\n\n10' Récupération​\n\n  \n  \n\n",
+  "revision": "rev_b5b8dcc9b3c97e80",
+  "id": "ptrn_h2rISYRRDBcLJEf",
+  "athletes": [
+    "usr_F03NuGBUhCPwm4i"
+  ],
+  "group": null,
+  "date_start": "2026-10-06",
+  "time": null,
+  "moment": null,
+  "recurrence": null,
+  "load": {
+    "coggan": 92,
+    "coggan_source": "manual",
+    "foster": 332.5
+  },
+  "time_in_zones": {
+    "heartrate": [
+      {
+        "name": "Zone 3",
+        "order": 3,
+        "color": "#72ea24",
+        "seconds": 600
+      }
+    ]
+  }
+}

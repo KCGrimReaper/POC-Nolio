@@ -1,0 +1,37 @@
+{
+  "name": "Renfo",
+  "sport": "spt_l5JdauYgoPxMr3b",
+  "description": "Exemple ( tu peux moduler)\n\n1- Gainage: 6 * (30\" gainage planche ventrale + 30 \" mountains climbers)  ; r : 30\"\n\nGainage dorsal/ fessiers ( sur le dos, on soulève le bassin, les fesses hautes, un genou plié et de l'autre côté jambe tendue en l'air, on maintien la position) : 6* 30\"de chaque côté.\n\n2- Renfo mollets : ( figure 25) \"je monte sur la pointe de pied en 2\" / je redescends lentement  en 3\" : 4* 20 mouvements ; r : 15\"\n\n3- 4* 25 squats  ; 15\"\n\n5- Proprio : en appui unipodal sur un plan instable, varier les positions du corps. Faire plusieurs séries de 40\" pied gch et pied drt.",
+  "description_html": null,
+  "duration": {
+    "value": 1800,
+    "unit": "s"
+  },
+  "distance": null,
+  "elevation_gain": null,
+  "elevation_loss": null,
+  "rpe": 4,
+  "show_rpe": false,
+  "coggan_load": 25,
+  "color": null,
+  "tags": [],
+  "workout": null,
+  "has_structured_workout": false,
+  "summary": null,
+  "revision": "rev_cb48521506f5af80",
+  "id": "ptrn_h2rdDARRDBcLJEf",
+  "athletes": [
+    "usr_F03NuGBUhCPwm4i"
+  ],
+  "group": null,
+  "date_start": "2026-09-23",
+  "time": null,
+  "moment": null,
+  "recurrence": null,
+  "load": {
+    "coggan": 25,
+    "coggan_source": "manual",
+    "foster": 120
+  },
+  "time_in_zones": {}
+}

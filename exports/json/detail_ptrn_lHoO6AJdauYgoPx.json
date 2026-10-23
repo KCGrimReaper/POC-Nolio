@@ -1,0 +1,37 @@
+{
+  "name": "Renfo",
+  "sport": "spt_l5JdauYgoPxMr3b",
+  "description": "Exemple ( tu peux moduler) :\nGainage : 5* (30\" gainage planche ventrale statique + 30\"latéral gch + 30\" latéral drt + 30\" dorsal)  ; r : 30\"\n\n10*30\"/30\" Mountain climbers\nEn unipodal : je décolle le talon, je monte sur la pointe de pied en 2\" et je redescends lentement 3\" : 3* 15 mouvements/ pied\nProprio:\n\nEn appui unipodal, sur un plan instable, varier les postions du corps. Faire 4 séries de envi 40\"/ pied\nCorde à sauter ( ou petits sauts dynamiques sur place pointe de pied) :  10 *  (30\"/30\") en bipodal\n+ 2 * 30\" en unipodal\nServiette à plat au sol, debout, pieds nus, venir la crocheter avec les orteils; pied à plat et la ramener vers soi : 8 * 30\"/ pied",
+  "description_html": null,
+  "duration": {
+    "value": 1800,
+    "unit": "s"
+  },
+  "distance": null,
+  "elevation_gain": null,
+  "elevation_loss": null,
+  "rpe": 5,
+  "show_rpe": true,
+  "coggan_load": 30,
+  "color": null,
+  "tags": [],
+  "workout": null,
+  "has_structured_workout": false,
+  "summary": null,
+  "revision": "rev_9c5bbf3ddc20341a",
+  "id": "ptrn_lHoO6AJdauYgoPx",
+  "athletes": [
+    "usr_F03NuGBUhCPwm4i"
+  ],
+  "group": null,
+  "date_start": "2026-07-13",
+  "time": null,
+  "moment": null,
+  "recurrence": null,
+  "load": {
+    "coggan": 30,
+    "coggan_source": "manual",
+    "foster": 150
+  },
+  "time_in_zones": {}
+}

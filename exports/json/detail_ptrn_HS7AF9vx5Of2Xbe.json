@@ -1,0 +1,37 @@
+{
+  "name": "Vélo souple/ou footing cool",
+  "sport": "spt_B41yRYTUXKNmWr8",
+  "description": "Vélo souple envi 2h ( selon dispos...)/ ou footing cool entre 40' et 1h",
+  "description_html": null,
+  "duration": {
+    "value": 7200,
+    "unit": "s"
+  },
+  "distance": null,
+  "elevation_gain": null,
+  "elevation_loss": null,
+  "rpe": 2,
+  "show_rpe": true,
+  "coggan_load": 60,
+  "color": null,
+  "tags": [],
+  "workout": null,
+  "has_structured_workout": false,
+  "summary": null,
+  "revision": "rev_1a07ca1bb6f2454d",
+  "id": "ptrn_HS7AF9vx5Of2Xbe",
+  "athletes": [
+    "usr_F03NuGBUhCPwm4i"
+  ],
+  "group": null,
+  "date_start": "2026-08-14",
+  "time": null,
+  "moment": null,
+  "recurrence": null,
+  "load": {
+    "coggan": 60,
+    "coggan_source": "manual",
+    "foster": 240
+  },
+  "time_in_zones": {}
+}

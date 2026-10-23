@@ -1,0 +1,178 @@
+{
+  "name": "Renfo/PMA : chaise/squats sautés/45'' bosse)",
+  "sport": "spt_kNYHjuEzDJRiYCX",
+  "description": "20' à 30' échauffement cool + en côte :  10*(30'' chaise/10 squats sautés/45'' bosse) + récup.\nSéance en bosse. Enchainer chaise, squats et pma. Récup descente 1'",
+  "description_html": null,
+  "duration": {
+    "value": 3950,
+    "unit": "s"
+  },
+  "distance": {
+    "value": 1.83,
+    "unit": "km"
+  },
+  "elevation_gain": null,
+  "elevation_loss": null,
+  "rpe": 8,
+  "show_rpe": false,
+  "coggan_load": 86,
+  "color": null,
+  "tags": [],
+  "workout": [
+    {
+      "kind": "step",
+      "id": "lc7xfa67h65zjj7zd9e",
+      "duration": {
+        "value": 1200,
+        "unit": "s"
+      },
+      "targets": [
+        {
+          "type": "no_target"
+        }
+      ],
+      "intensity": "warmup",
+      "lap_advance": true
+    },
+    {
+      "kind": "repeat",
+      "id": "K0HFQX8FGSESUU25EJET",
+      "times": 10,
+      "steps": [
+        {
+          "kind": "step",
+          "id": "ms60rz5a91zy3o4lnz",
+          "duration": {
+            "value": 30,
+            "unit": "s"
+          },
+          "targets": [
+            {
+              "type": "zone",
+              "zone": 1,
+              "stream": "heartrate",
+              "resolved": {
+                "name": "Zone 1",
+                "low": 120,
+                "high": 143,
+                "unit": "bpm"
+              }
+            }
+          ],
+          "intensity": "work",
+          "comment": "Chaise"
+        },
+        {
+          "kind": "step",
+          "id": "ms60st7ml0ft55zq85b",
+          "duration": {
+            "value": 50,
+            "unit": "s"
+          },
+          "targets": [
+            {
+              "type": "zone",
+              "zone": 1,
+              "stream": "heartrate",
+              "resolved": {
+                "name": "Zone 1",
+                "low": 120,
+                "high": 143,
+                "unit": "bpm"
+              }
+            }
+          ],
+          "intensity": "work",
+          "lap_advance": true,
+          "comment": "Squats sautés"
+        },
+        {
+          "kind": "step",
+          "id": "lc7xg2mxr5tfi2wj2qe",
+          "duration": {
+            "value": 45,
+            "unit": "s"
+          },
+          "targets": [
+            {
+              "type": "metric",
+              "metric": "VMA",
+              "percent": 95,
+              "percent_max": 100,
+              "resolved": {
+                "low": 14.25,
+                "high": 15,
+                "unit": "km/h"
+              }
+            }
+          ],
+          "intensity": "work"
+        },
+        {
+          "kind": "step",
+          "id": "lc7xg2n4y2zg6f9qubc",
+          "duration": {
+            "value": 60,
+            "unit": "s"
+          },
+          "targets": [
+            {
+              "type": "no_target"
+            }
+          ],
+          "intensity": "cooldown",
+          "lap_advance": true
+        }
+      ]
+    },
+    {
+      "kind": "step",
+      "id": "lc7xhitoih5f205npl",
+      "duration": {
+        "value": 900,
+        "unit": "s"
+      },
+      "targets": [
+        {
+          "type": "no_target"
+        }
+      ],
+      "intensity": "cooldown"
+    }
+  ],
+  "has_structured_workout": true,
+  "summary": "20' à 30' échauffement cool + **en côte : 10*(****30'' chaise/10 squats sautés/45'' bosse)** \\+ récup.\n\nSéance en bosse. Enchainer chaise, squats et pma. Récup descente 1'\n\n  \n\n20' Échauffement​  \n\n  \n​  \n\n-- 10x\n\n30\" @Zone 1 (120 - 143) bpm Corps de séance Chaise\n\n50\" @Zone 1 (120 - 143) bpm Corps de séance Squats sautés\n\n45'' @95% - 100% VMA (14.25 - 15) km/h - (04:13 - 04:00) min/km - (178.12 - 187.5) m Corps de séance\n\n1' Récupération\n\n--\n\n15' Récupération​  \n\n",
+  "revision": "rev_2ba76f4f0448abb0",
+  "id": "ptrn_ma7i21IPc2wXnOU",
+  "athletes": [
+    "usr_F03NuGBUhCPwm4i"
+  ],
+  "group": null,
+  "date_start": "2026-07-30",
+  "time": null,
+  "moment": null,
+  "recurrence": null,
+  "load": {
+    "coggan": 86,
+    "coggan_source": "manual",
+    "foster": 526.7
+  },
+  "time_in_zones": {
+    "heartrate": [
+      {
+        "name": "Zone 1",
+        "order": 1,
+        "color": "#888888",
+        "seconds": 800
+      }
+    ],
+    "pace": [
+      {
+        "name": "Zone 5",
+        "order": 5,
+        "color": "#ff0035",
+        "seconds": 450
+      }
+    ]
+  }
+}

@@ -1,0 +1,121 @@
+{
+  "name": "4*10' ( 8' montée + 2' relance à plat)",
+  "sport": "spt_kNYHjuEzDJRiYCX",
+  "description": "20 à 30' échauffement cool + 4*10'+ récup.\nAttention, si possible, envi 8' montée + 2' relance à plat ( timing \" approximatif, désolé, pas facile de trouver terrain adécquat..., l'idée c'est de faire 10' seuil avec bosse longue + une relance à plat derrière.\nR : envi 6'",
+  "description_html": null,
+  "duration": {
+    "value": 6720,
+    "unit": "s"
+  },
+  "distance": null,
+  "elevation_gain": null,
+  "elevation_loss": null,
+  "rpe": 9,
+  "show_rpe": false,
+  "coggan_load": null,
+  "color": null,
+  "tags": [],
+  "workout": [
+    {
+      "kind": "step",
+      "id": "l58di9004bta59ho03e",
+      "duration": {
+        "value": 1500,
+        "unit": "s"
+      },
+      "targets": [
+        {
+          "type": "no_target"
+        }
+      ],
+      "intensity": "warmup",
+      "lap_advance": true
+    },
+    {
+      "kind": "repeat",
+      "id": "444RGH0G3RVXVCV85JZD",
+      "times": 4,
+      "steps": [
+        {
+          "kind": "step",
+          "id": "l58dnfys0332oyeyfz6s",
+          "duration": {
+            "value": 600,
+            "unit": "s"
+          },
+          "targets": [
+            {
+              "type": "metric",
+              "metric": "FCMAX",
+              "percent": 90,
+              "percent_max": 95,
+              "resolved": {
+                "low": 171,
+                "high": 181,
+                "unit": "bpm"
+              }
+            }
+          ],
+          "intensity": "work",
+          "comment": "8' montée + 2' plat"
+        },
+        {
+          "kind": "step",
+          "id": "l58dnfyymux7bj08jg",
+          "duration": {
+            "value": 480,
+            "unit": "s"
+          },
+          "targets": [
+            {
+              "type": "no_target"
+            }
+          ],
+          "intensity": "cooldown",
+          "comment": "Retour au point de départ \" envi 6'\""
+        }
+      ]
+    },
+    {
+      "kind": "step",
+      "id": "l58dois4zw87f1358w7",
+      "duration": {
+        "value": 900,
+        "unit": "s"
+      },
+      "targets": [
+        {
+          "type": "no_target"
+        }
+      ],
+      "intensity": "cooldown"
+    }
+  ],
+  "has_structured_workout": true,
+  "summary": "20 à 30' échauffement cool + **4*10'** \\+ récup.\n\n**Attention, si possible, envi 8' montée + 2' relance à plat** ( timing \" approximatif, désolé, pas facile de trouver terrain adécquat..., l'idée\nc'est de faire 10' seuil avec bosse longue + une relance à plat derrière.\n\nR : envi 6'\n\n25' Échauffement ​\n\n​\n\n-- 4x\n\n10' @90% - 95% FC Max (171 - 181) bpm Corps de séance 8' montée + 2' plat\n\n8' Récupération Retour au point de départ \" envi 6'\"\n\n--\n\n15' Récupération​  \n  \n  \n\n​\n\n",
+  "revision": "rev_1a1d6efeafe7f2bb",
+  "id": "ptrn_7ivB0eOgBo9OEMR",
+  "athletes": [
+    "usr_F03NuGBUhCPwm4i"
+  ],
+  "group": null,
+  "date_start": "2026-09-03",
+  "time": null,
+  "moment": null,
+  "recurrence": null,
+  "load": {
+    "coggan": 53,
+    "coggan_source": "workout",
+    "foster": 1008
+  },
+  "time_in_zones": {
+    "heartrate": [
+      {
+        "name": "Zone 4",
+        "order": 4,
+        "color": "#ff9e0d",
+        "seconds": 2400
+      }
+    ]
+  }
+}

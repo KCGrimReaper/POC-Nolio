@@ -1,0 +1,120 @@
+{
+  "name": "3* 10' seuil ( 6'côte/ 2'descente/ 2'côte)",
+  "sport": "spt_kNYHjuEzDJRiYCX",
+  "description": "20 à 30' échauffement cool + 3* 10' seuil ( 6' en montée + 2' descente + 2' montée) + récup\nR : envi 6'",
+  "description_html": null,
+  "duration": {
+    "value": 4980,
+    "unit": "s"
+  },
+  "distance": null,
+  "elevation_gain": null,
+  "elevation_loss": null,
+  "rpe": 8,
+  "show_rpe": true,
+  "coggan_load": 158,
+  "color": null,
+  "tags": [],
+  "workout": [
+    {
+      "kind": "step",
+      "id": "lvw40rukhy4hx5sz619",
+      "duration": {
+        "value": 1500,
+        "unit": "s"
+      },
+      "targets": [
+        {
+          "type": "no_target"
+        }
+      ],
+      "intensity": "warmup",
+      "lap_advance": true
+    },
+    {
+      "kind": "repeat",
+      "id": "Q7K7IKGDDJ1ZM5V9KPSU",
+      "times": 3,
+      "steps": [
+        {
+          "kind": "step",
+          "id": "lvw41g0js7lshf4yhi",
+          "duration": {
+            "value": 600,
+            "unit": "s"
+          },
+          "targets": [
+            {
+              "type": "metric",
+              "metric": "FCMAX",
+              "percent": 90,
+              "percent_max": 95,
+              "resolved": {
+                "low": 171,
+                "high": 180,
+                "unit": "bpm"
+              }
+            }
+          ],
+          "intensity": "work",
+          "comment": "6' montée + 2' descente + 2' montée "
+        },
+        {
+          "kind": "step",
+          "id": "lvw41g0qtmdpf6plzih",
+          "duration": {
+            "value": 360,
+            "unit": "s"
+          },
+          "targets": [
+            {
+              "type": "no_target"
+            }
+          ],
+          "intensity": "cooldown"
+        }
+      ]
+    },
+    {
+      "kind": "step",
+      "id": "lvw423vv56iv28wercm",
+      "duration": {
+        "value": 600,
+        "unit": "s"
+      },
+      "targets": [
+        {
+          "type": "no_target"
+        }
+      ],
+      "intensity": "cooldown"
+    }
+  ],
+  "has_structured_workout": true,
+  "summary": "20 à 30' échauffement cool +**3* 10' seuil ( 6' en montée + 2' descente + 2' montée)** \\+ récup\n\nR : envi 6'\n\n25' Échauffement ​\n\n​  \n\n-- 3x\n\n10' @90% - 95% FC Max (171 - 180) bpm Corps de séance 6' montée + 2' descente + 2' montée\n\n6' Récupération\n\n--\n\n10' Récupération​  \n\n  \n\n  \n\n",
+  "revision": "rev_d7d5df8bd1f93cbb",
+  "id": "ptrn_h2AKnFRRDBcLJEf",
+  "athletes": [
+    "usr_F03NuGBUhCPwm4i"
+  ],
+  "group": null,
+  "date_start": "2026-08-18",
+  "time": null,
+  "moment": null,
+  "recurrence": null,
+  "load": {
+    "coggan": 158,
+    "coggan_source": "manual",
+    "foster": 664
+  },
+  "time_in_zones": {
+    "heartrate": [
+      {
+        "name": "Zone 4",
+        "order": 4,
+        "color": "#ff9e0d",
+        "seconds": 1800
+      }
+    ]
+  }
+}

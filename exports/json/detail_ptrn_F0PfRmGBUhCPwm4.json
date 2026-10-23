@@ -1,0 +1,119 @@
+{
+  "name": "6 * 3' en côte",
+  "sport": "spt_kNYHjuEzDJRiYCX",
+  "description": "20 à 30' échauffement cool + 6* 3' seuil + 10' récup\nLes 3' au seuil : entre 90 et 95%fc max ( I4). A faire en côte.\nR: 2'",
+  "description_html": null,
+  "duration": {
+    "value": 3900,
+    "unit": "s"
+  },
+  "distance": null,
+  "elevation_gain": null,
+  "elevation_loss": null,
+  "rpe": 8,
+  "show_rpe": true,
+  "coggan_load": 108,
+  "color": null,
+  "tags": [],
+  "workout": [
+    {
+      "kind": "step",
+      "id": "m1kaoociijkh1v8f6wn",
+      "duration": {
+        "value": 1500,
+        "unit": "s"
+      },
+      "targets": [
+        {
+          "type": "no_target"
+        }
+      ],
+      "intensity": "warmup",
+      "lap_advance": true
+    },
+    {
+      "kind": "repeat",
+      "id": "J16CO9DTDQ0O8DN2SWW0",
+      "times": 6,
+      "steps": [
+        {
+          "kind": "step",
+          "id": "m1kapc4aiy143nn5mm",
+          "duration": {
+            "value": 180,
+            "unit": "s"
+          },
+          "targets": [
+            {
+              "type": "metric",
+              "metric": "FCMAX",
+              "percent": 85,
+              "percent_max": 95,
+              "resolved": {
+                "low": 162,
+                "high": 181,
+                "unit": "bpm"
+              }
+            }
+          ],
+          "intensity": "work"
+        },
+        {
+          "kind": "step",
+          "id": "m1kapc4fdql14kt4rg",
+          "duration": {
+            "value": 120,
+            "unit": "s"
+          },
+          "targets": [
+            {
+              "type": "no_target"
+            }
+          ],
+          "intensity": "cooldown"
+        }
+      ]
+    },
+    {
+      "kind": "step",
+      "id": "m1kaplhn5yxijwj7epf",
+      "duration": {
+        "value": 600,
+        "unit": "s"
+      },
+      "targets": [
+        {
+          "type": "no_target"
+        }
+      ],
+      "intensity": "cooldown"
+    }
+  ],
+  "has_structured_workout": true,
+  "summary": "20 à 30' échauffement cool + **6***** 3' seuil** \\+ 10' récup\n\nLes 3' au seuil : entre 90 et 95%fc max ( I4). A faire en côte.\n\nR: 2'\n\n25' Échauffement ​\n\n​  \n\n-- 6x\n\n3' @85% - 95% FC Max (162 - 181) bpm Corps de séance\n\n2' Récupération\n\n--\n\n10' Récupération ​  \n\n  \n\n",
+  "revision": "rev_143960f23772cddd",
+  "id": "ptrn_F0PfRmGBUhCPwm4",
+  "athletes": [
+    "usr_F03NuGBUhCPwm4i"
+  ],
+  "group": null,
+  "date_start": "2026-08-13",
+  "time": null,
+  "moment": null,
+  "recurrence": null,
+  "load": {
+    "coggan": 108,
+    "coggan_source": "manual",
+    "foster": 520
+  },
+  "time_in_zones": {
+    "heartrate": [
+      {
+        "name": "Zone 3",
+        "order": 3,
+        "color": "#72ea24",
+        "seconds": 1080
+      }
+    ]
+  }
+}

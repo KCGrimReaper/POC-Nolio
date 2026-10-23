@@ -1,0 +1,119 @@
+{
+  "name": "3* 8' seuil",
+  "sport": "spt_kNYHjuEzDJRiYCX",
+  "description": "20 à 30' échauffement cool avec 5' gammes + 3* 8' seuil + récup\nA faire en terrain varié et vallonné. Les 8' au seuil ( entre 90 et 95%fc max I4)\nR: 3' ( entre les séries)",
+  "description_html": null,
+  "duration": {
+    "value": 4080,
+    "unit": "s"
+  },
+  "distance": null,
+  "elevation_gain": null,
+  "elevation_loss": null,
+  "rpe": 8,
+  "show_rpe": true,
+  "coggan_load": 113,
+  "color": null,
+  "tags": [],
+  "workout": [
+    {
+      "kind": "step",
+      "id": "lztifhr1prsj0v842j",
+      "duration": {
+        "value": 1500,
+        "unit": "s"
+      },
+      "targets": [
+        {
+          "type": "no_target"
+        }
+      ],
+      "intensity": "warmup",
+      "lap_advance": true
+    },
+    {
+      "kind": "repeat",
+      "id": "Q26V1IYPIRC3BFOVSCDR",
+      "times": 3,
+      "steps": [
+        {
+          "kind": "step",
+          "id": "lztifzlb1l2k629ux0u",
+          "duration": {
+            "value": 480,
+            "unit": "s"
+          },
+          "targets": [
+            {
+              "type": "metric",
+              "metric": "FCMAX",
+              "percent": 90,
+              "percent_max": 95,
+              "resolved": {
+                "low": 171,
+                "high": 181,
+                "unit": "bpm"
+              }
+            }
+          ],
+          "intensity": "work"
+        },
+        {
+          "kind": "step",
+          "id": "lztifzlhx606si0cjhj",
+          "duration": {
+            "value": 180,
+            "unit": "s"
+          },
+          "targets": [
+            {
+              "type": "no_target"
+            }
+          ],
+          "intensity": "cooldown"
+        }
+      ]
+    },
+    {
+      "kind": "step",
+      "id": "lztig9e2qyrors9edin",
+      "duration": {
+        "value": 600,
+        "unit": "s"
+      },
+      "targets": [
+        {
+          "type": "no_target"
+        }
+      ],
+      "intensity": "cooldown"
+    }
+  ],
+  "has_structured_workout": true,
+  "summary": "20 à 30' échauffement cool avec 5' gammes + **3* 8' seuil** \\+ récup\n\nA faire en terrain varié et vallonné. Les 8' au seuil ( entre 90 et 95%fc max I4)\n\nR: 3' ( entre les séries)\n\n25' Échauffement ​\n\n​  \n\n-- 3x\n\n8' @90% - 95% FC Max (171 - 181) bpm Corps de séance\n\n3' Récupération\n\n--\n\n10' Récupération ​  \n\n  \n\n",
+  "revision": "rev_d1c76387e81e13f7",
+  "id": "ptrn_oBrUKKTQvkMBeDT",
+  "athletes": [
+    "usr_F03NuGBUhCPwm4i"
+  ],
+  "group": null,
+  "date_start": "2026-08-20",
+  "time": null,
+  "moment": null,
+  "recurrence": null,
+  "load": {
+    "coggan": 113,
+    "coggan_source": "manual",
+    "foster": 544
+  },
+  "time_in_zones": {
+    "heartrate": [
+      {
+        "name": "Zone 4",
+        "order": 4,
+        "color": "#ff9e0d",
+        "seconds": 1440
+      }
+    ]
+  }
+}

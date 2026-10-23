@@ -1,0 +1,40 @@
+{
+  "name": "Déblocage :)",
+  "sport": "spt_kNYHjuEzDJRiYCX",
+  "description": "Footing cool envi 40' avec échauffement + 5' gammes + 4 * 30\"/30\" progressif + récup",
+  "description_html": null,
+  "duration": {
+    "value": 2400,
+    "unit": "s"
+  },
+  "distance": {
+    "value": 7,
+    "unit": "km"
+  },
+  "elevation_gain": null,
+  "elevation_loss": null,
+  "rpe": 3,
+  "show_rpe": false,
+  "coggan_load": 26,
+  "color": null,
+  "tags": [],
+  "workout": null,
+  "has_structured_workout": false,
+  "summary": null,
+  "revision": "rev_a1a5d1c4c65c9b4e",
+  "id": "ptrn_LMHCCkBwH2OE1bI",
+  "athletes": [
+    "usr_F03NuGBUhCPwm4i"
+  ],
+  "group": null,
+  "date_start": "2026-10-09",
+  "time": null,
+  "moment": null,
+  "recurrence": null,
+  "load": {
+    "coggan": 26,
+    "coggan_source": "manual",
+    "foster": 120
+  },
+  "time_in_zones": {}
+}

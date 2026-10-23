@@ -1,0 +1,37 @@
+{
+  "name": "Sortie trail tranquille",
+  "sport": "spt_kNYHjuEzDJRiYCX",
+  "description": "Sortie trail tranquille envi 4h/ ou vélo souple si grosses courbatures ou fatigue",
+  "description_html": null,
+  "duration": {
+    "value": 14400,
+    "unit": "s"
+  },
+  "distance": null,
+  "elevation_gain": null,
+  "elevation_loss": null,
+  "rpe": 3,
+  "show_rpe": true,
+  "coggan_load": 160,
+  "color": null,
+  "tags": [],
+  "workout": null,
+  "has_structured_workout": false,
+  "summary": null,
+  "revision": "rev_afb68608bc537b14",
+  "id": "ptrn_w8u69EAjGr1yXKl",
+  "athletes": [
+    "usr_F03NuGBUhCPwm4i"
+  ],
+  "group": null,
+  "date_start": "2026-09-20",
+  "time": null,
+  "moment": null,
+  "recurrence": null,
+  "load": {
+    "coggan": 160,
+    "coggan_source": "manual",
+    "foster": 720
+  },
+  "time_in_zones": {}
+}

@@ -1,0 +1,37 @@
+{
+  "name": "Vélo souple",
+  "sport": "spt_B41yRYTUXKNmWr8",
+  "description": "Vélo souple entre 30' et 1h",
+  "description_html": null,
+  "duration": {
+    "value": 2700,
+    "unit": "s"
+  },
+  "distance": null,
+  "elevation_gain": null,
+  "elevation_loss": null,
+  "rpe": 2,
+  "show_rpe": true,
+  "coggan_load": 22,
+  "color": null,
+  "tags": [],
+  "workout": null,
+  "has_structured_workout": false,
+  "summary": null,
+  "revision": "rev_35dda8605d9e7737",
+  "id": "ptrn_23ZrtesHnz5Qib6",
+  "athletes": [
+    "usr_F03NuGBUhCPwm4i"
+  ],
+  "group": null,
+  "date_start": "2026-09-21",
+  "time": null,
+  "moment": null,
+  "recurrence": null,
+  "load": {
+    "coggan": 22,
+    "coggan_source": "manual",
+    "foster": 90
+  },
+  "time_in_zones": {}
+}

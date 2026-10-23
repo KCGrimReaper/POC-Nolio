@@ -1,0 +1,40 @@
+{
+  "name": "Navette dans le pentu",
+  "sport": "spt_kNYHjuEzDJRiYCX",
+  "description": "10' échauffement cool + entre 1h30 et 2h de navettes dans bosse raide( selon dispos...) Mini 1000m déniv si possible\nMontées tranquilles/ descentes rapides",
+  "description_html": null,
+  "duration": {
+    "value": 7200,
+    "unit": "s"
+  },
+  "distance": {
+    "value": 8,
+    "unit": "km"
+  },
+  "elevation_gain": null,
+  "elevation_loss": null,
+  "rpe": 4,
+  "show_rpe": true,
+  "coggan_load": 100,
+  "color": null,
+  "tags": [],
+  "workout": null,
+  "has_structured_workout": false,
+  "summary": null,
+  "revision": "rev_9d8d5cc0f3db29e2",
+  "id": "ptrn_23YELXsHnz5Qib6",
+  "athletes": [
+    "usr_F03NuGBUhCPwm4i"
+  ],
+  "group": null,
+  "date_start": "2026-08-27",
+  "time": null,
+  "moment": null,
+  "recurrence": null,
+  "load": {
+    "coggan": 100,
+    "coggan_source": "manual",
+    "foster": 480
+  },
+  "time_in_zones": {}
+}

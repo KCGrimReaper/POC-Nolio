@@ -1,0 +1,37 @@
+{
+  "name": "Vélo souple",
+  "sport": "spt_B41yRYTUXKNmWr8",
+  "description": "Vélo souple envi 2h ( selon dispos...)",
+  "description_html": null,
+  "duration": {
+    "value": 7200,
+    "unit": "s"
+  },
+  "distance": null,
+  "elevation_gain": null,
+  "elevation_loss": null,
+  "rpe": 2,
+  "show_rpe": true,
+  "coggan_load": 60,
+  "color": null,
+  "tags": [],
+  "workout": null,
+  "has_structured_workout": false,
+  "summary": null,
+  "revision": "rev_c70d2a361ba64ac4",
+  "id": "ptrn_j5pnrdetU543JVo",
+  "athletes": [
+    "usr_F03NuGBUhCPwm4i"
+  ],
+  "group": null,
+  "date_start": "2026-08-12",
+  "time": null,
+  "moment": null,
+  "recurrence": null,
+  "load": {
+    "coggan": 60,
+    "coggan_source": "manual",
+    "foster": 240
+  },
+  "time_in_zones": {}
+}

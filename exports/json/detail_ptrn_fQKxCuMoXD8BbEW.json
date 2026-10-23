@@ -1,0 +1,122 @@
+{
+  "name": "10 * 1'/ 1'",
+  "sport": "spt_kNYHjuEzDJRiYCX",
+  "description": "20 à 30' échauffement cool avec 5' gammes+ 10* 1'/ 1' + 10' récup\nA faire en nature, en terrain plutôt plat ou un peu vallonné.\nLes 1' \" à la sensation\"",
+  "description_html": null,
+  "duration": {
+    "value": 3000,
+    "unit": "s"
+  },
+  "distance": {
+    "value": 2.37,
+    "unit": "km"
+  },
+  "elevation_gain": null,
+  "elevation_loss": null,
+  "rpe": 8,
+  "show_rpe": true,
+  "coggan_load": 91,
+  "color": null,
+  "tags": [],
+  "workout": [
+    {
+      "kind": "step",
+      "id": "loekm53z8405fdtk5wg",
+      "duration": {
+        "value": 1200,
+        "unit": "s"
+      },
+      "targets": [
+        {
+          "type": "no_target"
+        }
+      ],
+      "intensity": "warmup",
+      "lap_advance": true
+    },
+    {
+      "kind": "repeat",
+      "id": "06ABDIWAOG05YH5E4SGU",
+      "times": 10,
+      "steps": [
+        {
+          "kind": "step",
+          "id": "loekmud4dwaecnsuao",
+          "duration": {
+            "value": 60,
+            "unit": "s"
+          },
+          "targets": [
+            {
+              "type": "metric",
+              "metric": "VMA",
+              "percent": 90,
+              "percent_max": 100,
+              "resolved": {
+                "low": 13.5,
+                "high": 15,
+                "unit": "km/h"
+              }
+            }
+          ],
+          "intensity": "work"
+        },
+        {
+          "kind": "step",
+          "id": "loekmudc55od6h5y7dg",
+          "duration": {
+            "value": 60,
+            "unit": "s"
+          },
+          "targets": [
+            {
+              "type": "no_target"
+            }
+          ],
+          "intensity": "cooldown"
+        }
+      ]
+    },
+    {
+      "kind": "step",
+      "id": "loekn1c9v0z5h9z6pgm",
+      "duration": {
+        "value": 600,
+        "unit": "s"
+      },
+      "targets": [
+        {
+          "type": "no_target"
+        }
+      ],
+      "intensity": "cooldown"
+    }
+  ],
+  "has_structured_workout": true,
+  "summary": "20 à 30' échauffement cool avec 5' gammes+**10* 1'/ 1'** \\+ 10' récup\n\nA faire en nature, en terrain plutôt plat ou un peu vallonné.\n\nLes 1' \" à la sensation\"\n\n20' Échauffement ​\n\n​  \n  \n\n-- 10x\n\n1' @90% - 100% VMA (13.5 - 15) km/h - (04:27 - 04:00) min/km - (225.0 - 250.0) m Corps de séance\n\n1' Récupération\n\n--\n\n10' Récupération​  \n\n  \n\n",
+  "revision": "rev_11f300461e266d92",
+  "id": "ptrn_fQKxCuMoXD8BbEW",
+  "athletes": [
+    "usr_F03NuGBUhCPwm4i"
+  ],
+  "group": null,
+  "date_start": "2026-10-20",
+  "time": null,
+  "moment": null,
+  "recurrence": null,
+  "load": {
+    "coggan": 91,
+    "coggan_source": "manual",
+    "foster": 400
+  },
+  "time_in_zones": {
+    "pace": [
+      {
+        "name": "Zone 5",
+        "order": 5,
+        "color": "#ff0035",
+        "seconds": 600
+      }
+    ]
+  }
+}

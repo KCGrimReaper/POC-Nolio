@@ -1,0 +1,37 @@
+{
+  "name": "Navettes dans le pentu",
+  "sport": "spt_kNYHjuEzDJRiYCX",
+  "description": "10' footing cool + 1h30 à 2h ( selon dispos...) de navettes dans le pentu. Montées \" bon rythme\" ( proche I3 \" tempo\"). Descentes souples",
+  "description_html": null,
+  "duration": {
+    "value": 7800,
+    "unit": "s"
+  },
+  "distance": null,
+  "elevation_gain": null,
+  "elevation_loss": null,
+  "rpe": 7,
+  "show_rpe": true,
+  "coggan_load": 173,
+  "color": null,
+  "tags": [],
+  "workout": null,
+  "has_structured_workout": false,
+  "summary": null,
+  "revision": "rev_6fb392ed0b1a8f66",
+  "id": "ptrn_PCDglAVF8n71cuV",
+  "athletes": [
+    "usr_F03NuGBUhCPwm4i"
+  ],
+  "group": null,
+  "date_start": "2026-09-26",
+  "time": null,
+  "moment": null,
+  "recurrence": null,
+  "load": {
+    "coggan": 173,
+    "coggan_source": "manual",
+    "foster": 910
+  },
+  "time_in_zones": {}
+}

@@ -1,0 +1,40 @@
+{
+  "name": "Renfo/sprint en côte",
+  "sport": "spt_kNYHjuEzDJRiYCX",
+  "description": "20 à 30' échauffement cool avec 5'vgammes + 10*(10 squats/sprint 20'' en bosse) + récup.\n\nEnchainer les squats et le sprint en bosse. La bosse doit être raide mais se courir.\nr = retour au point de départ cool env 30\"",
+  "description_html": null,
+  "duration": {
+    "value": 3600,
+    "unit": "s"
+  },
+  "distance": {
+    "value": 10,
+    "unit": "km"
+  },
+  "elevation_gain": null,
+  "elevation_loss": null,
+  "rpe": 8,
+  "show_rpe": false,
+  "coggan_load": 100,
+  "color": null,
+  "tags": [],
+  "workout": null,
+  "has_structured_workout": false,
+  "summary": null,
+  "revision": "rev_f0c45b3c92eab4c6",
+  "id": "ptrn_LMrZqRBwH2OE1bI",
+  "athletes": [
+    "usr_F03NuGBUhCPwm4i"
+  ],
+  "group": null,
+  "date_start": "2026-07-23",
+  "time": null,
+  "moment": null,
+  "recurrence": null,
+  "load": {
+    "coggan": 100,
+    "coggan_source": "manual",
+    "foster": 480
+  },
+  "time_in_zones": {}
+}

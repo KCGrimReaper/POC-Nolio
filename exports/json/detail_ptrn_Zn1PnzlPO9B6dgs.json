@@ -1,0 +1,37 @@
+{
+  "name": "Renfo",
+  "sport": "spt_l5JdauYgoPxMr3b",
+  "description": "Exemple renfo (tu peux moduler )\n\n(40\" exercice/ 20\" récup).\n3 à 5 séries. R : 50\"\n\n1- Planche ventrale\n\n2- Burpees\n\n3- Squats lents\n\n4- Squats sautés\n\n5- Je décolle les talons, je redescends lentement\n\n6- Gainage dorsal",
+  "description_html": null,
+  "duration": {
+    "value": 1800,
+    "unit": "s"
+  },
+  "distance": null,
+  "elevation_gain": null,
+  "elevation_loss": null,
+  "rpe": 5,
+  "show_rpe": true,
+  "coggan_load": 30,
+  "color": null,
+  "tags": [],
+  "workout": null,
+  "has_structured_workout": false,
+  "summary": null,
+  "revision": "rev_26ae8a802313cc50",
+  "id": "ptrn_Zn1PnzlPO9B6dgs",
+  "athletes": [
+    "usr_F03NuGBUhCPwm4i"
+  ],
+  "group": null,
+  "date_start": "2026-08-24",
+  "time": null,
+  "moment": null,
+  "recurrence": null,
+  "load": {
+    "coggan": 30,
+    "coggan_source": "manual",
+    "foster": 150
+  },
+  "time_in_zones": {}
+}

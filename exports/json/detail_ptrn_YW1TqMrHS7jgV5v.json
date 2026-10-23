@@ -1,0 +1,180 @@
+{
+  "name": "2* 6*(2'/1')",
+  "sport": "spt_kNYHjuEzDJRiYCX",
+  "description": "15 à 30' échauffement cool + 2* 6*(2'/1') + récup. R : 5' ( entre les 2 blocs)\nSi possible 6 séries en côte et 6 séries à plat",
+  "description_html": null,
+  "duration": {
+    "value": 4200,
+    "unit": "s"
+  },
+  "distance": {
+    "value": 2.93,
+    "unit": "km"
+  },
+  "elevation_gain": null,
+  "elevation_loss": null,
+  "rpe": 8,
+  "show_rpe": false,
+  "coggan_load": 116,
+  "color": null,
+  "tags": [],
+  "workout": [
+    {
+      "kind": "step",
+      "id": "lc7xfa67h65zjj7zd9e",
+      "duration": {
+        "value": 1200,
+        "unit": "s"
+      },
+      "targets": [
+        {
+          "type": "no_target"
+        }
+      ],
+      "intensity": "warmup",
+      "lap_advance": true
+    },
+    {
+      "kind": "repeat",
+      "id": "8T2CDG56OYZU9KWGY918",
+      "times": 6,
+      "steps": [
+        {
+          "kind": "step",
+          "id": "lc7xg2mxr5tfi2wj2qe",
+          "duration": {
+            "value": 120,
+            "unit": "s"
+          },
+          "targets": [
+            {
+              "type": "metric",
+              "metric": "FCMAX",
+              "percent": 90,
+              "percent_max": 95,
+              "resolved": {
+                "low": 171,
+                "high": 180,
+                "unit": "bpm"
+              }
+            }
+          ],
+          "intensity": "work",
+          "lap_advance": true
+        },
+        {
+          "kind": "step",
+          "id": "lc7xg2n4y2zg6f9qubc",
+          "duration": {
+            "value": 60,
+            "unit": "s"
+          },
+          "targets": [
+            {
+              "type": "no_target"
+            }
+          ],
+          "intensity": "cooldown"
+        }
+      ]
+    },
+    {
+      "kind": "step",
+      "id": "lc7xgd4gqq0nnlo34o",
+      "duration": {
+        "value": 240,
+        "unit": "s"
+      },
+      "targets": [
+        {
+          "type": "no_target"
+        }
+      ],
+      "intensity": "cooldown"
+    },
+    {
+      "kind": "repeat",
+      "id": "KQSSKAAEHHHZ3RJ43RNJ",
+      "times": 6,
+      "steps": [
+        {
+          "kind": "step",
+          "id": "lc7xh7mfdd8rczkabke",
+          "duration": {
+            "value": 120,
+            "unit": "s"
+          },
+          "targets": [
+            {
+              "type": "metric",
+              "metric": "FCMAX",
+              "percent": 90,
+              "percent_max": 95,
+              "resolved": {
+                "low": 171,
+                "high": 180,
+                "unit": "bpm"
+              }
+            }
+          ],
+          "intensity": "work"
+        },
+        {
+          "kind": "step",
+          "id": "lc7xh7mjt0c8cgt7io",
+          "duration": {
+            "value": 60,
+            "unit": "s"
+          },
+          "targets": [
+            {
+              "type": "no_target"
+            }
+          ],
+          "intensity": "cooldown"
+        }
+      ]
+    },
+    {
+      "kind": "step",
+      "id": "lc7xhitoih5f205npl",
+      "duration": {
+        "value": 600,
+        "unit": "s"
+      },
+      "targets": [
+        {
+          "type": "no_target"
+        }
+      ],
+      "intensity": "cooldown"
+    }
+  ],
+  "has_structured_workout": true,
+  "summary": "15 à 30' échauffement cool + **2* 6*(2'/1')** \\+ récup. R : 5' ( entre les 2 blocs)\n\n**Si possible 6 séries en côte et 6 séries à plat**\n\n20' Échauffement​  \n\n  \n​  \n\n-- 6x\n\n2' @90% - 95% FC Max (171 - 180) bpm Corps de séance\n\n1' Récupération\n\n--\n\n4' Récupération​\n\n  \n\n-- 6x\n\n2' @90% - 95% FC Max (171 - 180) bpm Corps de séance\n\n1' Récupération\n\n--\n\n10' Récupération​  \n\n",
+  "revision": "rev_f46606ee97d12264",
+  "id": "ptrn_YW1TqMrHS7jgV5v",
+  "athletes": [
+    "usr_F03NuGBUhCPwm4i"
+  ],
+  "group": null,
+  "date_start": "2026-09-24",
+  "time": null,
+  "moment": null,
+  "recurrence": null,
+  "load": {
+    "coggan": 116,
+    "coggan_source": "manual",
+    "foster": 560
+  },
+  "time_in_zones": {
+    "heartrate": [
+      {
+        "name": "Zone 4",
+        "order": 4,
+        "color": "#ff9e0d",
+        "seconds": 1440
+      }
+    ]
+  }
+}

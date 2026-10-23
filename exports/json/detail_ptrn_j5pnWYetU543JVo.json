@@ -1,0 +1,37 @@
+{
+  "name": "Sortie rando/trail tranquille",
+  "sport": "spt_kNYHjuEzDJRiYCX",
+  "description": "Sortie rando/trail envi 3h30 tranquille",
+  "description_html": null,
+  "duration": {
+    "value": 12600,
+    "unit": "s"
+  },
+  "distance": null,
+  "elevation_gain": null,
+  "elevation_loss": null,
+  "rpe": 3,
+  "show_rpe": true,
+  "coggan_load": 140,
+  "color": null,
+  "tags": [],
+  "workout": null,
+  "has_structured_workout": false,
+  "summary": null,
+  "revision": "rev_5b33d78d9706bcb5",
+  "id": "ptrn_j5pnWYetU543JVo",
+  "athletes": [
+    "usr_F03NuGBUhCPwm4i"
+  ],
+  "group": null,
+  "date_start": "2026-08-16",
+  "time": null,
+  "moment": "morning",
+  "recurrence": null,
+  "load": {
+    "coggan": 140,
+    "coggan_source": "manual",
+    "foster": 630
+  },
+  "time_in_zones": {}
+}
