@@ -1,4 +1,4 @@
-const fs = require('fs');
+import fs from 'fs/promises';
 
 const fetchNolioData = async () => {
   const token = process.env.NOLIO_TOKEN;
@@ -57,8 +57,8 @@ const fetchNolioData = async () => {
       fileContent += `\n`;
     });
 
-    // Écriture du fichier de sortie
-    fs.writeFileSync('workouts.md', fileContent, 'utf8');
+    // Écriture du fichier de sortie en asynchrone (compatible ES modules)
+    await fs.writeFile('workouts.md', fileContent, 'utf8');
     console.log("Fichier 'workouts.md' généré avec succès.");
 
   } catch (error) {
