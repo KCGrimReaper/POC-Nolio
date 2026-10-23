@@ -8,10 +8,10 @@ const fetchNolioData = async () => {
 
   const startDate = '2026-10-01';
   const endDate = '2026-10-31';
-  // Endpoint v2 officiel avec le slash final obligatoire
-  const url = `https://www.nolio.io/api/v2/workouts/?from=${startDate}&to=${endDate}`;
+  // Endpoint v2 exact pour les séances planifiées (planned-trainings)
+  const url = `https://www.nolio.io/api/v2/planned-trainings/?from=${startDate}&to=${endDate}`;
 
-  console.log(`Interrogation des séances v2 du ${startDate} au ${endDate}...`);
+  console.log(`Interrogation des séances planifiées v2 vers ${url}...`);
 
   try {
     const response = await fetch(url, {
