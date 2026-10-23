@@ -8,22 +8,19 @@ const fetchNolioData = async () => {
     process.exit(1);
   }
 
-  // 1. Les paramètres de requête (issus de Query Parameters dans Scalar)
+  // 1. Les paramètres de requête
   const dateFrom = '2026-10-01';
   const dateTo = '2026-10-31';
-
-  // 2. L'URL exacte de l'endpoint (issue de la barre de recherche Scalar) avec les paramètres date_from et date_to
   const url = `https://www.nolio.io/api/v2/planned/trainings/?date_from=${dateFrom}&date_to=${dateTo}`;
 
   console.log(`Exécution de la requête vers : ${url}`);
 
   try {
-    // 3. Le fetch avec la méthode GET et les en-têtes d'authentification (Bearer Token)
     const response = await fetch(url, {
       method: 'GET',
       headers: {
-        'Authorization': `Bearer ${token}`, // Correspond au Bearer Token de Scalar
-        'Accept': 'application/json'          // Correspond au header 'accept' de Scalar
+        'Authorization': `Bearer ${token}`,
+        'Accept': 'application/json'
       }
     });
 
@@ -35,15 +32,12 @@ const fetchNolioData = async () => {
       process.exit(1);
     }
 
-    // On convertit le texte brut en objet JSON exploitable
     const jsonResponse = await response.json();
-
-    // D'après Scalar, les entraînements sont dans le tableau .data
     const workouts = jsonResponse.data;
     console.log(`Nombre de séances trouvées : ${workouts.length}`);
 
-    // Génération du contenu CSV pour un fichier exploitable dans Excel
-    let csvContent = "Date;Nom;Description;Durée\n";
+    // \uFEFF (BOM UTF-8) force Excel à reconnaître les accents correctement
+    let csvContent = "\uFEFFDate;Nom;Description;Durée\n";
 
     workouts.forEach((workout) => {
       let durationStr = '';
@@ -57,9 +51,13 @@ const fetchNolioData = async () => {
       csvContent += `"${workout.date_start}";"${name}";"${description}";"${durationStr}"\n`;
     });
 
-    // Écriture du fichier natif
-    await fs.writeFile('workouts.csv', csvContent, 'utf8');
-    console.log("Fichier 'workouts.csv' généré avec succès.");
+    // Génération d'un nom de fichier avec la date et l'heure actuelles
+    const now = new Date();
+    const timestamp = now.toISOString().replace(/[:.]/g, '-').slice(0, 19);
+    const fileName = `workouts_${timestamp}.csv`;
+
+    await fs.writeFile(fileName, csvContent, 'utf8');
+    console.log(`Fichier '${fileName}' généré avec succès.`);
 
   } catch (error) {
     console.error("Erreur de fetch détaillée :", error.message);
