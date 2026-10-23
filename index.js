@@ -41,7 +41,13 @@ const fetchNolioData = async () => {
     // D'après Scalar, les entraînements sont dans le tableau .data
     const workouts = jsonResponse.data;
     console.log(`Nombre de séances trouvées : ${workouts.length}`);
-
+    
+// Affiche le JSON complet de la première séance dans la console
+    if (workouts.length > 0) {
+      console.log("--- EXEMPLE DE SÉANCE BRUTE (JSON) ---");
+      console.log(JSON.stringify(workouts[0], null, 2));
+    }
+    
     // \uFEFF (BOM UTF-8) force Excel à reconnaître les accents correctement
     let csvContent = "\uFEFFDate;Nom;Description;Durée\n";
 
