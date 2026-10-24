@@ -1,0 +1,122 @@
+{
+  "name": "10 * 45\"/45\" souple",
+  "sport": "spt_kNYHjuEzDJRiYCX",
+  "description": "20' à 30' échauffement cool avec 5' gammes + 10 * 45\"/45\" souple + 10' récup\n45\"  ( proche 100% vma) I5/ 45\" récup ( fais surtout \" souple\" et à la \"sensation\" pour rallonger la foulée)\nA faire en terrain plutôt plat ou légèrement vallonné",
+  "description_html": null,
+  "duration": {
+    "value": 3000,
+    "unit": "s"
+  },
+  "distance": {
+    "value": 1.82,
+    "unit": "km"
+  },
+  "elevation_gain": null,
+  "elevation_loss": null,
+  "rpe": 7,
+  "show_rpe": true,
+  "coggan_load": 66,
+  "color": null,
+  "tags": [],
+  "workout": [
+    {
+      "kind": "step",
+      "id": "llm758ykpyqe8xyw85r",
+      "duration": {
+        "value": 1500,
+        "unit": "s"
+      },
+      "targets": [
+        {
+          "type": "no_target"
+        }
+      ],
+      "intensity": "warmup",
+      "lap_advance": true
+    },
+    {
+      "kind": "repeat",
+      "id": "D1FIV6T9KFTSBTHESHQT",
+      "times": 10,
+      "steps": [
+        {
+          "kind": "step",
+          "id": "llm760k5xxdgx0og2ob",
+          "duration": {
+            "value": 45,
+            "unit": "s"
+          },
+          "targets": [
+            {
+              "type": "metric",
+              "metric": "VMA",
+              "percent": 95,
+              "percent_max": 100,
+              "resolved": {
+                "low": 14.25,
+                "high": 15,
+                "unit": "km/h"
+              }
+            }
+          ],
+          "intensity": "work"
+        },
+        {
+          "kind": "step",
+          "id": "llm760kcir3vxl83d6",
+          "duration": {
+            "value": 45,
+            "unit": "s"
+          },
+          "targets": [
+            {
+              "type": "no_target"
+            }
+          ],
+          "intensity": "cooldown"
+        }
+      ]
+    },
+    {
+      "kind": "step",
+      "id": "llm76fwj43xdps3lcdt",
+      "duration": {
+        "value": 600,
+        "unit": "s"
+      },
+      "targets": [
+        {
+          "type": "no_target"
+        }
+      ],
+      "intensity": "cooldown"
+    }
+  ],
+  "has_structured_workout": true,
+  "summary": "20' à 30' échauffement cool avec 5' gammes + **10 * 45\"/45\" souple** \\+ 10' récup\n\n45\" ( proche 100% vma) I5/ 45\" récup ( fais surtout \" souple\" et à la \"sensation\" pour rallonger la foulée)\n\nA faire en terrain plutôt plat ou légèrement vallonné\n\n25' Échauffement ​\n\n​  \n  \n\n-- 10x\n\n45\" @95% - 100% VMA (14.25 - 15) km/h - (04:13 - 04:00) min/km - (178.13 - 187.5) m Corps de séance\n\n45\" Récupération\n\n--\n\n10' Récupération​  \n\n",
+  "revision": "rev_a92af782e1241ae6",
+  "id": "ptrn_Lfur59BwH2OE1bI",
+  "athletes": [
+    "usr_F03NuGBUhCPwm4i"
+  ],
+  "group": null,
+  "date_start": "2025-12-02",
+  "time": null,
+  "moment": null,
+  "recurrence": null,
+  "load": {
+    "coggan": 66,
+    "coggan_source": "manual",
+    "foster": 350
+  },
+  "time_in_zones": {
+    "pace": [
+      {
+        "name": "Zone 5",
+        "order": 5,
+        "color": "#ff0035",
+        "seconds": 450
+      }
+    ]
+  }
+}

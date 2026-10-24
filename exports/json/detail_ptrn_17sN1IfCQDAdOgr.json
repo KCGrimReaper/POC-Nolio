@@ -1,0 +1,120 @@
+{
+  "name": "10 * 300",
+  "sport": "spt_kNYHjuEzDJRiYCX",
+  "description": "20 à 30' échauffement cool avec 5' gammes + 10* 300 + 10' récup\nA faire dans l'idéale sur piste. Les 300 à 100% vma ( I5)\nR : 1' petit trot tranquille",
+  "description_html": null,
+  "duration": {
+    "value": 3420,
+    "unit": "s"
+  },
+  "distance": {
+    "value": 3,
+    "unit": "km"
+  },
+  "elevation_gain": null,
+  "elevation_loss": null,
+  "rpe": 9,
+  "show_rpe": false,
+  "coggan_load": 120,
+  "color": null,
+  "tags": [],
+  "workout": [
+    {
+      "kind": "step",
+      "id": "l5e5cjr5lwbd78shmtl",
+      "duration": {
+        "value": 1500,
+        "unit": "s"
+      },
+      "targets": [
+        {
+          "type": "no_target"
+        }
+      ],
+      "intensity": "warmup",
+      "lap_advance": true
+    },
+    {
+      "kind": "repeat",
+      "id": "AQ2JOULLRG0B4E00INSR",
+      "times": 10,
+      "steps": [
+        {
+          "kind": "step",
+          "id": "l5e5de0sladi4i7892o",
+          "distance": {
+            "value": 0.3,
+            "unit": "km"
+          },
+          "targets": [
+            {
+              "type": "metric",
+              "metric": "VMA",
+              "percent": 100,
+              "resolved": {
+                "value": 15,
+                "unit": "km/h"
+              }
+            }
+          ],
+          "intensity": "work"
+        },
+        {
+          "kind": "step",
+          "id": "l5e5de0w7u7jhaym7r8",
+          "duration": {
+            "value": 60,
+            "unit": "s"
+          },
+          "targets": [
+            {
+              "type": "no_target"
+            }
+          ],
+          "intensity": "cooldown"
+        }
+      ]
+    },
+    {
+      "kind": "step",
+      "id": "l5e5dvmwhoopp7snzx8",
+      "duration": {
+        "value": 600,
+        "unit": "s"
+      },
+      "targets": [
+        {
+          "type": "no_target"
+        }
+      ],
+      "intensity": "cooldown"
+    }
+  ],
+  "has_structured_workout": true,
+  "summary": "20 à 30' échauffement cool avec 5' gammes + **10* 300** \\+ 10' récup\n\nA faire dans l'idéale sur piste. Les 300 à 100% vma ( I5)\n\nR : 1' petit trot tranquille\n\n25' Échauffement ​\n\n​  \n  \n\n-- 10x\n\n300m @100% VMA 15 km/h - 04:00 min/km - 01'12 Corps de séance\n\n1' Récupération\n\n--\n\n10' Récupération​  \n\n",
+  "revision": "rev_0fb766d8397c67b6",
+  "id": "ptrn_17sN1IfCQDAdOgr",
+  "athletes": [
+    "usr_F03NuGBUhCPwm4i"
+  ],
+  "group": null,
+  "date_start": "2025-12-09",
+  "time": null,
+  "moment": null,
+  "recurrence": null,
+  "load": {
+    "coggan": 120,
+    "coggan_source": "manual",
+    "foster": 513
+  },
+  "time_in_zones": {
+    "pace": [
+      {
+        "name": "Zone 5",
+        "order": 5,
+        "color": "#ff0035",
+        "seconds": 720
+      }
+    ]
+  }
+}

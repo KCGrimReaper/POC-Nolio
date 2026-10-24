@@ -1,0 +1,200 @@
+{
+  "name": "En côte: 4*20/20 + 4*30/30 + 4*40/40",
+  "sport": "spt_kNYHjuEzDJRiYCX",
+  "description": "En côte : 20'à 30' échauffement avec 5' gammes + 4*20/20 + 4 *30/30 + 4*40/40 + récup\nSéance en bosse et récup descente. Enchainement des 3 blocs\nLes séries \" au sprint\" (I5)",
+  "description_html": null,
+  "duration": {
+    "value": 2820,
+    "unit": "s"
+  },
+  "distance": null,
+  "elevation_gain": null,
+  "elevation_loss": null,
+  "rpe": 7,
+  "show_rpe": true,
+  "coggan_load": 62,
+  "color": null,
+  "tags": [],
+  "workout": [
+    {
+      "kind": "step",
+      "id": "lyr6453ids15wn1iaq",
+      "duration": {
+        "value": 1200,
+        "unit": "s"
+      },
+      "targets": [
+        {
+          "type": "no_target"
+        }
+      ],
+      "intensity": "warmup",
+      "lap_advance": true
+    },
+    {
+      "kind": "repeat",
+      "id": "PQ9OVDA3WI9LCGUAAK2L",
+      "times": 4,
+      "steps": [
+        {
+          "kind": "step",
+          "id": "lyr66mja1ko9nt8c1xm",
+          "duration": {
+            "value": 20,
+            "unit": "s"
+          },
+          "targets": [
+            {
+              "type": "metric",
+              "metric": "PMA",
+              "percent": 100,
+              "resolved": {
+                "value": 250,
+                "unit": "W"
+              }
+            }
+          ],
+          "intensity": "work"
+        },
+        {
+          "kind": "step",
+          "id": "lyr66mjedv46lk5edgh",
+          "duration": {
+            "value": 20,
+            "unit": "s"
+          },
+          "targets": [
+            {
+              "type": "no_target"
+            }
+          ],
+          "intensity": "cooldown"
+        }
+      ]
+    },
+    {
+      "kind": "repeat",
+      "id": "A3FMY4WDKV0F7MGBZIJZ",
+      "times": 4,
+      "steps": [
+        {
+          "kind": "step",
+          "id": "lyr66zi5zl45l9bbwfs",
+          "duration": {
+            "value": 30,
+            "unit": "s"
+          },
+          "targets": [
+            {
+              "type": "metric",
+              "metric": "PMA",
+              "percent": 100,
+              "resolved": {
+                "value": 250,
+                "unit": "W"
+              }
+            }
+          ],
+          "intensity": "work"
+        },
+        {
+          "kind": "step",
+          "id": "lyr66zib69t3xvup3f9",
+          "duration": {
+            "value": 30,
+            "unit": "s"
+          },
+          "targets": [
+            {
+              "type": "no_target"
+            }
+          ],
+          "intensity": "cooldown"
+        }
+      ]
+    },
+    {
+      "kind": "repeat",
+      "id": "BKINJEVEDZJTBQ72D5MI",
+      "times": 4,
+      "steps": [
+        {
+          "kind": "step",
+          "id": "lyr67fv2hu27gr4hw6",
+          "duration": {
+            "value": 40,
+            "unit": "s"
+          },
+          "targets": [
+            {
+              "type": "metric",
+              "metric": "PMA",
+              "percent": 100,
+              "resolved": {
+                "value": 250,
+                "unit": "W"
+              }
+            }
+          ],
+          "intensity": "work"
+        },
+        {
+          "kind": "step",
+          "id": "lyr67fv87sodpu0rwh4",
+          "duration": {
+            "value": 40,
+            "unit": "s"
+          },
+          "targets": [
+            {
+              "type": "no_target"
+            }
+          ],
+          "intensity": "cooldown"
+        }
+      ]
+    },
+    {
+      "kind": "step",
+      "id": "lyr67l35kpgmf1ilo3q",
+      "duration": {
+        "value": 900,
+        "unit": "s"
+      },
+      "targets": [
+        {
+          "type": "no_target"
+        }
+      ],
+      "intensity": "cooldown",
+      "comment": "Retour au calme"
+    }
+  ],
+  "has_structured_workout": true,
+  "summary": "En côte : 20'à 30' échauffement avec 5' gammes + 4*20/20 + 4 *30/30 + 4*40/40 + récup\n\nSéance en bosse et récup descente. Enchainement des 3 blocs\n\nLes séries \" au sprint\" (I5)\n\n20' Échauffement ​\n\n​​\n\n-- 4x\n\n20'' @100% PMA 250 W Corps de séance\n\n20'' Récupération\n\n--\n\n​  \n\n-- 4x\n\n30'' @100% PMA 250 W Corps de séance\n\n30'' Récupération\n\n--\n\n​  \n\n-- 4x\n\n40'' @100% PMA 250 W Corps de séance\n\n40\" Récupération\n\n--\n\n15' Récupération Retour au calme ​  \n\n",
+  "revision": "rev_2b703bcb6871cd2c",
+  "id": "ptrn_lnYLzpJdauYgoPx",
+  "athletes": [
+    "usr_F03NuGBUhCPwm4i"
+  ],
+  "group": null,
+  "date_start": "2025-12-11",
+  "time": null,
+  "moment": null,
+  "recurrence": null,
+  "load": {
+    "coggan": 62,
+    "coggan_source": "manual",
+    "foster": 329
+  },
+  "time_in_zones": {
+    "watts": [
+      {
+        "name": "Zone 4",
+        "order": 4,
+        "color": "#ff9e0d",
+        "seconds": 360
+      }
+    ]
+  }
+}

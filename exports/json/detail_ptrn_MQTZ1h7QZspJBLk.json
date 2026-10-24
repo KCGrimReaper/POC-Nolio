@@ -1,0 +1,37 @@
+{
+  "name": "Sortie longue tranquille",
+  "sport": "spt_kNYHjuEzDJRiYCX",
+  "description": "Sortie longue tranquille ( entre I1 et I2) envi 1h30",
+  "description_html": null,
+  "duration": {
+    "value": 5400,
+    "unit": "s"
+  },
+  "distance": null,
+  "elevation_gain": null,
+  "elevation_loss": null,
+  "rpe": 3,
+  "show_rpe": true,
+  "coggan_load": 60,
+  "color": null,
+  "tags": [],
+  "workout": null,
+  "has_structured_workout": false,
+  "summary": null,
+  "revision": "rev_4d1c677e7efbf172",
+  "id": "ptrn_MQTZ1h7QZspJBLk",
+  "athletes": [
+    "usr_F03NuGBUhCPwm4i"
+  ],
+  "group": null,
+  "date_start": "2025-12-06",
+  "time": null,
+  "moment": null,
+  "recurrence": null,
+  "load": {
+    "coggan": 60,
+    "coggan_source": "manual",
+    "foster": 270
+  },
+  "time_in_zones": {}
+}
